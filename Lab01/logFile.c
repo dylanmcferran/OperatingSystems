@@ -2,20 +2,23 @@
 
 FILE *logFile;
 
+//function that opens the logFile to write to
 void openLogFile() {
 	
-	logFile = fopen("log.txt", "w");
-	
+	logFile = fopen("log2.txt", "w");
+	//checks to make sure the file opened successfully
 	if(logFile == NULL){
 		printf("FAILED TO CREATE LOG FILE");
 		exit(1);
 	}
 }
 
+//file used to clse the logFile
 void closeLogFile() {
 	fclose(logFile);
 }
 
+//function that writes the configuration variables to the logFile
 void writeConstantsToLogFile() {
 	fprintf(logFile, "SEED %d\n", SEED);
 	fprintf(logFile, "INIT_TIME %d\n", INIT_TIME);

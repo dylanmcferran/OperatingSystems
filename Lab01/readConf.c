@@ -13,7 +13,7 @@ int DISK1_MAX;
 int DISK2_MIN;
 int DISK2_MAX;
 
-// read_file function
+// function to read a configuration file and save the contents to the appropriate variables
 void readConfigFile(char *fileName) {
     // Open file to read
     FILE *file;
@@ -23,7 +23,7 @@ void readConfigFile(char *fileName) {
         printf("file could not be opened");
         exit(1);
     }
-    //read each line and save the values to each field
+    //read each line and save the values to each variable
     SEED = time(NULL);
     fscanf(file, "INIT_TIME %d\n", &INIT_TIME);
     fscanf(file, "FIN_TIME %d\n", &FIN_TIME);

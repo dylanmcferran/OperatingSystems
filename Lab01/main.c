@@ -41,6 +41,7 @@ int main(void) {
 	
 	currentTime = INIT_TIME;
 	isSimulationFinished = 0;
+	int numLoops;
 	
 	eventQueue = createQueue();
 	cpuQueue = createQueue();
@@ -51,8 +52,6 @@ int main(void) {
 	priorityEnqueue(&eventQueue, createEventWithID(FIN_TIME, SIMULATION_TERMINATED, INT_MAX));
 	
 	while(!isEmpty(&eventQueue) && !isSimulationFinished) {
-		
-		//printQueue(eventQueue);
 		
 		Event event = dequeue(&eventQueue);
 		currentTime = event.time;
@@ -76,8 +75,18 @@ int main(void) {
 		} else if (event.eventType == SIMULATION_TERMINATED) {
 			handleSIMULATION_TERMINATED(event);
 		}
+		numLoops++;
+		updateQueueTotals();
 	}
 	
+	logStats(numLoops);
+	
+	//free the allocated memory
+	deleteQueue(&eventQueue);
+	deleteQueue(&cpuQueue);
+	deleteQueue(&disk1Queue);
+	deleteQueue(&disk2Queue);
+	//close the logFile
 	closeLogFile();
 	
     return 0;

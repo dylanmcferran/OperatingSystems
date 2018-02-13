@@ -27,6 +27,7 @@
         Event *vector;
 		int size;
         int capacity;
+		int max;
     }Queue;
 	
 	//main
@@ -65,7 +66,7 @@
 	Event dequeue(Queue *queue);
 	int isEmpty(Queue *queue);
 	void printQueue(Queue queue);
-	int getShortestQueue(Queue q1, Queue q2);
+	int isQ1Shorter(Queue q1, Queue q2);
 	
 	//evntHandlers
 	extern Queue eventQueue;
@@ -88,13 +89,23 @@
 	void writeConstantsToLogFile();
 	
 	//stats
-	extern int maxEventQueue;
-	extern double avgEventQueue;
-	extern int maxCPUQueue;
-	extern double avgCPUQueue;
-	extern int maxDisk1Queue;
-	extern double avgDisk1Queue;
-	extern int maxDisk2Queue;
-	extern double avgDisk2Queue;
+	extern int cpuTimeBusy;
+	extern int disk1TimeBusy;
+	extern int disk2TimeBusy;
+	extern int cpuMaxResponseTime;
+	extern int disk1MaxResponseTime;
+	extern int disk2MaxResponseTime;
+	extern int cpuCumResponseTime;
+	extern int disk1CumResponseTime;
+	extern int disk2CumResponseTime;
+	extern int numOfCPUEvents;
+	extern int numOfDisk1Events;
+	extern int numOfDisk2Events;
+	extern int eventQueueTotal;
+	extern int cpuQueueTotal;
+	extern int disk1QueueTotal;
+	extern int disk2QueueTotal;
+	void updateQueueTotals();
+	void logStats(int numLoops);
 
 #endif

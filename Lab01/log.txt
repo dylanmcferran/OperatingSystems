@@ -1,1922 +1,3842 @@
-SEED 1518462605
+SEED 1518495797
 INIT_TIME 0
-FIN_TIME 10000
-ARRIVE_MIN 5
-ARRIVE_MAX 20
+FIN_TIME 15000
+ARRIVE_MIN 1
+ARRIVE_MAX 25
 QUIT_PROB 0.200000
-CPU_MIN 10
-CPU_MAX 30
-DISK1_MIN 15
-DISK1_MAX 35
-DISK2_MIN 20
-DISK2_MAX 40
+CPU_MIN 1
+CPU_MAX 5
+DISK1_MIN 25
+DISK1_MAX 100
+DISK2_MIN 25
+DISK2_MAX 100
 
 At 0 job 1 arrived
 At 0 job 1 started using the cpu
-At 10 job 2 arrived
-At 12 job 1 finished using the cpu
-At 24 job 1 started using disk2
-At 26 job 3 arrived
-At 26 job 2 started using the cpu
-At 36 job 4 arrived
-At 45 job 2 finished using the cpu
-At 50 job 5 arrived
-At 50 job 3 started using the cpu
-At 58 job 6 arrived
-At 62 job 1 finished using disk1
-At 72 job 7 arrived
-At 75 job 3 finished using the cpu
-At 78 job 8 arrived
-At 78 job 4 started using the cpu
-At 85 job 9 arrived
-At 90 job 2 started using disk2
-At 105 job 10 arrived
-At 106 job 4 finished using the cpu
-At 113 job 2 finished using disk1
-At 125 job 11 arrived
-At 125 job 5 started using the cpu
-At 136 job 5 finished using the cpu
-At 141 job 12 arrived
-At 141 job 6 started using the cpu
-At 146 job 13 arrived
-At 150 job 3 started using disk1
-At 156 job 14 arrived
-At 165 job 6 finished using the cpu
-At 165 job 6 terminated
-At 170 job 15 arrived
-At 170 job 1 started using the cpu
-At 176 job 3 finished using disk1
-At 181 job 1 finished using the cpu
-At 183 job 16 arrived
-At 183 job 7 started using the cpu
-At 192 job 17 arrived
-At 198 job 7 finished using the cpu
-At 198 job 18 arrived
-At 198 job 8 started using the cpu
-At 207 job 19 arrived
-At 211 job 8 finished using the cpu
-At 212 job 4 started using disk2
-At 224 job 20 arrived
-At 224 job 9 started using the cpu
-At 231 job 21 arrived
-At 239 job 22 arrived
-At 245 job 9 finished using the cpu
-At 250 job 4 finished using disk1
-At 252 job 23 arrived
-At 252 job 10 started using the cpu
-At 266 job 24 arrived
-At 272 job 5 started using disk1
-At 279 job 10 finished using the cpu
-At 279 job 10 terminated
-At 281 job 25 arrived
-At 281 job 2 started using the cpu
-At 286 job 26 arrived
-At 289 job 5 finished using disk1
-At 303 job 27 arrived
-At 305 job 2 finished using the cpu
-At 321 job 28 arrived
-At 321 job 11 started using the cpu
-At 326 job 29 arrived
-At 332 job 30 arrived
-At 341 job 11 finished using the cpu
-At 342 job 31 arrived
-At 342 job 12 started using the cpu
-At 358 job 12 finished using the cpu
-At 360 job 32 arrived
-At 360 job 13 started using the cpu
-At 362 job 1 started using disk1
-At 375 job 13 finished using the cpu
-At 377 job 33 arrived
-At 377 job 14 started using the cpu
-At 383 job 1 finished using disk1
-At 385 job 34 arrived
-At 390 job 14 finished using the cpu
-At 396 job 7 started using disk1
-At 396 job 35 arrived
-At 396 job 15 started using the cpu
-At 402 job 36 arrived
-At 413 job 37 arrived
-At 414 job 15 finished using the cpu
-At 422 job 8 started using disk2
-At 422 job 7 finished using disk1
-At 431 job 38 arrived
-At 431 job 3 started using the cpu
-At 441 job 39 arrived
-At 445 job 8 finished using disk1
-At 448 job 3 finished using the cpu
-At 460 job 40 arrived
-At 460 job 16 started using the cpu
-At 466 job 41 arrived
-At 479 job 42 arrived
-At 483 job 16 finished using the cpu
-At 486 job 43 arrived
-At 486 job 17 started using the cpu
-At 490 job 9 started using disk2
-At 502 job 44 arrived
-At 508 job 17 finished using the cpu
-At 508 job 17 terminated
-At 514 job 9 finished using disk1
-At 522 job 45 arrived
-At 522 job 18 started using the cpu
-At 532 job 46 arrived
-At 537 job 18 finished using the cpu
-At 551 job 47 arrived
-At 551 job 19 started using the cpu
-At 558 job 48 arrived
-At 566 job 49 arrived
-At 575 job 50 arrived
-At 580 job 19 finished using the cpu
-At 594 job 51 arrived
-At 594 job 20 started using the cpu
-At 603 job 52 arrived
-At 605 job 20 finished using the cpu
-At 610 job 2 started using disk2
-At 617 job 53 arrived
-At 617 job 21 started using the cpu
-At 636 job 54 arrived
-At 641 job 21 finished using the cpu
-At 641 job 21 terminated
-At 646 job 2 finished using disk1
-At 646 job 55 arrived
-At 646 job 22 started using the cpu
-At 658 job 56 arrived
-At 661 job 22 finished using the cpu
-At 678 job 57 arrived
-At 678 job 4 started using the cpu
-At 682 job 11 started using disk1
-At 685 job 58 arrived
-At 698 job 4 finished using the cpu
-At 702 job 11 finished using disk1
-At 705 job 59 arrived
-At 705 job 23 started using the cpu
-At 716 job 12 started using disk1
-At 724 job 60 arrived
-At 725 job 23 finished using the cpu
-At 733 job 61 arrived
-At 733 job 24 started using the cpu
-At 737 job 12 finished using disk1
-At 747 job 24 finished using the cpu
-At 750 job 13 started using disk1
-At 753 job 62 arrived
-At 753 job 25 started using the cpu
-At 766 job 13 finished using disk1
-At 770 job 63 arrived
-At 775 job 25 finished using the cpu
-At 777 job 64 arrived
-At 777 job 26 started using the cpu
-At 780 job 14 started using disk1
-At 785 job 65 arrived
-At 788 job 26 finished using the cpu
-At 791 job 66 arrived
-At 791 job 5 started using the cpu
-At 804 job 5 finished using the cpu
-At 805 job 67 arrived
-At 805 job 27 started using the cpu
-At 811 job 14 finished using disk1
-At 816 job 68 arrived
-At 824 job 27 finished using the cpu
-At 828 job 15 started using disk2
-At 831 job 69 arrived
-At 831 job 28 started using the cpu
-At 849 job 70 arrived
-At 850 job 28 finished using the cpu
-At 858 job 71 arrived
-At 858 job 29 started using the cpu
-At 859 job 15 finished using disk1
-At 875 job 72 arrived
-At 883 job 29 finished using the cpu
-At 883 job 29 terminated
-At 892 job 73 arrived
-At 892 job 30 started using the cpu
-At 896 job 3 started using disk1
-At 905 job 74 arrived
-At 916 job 75 arrived
-At 919 job 30 finished using the cpu
-At 920 job 3 finished using disk1
-At 925 job 76 arrived
-At 925 job 31 started using the cpu
-At 943 job 31 finished using the cpu
-At 945 job 77 arrived
-At 945 job 32 started using the cpu
-At 955 job 78 arrived
-At 963 job 32 finished using the cpu
-At 966 job 16 started using disk1
-At 968 job 79 arrived
-At 968 job 33 started using the cpu
-At 974 job 80 arrived
-At 991 job 81 arrived
-At 992 job 33 finished using the cpu
-At 992 job 33 terminated
-At 1000 job 82 arrived
-At 1000 job 1 started using the cpu
-At 1001 job 16 finished using disk1
-At 1011 job 1 finished using the cpu
-At 1019 job 83 arrived
-At 1019 job 34 started using the cpu
-At 1030 job 84 arrived
-At 1036 job 85 arrived
-At 1045 job 34 finished using the cpu
-At 1047 job 86 arrived
-At 1047 job 35 started using the cpu
-At 1057 job 35 finished using the cpu
-At 1057 job 35 terminated
-At 1065 job 87 arrived
-At 1065 job 36 started using the cpu
-At 1072 job 88 arrived
-At 1074 job 18 started using disk1
-At 1081 job 36 finished using the cpu
-At 1081 job 36 terminated
-At 1083 job 89 arrived
-At 1083 job 37 started using the cpu
-At 1095 job 90 arrived
-At 1098 job 37 finished using the cpu
-At 1098 job 37 terminated
-At 1102 job 18 finished using disk1
-At 1105 job 91 arrived
-At 1105 job 7 started using the cpu
-At 1123 job 92 arrived
-At 1131 job 7 finished using the cpu
-At 1134 job 93 arrived
-At 1134 job 38 started using the cpu
-At 1144 job 38 finished using the cpu
-At 1149 job 94 arrived
-At 1149 job 39 started using the cpu
-At 1156 job 95 arrived
-At 1160 job 19 started using disk1
-At 1174 job 96 arrived
-At 1178 job 39 finished using the cpu
-At 1183 job 19 finished using disk1
-At 1192 job 97 arrived
-At 1192 job 8 started using the cpu
-At 1209 job 98 arrived
-At 1210 job 20 started using disk1
-At 1219 job 8 finished using the cpu
-At 1220 job 99 arrived
-At 1220 job 40 started using the cpu
-At 1225 job 100 arrived
-At 1239 job 20 finished using disk1
-At 1245 job 101 arrived
-At 1246 job 40 finished using the cpu
-At 1254 job 102 arrived
-At 1254 job 41 started using the cpu
-At 1272 job 103 arrived
-At 1279 job 41 finished using the cpu
-At 1279 job 41 terminated
-At 1290 job 104 arrived
-At 1290 job 42 started using the cpu
-At 1307 job 42 finished using the cpu
-At 1310 job 105 arrived
-At 1310 job 43 started using the cpu
-At 1321 job 106 arrived
-At 1322 job 22 started using disk1
-At 1328 job 43 finished using the cpu
-At 1337 job 107 arrived
-At 1337 job 44 started using the cpu
-At 1339 job 22 finished using disk1
-At 1357 job 108 arrived
-At 1365 job 44 finished using the cpu
-At 1365 job 44 terminated
-At 1369 job 109 arrived
-At 1369 job 9 started using the cpu
-At 1382 job 110 arrived
-At 1391 job 9 finished using the cpu
-At 1393 job 111 arrived
-At 1393 job 45 started using the cpu
-At 1396 job 4 started using disk1
-At 1409 job 112 arrived
-At 1414 job 45 finished using the cpu
-At 1414 job 113 arrived
-At 1414 job 46 started using the cpu
-At 1416 job 4 finished using disk1
-At 1421 job 114 arrived
-At 1426 job 115 arrived
-At 1430 job 46 finished using the cpu
-At 1443 job 116 arrived
-At 1443 job 47 started using the cpu
-At 1450 job 23 started using disk1
-At 1450 job 117 arrived
-At 1462 job 47 finished using the cpu
-At 1468 job 118 arrived
-At 1468 job 48 started using the cpu
-At 1479 job 23 finished using disk1
-At 1479 job 119 arrived
-At 1483 job 48 finished using the cpu
-At 1493 job 120 arrived
-At 1493 job 49 started using the cpu
-At 1494 job 24 started using disk2
-At 1503 job 121 arrived
-At 1509 job 49 finished using the cpu
-At 1514 job 122 arrived
-At 1514 job 50 started using the cpu
-At 1524 job 24 finished using disk1
-At 1524 job 123 arrived
-At 1533 job 124 arrived
-At 1538 job 50 finished using the cpu
-At 1539 job 125 arrived
-At 1539 job 51 started using the cpu
-At 1550 job 25 started using disk2
-At 1554 job 126 arrived
-At 1560 job 51 finished using the cpu
-At 1565 job 127 arrived
-At 1565 job 52 started using the cpu
-At 1576 job 26 started using disk1
-At 1580 job 25 finished using disk1
-At 1582 job 128 arrived
-At 1582 job 52 finished using the cpu
-At 1592 job 129 arrived
-At 1592 job 53 started using the cpu
-At 1597 job 130 arrived
-At 1604 job 26 finished using disk1
-At 1606 job 53 finished using the cpu
-At 1608 job 5 started using disk2
-At 1616 job 131 arrived
-At 1616 job 54 started using the cpu
-At 1622 job 132 arrived
-At 1633 job 54 finished using the cpu
-At 1637 job 133 arrived
-At 1637 job 2 started using the cpu
-At 1646 job 5 finished using disk1
-At 1648 job 27 started using disk1
-At 1649 job 134 arrived
-At 1649 job 2 finished using the cpu
-At 1649 job 2 terminated
-At 1657 job 135 arrived
-At 1657 job 55 started using the cpu
-At 1664 job 27 finished using disk1
-At 1671 job 136 arrived
-At 1684 job 55 finished using the cpu
-At 1687 job 137 arrived
-At 1687 job 56 started using the cpu
-At 1700 job 28 started using disk2
-At 1705 job 138 arrived
-At 1709 job 56 finished using the cpu
-At 1713 job 139 arrived
-At 1713 job 57 started using the cpu
-At 1722 job 28 finished using disk1
-At 1723 job 57 finished using the cpu
-At 1730 job 140 arrived
-At 1730 job 58 started using the cpu
-At 1742 job 141 arrived
-At 1749 job 58 finished using the cpu
-At 1756 job 142 arrived
-At 1756 job 11 started using the cpu
-At 1761 job 143 arrived
-At 1772 job 11 finished using the cpu
-At 1772 job 11 terminated
-At 1773 job 144 arrived
-At 1773 job 59 started using the cpu
-At 1783 job 59 finished using the cpu
-At 1784 job 145 arrived
-At 1784 job 60 started using the cpu
-At 1789 job 146 arrived
-At 1802 job 60 finished using the cpu
-At 1802 job 147 arrived
-At 1802 job 61 started using the cpu
-At 1820 job 61 finished using the cpu
-At 1822 job 148 arrived
-At 1822 job 12 started using the cpu
-At 1833 job 149 arrived
-At 1838 job 30 started using disk1
-At 1843 job 12 finished using the cpu
-At 1843 job 150 arrived
-At 1843 job 62 started using the cpu
-At 1848 job 151 arrived
-At 1853 job 152 arrived
-At 1865 job 30 finished using disk1
-At 1866 job 62 finished using the cpu
-At 1869 job 153 arrived
-At 1869 job 13 started using the cpu
-At 1886 job 31 started using disk1
-At 1886 job 154 arrived
-At 1892 job 13 finished using the cpu
-At 1904 job 155 arrived
-At 1904 job 63 started using the cpu
-At 1917 job 31 finished using disk1
-At 1922 job 156 arrived
-At 1924 job 63 finished using the cpu
-At 1926 job 32 started using disk2
-At 1937 job 157 arrived
-At 1937 job 64 started using the cpu
-At 1948 job 64 finished using the cpu
-At 1951 job 158 arrived
-At 1951 job 65 started using the cpu
-At 1959 job 32 finished using disk1
-At 1962 job 159 arrived
-At 1976 job 65 finished using the cpu
-At 1980 job 160 arrived
-At 1980 job 66 started using the cpu
-At 1991 job 161 arrived
-At 1992 job 66 finished using the cpu
-At 1992 job 66 terminated
-At 2007 job 162 arrived
-At 2007 job 67 started using the cpu
-At 2017 job 163 arrived
-At 2022 job 1 started using disk2
-At 2033 job 67 finished using the cpu
-At 2033 job 67 terminated
-At 2034 job 164 arrived
-At 2034 job 14 started using the cpu
-At 2043 job 1 finished using disk1
-At 2049 job 165 arrived
-At 2055 job 14 finished using the cpu
-At 2055 job 14 terminated
-At 2055 job 166 arrived
-At 2055 job 68 started using the cpu
-At 2066 job 167 arrived
-At 2073 job 168 arrived
-At 2074 job 68 finished using the cpu
-At 2078 job 169 arrived
-At 2078 job 69 started using the cpu
-At 2088 job 170 arrived
-At 2090 job 34 started using disk1
-At 2102 job 69 finished using the cpu
-At 2103 job 171 arrived
-At 2103 job 70 started using the cpu
-At 2107 job 34 finished using disk1
-At 2113 job 172 arrived
-At 2121 job 173 arrived
-At 2124 job 70 finished using the cpu
-At 2140 job 174 arrived
-At 2140 job 71 started using the cpu
-At 2145 job 175 arrived
-At 2161 job 71 finished using the cpu
-At 2165 job 176 arrived
-At 2165 job 15 started using the cpu
-At 2180 job 177 arrived
-At 2187 job 178 arrived
-At 2190 job 15 finished using the cpu
-At 2206 job 179 arrived
-At 2206 job 72 started using the cpu
-At 2222 job 180 arrived
-At 2231 job 72 finished using the cpu
-At 2234 job 181 arrived
-At 2234 job 73 started using the cpu
-At 2247 job 182 arrived
-At 2253 job 73 finished using the cpu
-At 2253 job 73 terminated
-At 2261 job 183 arrived
-At 2261 job 74 started using the cpu
-At 2262 job 7 started using disk1
-At 2270 job 184 arrived
-At 2273 job 74 finished using the cpu
-At 2282 job 185 arrived
-At 2282 job 75 started using the cpu
-At 2291 job 7 finished using disk1
-At 2298 job 186 arrived
-At 2304 job 75 finished using the cpu
-At 2316 job 187 arrived
-At 2316 job 3 started using the cpu
-At 2333 job 3 finished using the cpu
-At 2333 job 3 terminated
-At 2335 job 188 arrived
-At 2335 job 76 started using the cpu
-At 2354 job 189 arrived
-At 2356 job 38 started using disk1
-At 2356 job 76 finished using the cpu
-At 2356 job 76 terminated
-At 2373 job 190 arrived
-At 2373 job 77 started using the cpu
-At 2381 job 38 finished using disk1
-At 2382 job 191 arrived
-At 2391 job 77 finished using the cpu
-At 2391 job 77 terminated
-At 2394 job 192 arrived
-At 2394 job 78 started using the cpu
-At 2400 job 193 arrived
-At 2405 job 194 arrived
-At 2412 job 78 finished using the cpu
-At 2415 job 195 arrived
-At 2415 job 79 started using the cpu
-At 2427 job 196 arrived
-At 2434 job 79 finished using the cpu
-At 2438 job 8 started using disk2
-At 2443 job 197 arrived
-At 2443 job 80 started using the cpu
-At 2463 job 198 arrived
-At 2470 job 8 finished using disk1
-At 2472 job 80 finished using the cpu
-At 2472 job 199 arrived
-At 2472 job 81 started using the cpu
-At 2477 job 200 arrived
-At 2492 job 39 started using disk1
-At 2496 job 201 arrived
-At 2502 job 81 finished using the cpu
-At 2514 job 202 arrived
-At 2514 job 82 started using the cpu
-At 2524 job 203 arrived
-At 2526 job 39 finished using disk1
-At 2533 job 204 arrived
-At 2535 job 82 finished using the cpu
-At 2535 job 82 terminated
-At 2549 job 205 arrived
-At 2549 job 16 started using the cpu
-At 2557 job 206 arrived
-At 2571 job 207 arrived
-At 2576 job 16 finished using the cpu
-At 2584 job 208 arrived
-At 2584 job 83 started using the cpu
-At 2603 job 209 arrived
-At 2606 job 83 finished using the cpu
-At 2609 job 210 arrived
-At 2609 job 84 started using the cpu
-At 2614 job 42 started using disk2
-At 2620 job 84 finished using the cpu
-At 2620 job 84 terminated
-At 2623 job 211 arrived
-At 2623 job 85 started using the cpu
-At 2637 job 212 arrived
-At 2643 job 213 arrived
-At 2644 job 42 finished using disk1
-At 2649 job 214 arrived
-At 2653 job 85 finished using the cpu
-At 2653 job 85 terminated
-At 2656 job 40 started using disk1
-At 2667 job 215 arrived
-At 2667 job 86 started using the cpu
-At 2677 job 216 arrived
-At 2679 job 40 finished using disk1
-At 2680 job 86 finished using the cpu
-At 2687 job 217 arrived
-At 2687 job 87 started using the cpu
-At 2695 job 218 arrived
-At 2704 job 219 arrived
-At 2705 job 87 finished using the cpu
-At 2705 job 87 terminated
-At 2716 job 220 arrived
-At 2716 job 88 started using the cpu
-At 2723 job 221 arrived
-At 2731 job 88 finished using the cpu
-At 2740 job 222 arrived
-At 2740 job 89 started using the cpu
-At 2749 job 223 arrived
-At 2754 job 224 arrived
-At 2762 job 89 finished using the cpu
-At 2772 job 225 arrived
-At 2772 job 90 started using the cpu
-At 2780 job 226 arrived
-At 2782 job 43 started using disk1
-At 2791 job 90 finished using the cpu
-At 2795 job 227 arrived
-At 2795 job 18 started using the cpu
-At 2808 job 228 arrived
-At 2812 job 43 finished using disk1
-At 2816 job 18 finished using the cpu
-At 2816 job 229 arrived
-At 2816 job 91 started using the cpu
-At 2826 job 230 arrived
-At 2828 job 45 started using disk2
-At 2838 job 231 arrived
-At 2845 job 91 finished using the cpu
-At 2854 job 45 finished using disk1
-At 2857 job 232 arrived
-At 2857 job 92 started using the cpu
-At 2860 job 46 started using disk2
-At 2862 job 233 arrived
-At 2879 job 234 arrived
-At 2887 job 92 finished using the cpu
-At 2897 job 235 arrived
-At 2897 job 93 started using the cpu
-At 2898 job 46 finished using disk1
-At 2912 job 236 arrived
-At 2917 job 93 finished using the cpu
-At 2919 job 237 arrived
-At 2919 job 94 started using the cpu
-At 2924 job 9 started using disk1
-At 2933 job 238 arrived
-At 2934 job 94 finished using the cpu
-At 2934 job 94 terminated
-At 2945 job 9 finished using disk1
-At 2951 job 239 arrived
-At 2951 job 95 started using the cpu
-At 2958 job 240 arrived
-At 2966 job 47 started using disk1
-At 2966 job 241 arrived
-At 2974 job 242 arrived
-At 2976 job 95 finished using the cpu
-At 2976 job 95 terminated
-At 2985 job 47 finished using disk1
-At 2988 job 243 arrived
-At 2988 job 96 started using the cpu
-At 3002 job 96 finished using the cpu
-At 3002 job 96 terminated
-At 3004 job 244 arrived
-At 3004 job 19 started using the cpu
-At 3018 job 48 started using disk1
-At 3020 job 245 arrived
-At 3020 job 19 finished using the cpu
-At 3029 job 246 arrived
-At 3029 job 97 started using the cpu
-At 3034 job 247 arrived
-At 3037 job 48 finished using disk1
-At 3042 job 97 finished using the cpu
-At 3052 job 248 arrived
-At 3052 job 98 started using the cpu
-At 3064 job 249 arrived
-At 3075 job 98 finished using the cpu
-At 3076 job 50 started using disk2
-At 3083 job 250 arrived
-At 3083 job 99 started using the cpu
-At 3089 job 251 arrived
-At 3096 job 252 arrived
-At 3097 job 99 finished using the cpu
-At 3106 job 253 arrived
-At 3106 job 100 started using the cpu
-At 3110 job 50 finished using disk1
-At 3120 job 51 started using disk2
-At 3120 job 254 arrived
-At 3124 job 100 finished using the cpu
-At 3137 job 255 arrived
-At 3137 job 20 started using the cpu
-At 3148 job 256 arrived
-At 3154 job 257 arrived
-At 3157 job 20 finished using the cpu
-At 3160 job 51 finished using disk1
-At 3164 job 52 started using disk2
-At 3174 job 258 arrived
-At 3174 job 101 started using the cpu
-At 3190 job 259 arrived
-At 3191 job 101 finished using the cpu
-At 3194 job 52 finished using disk1
-At 3198 job 260 arrived
-At 3198 job 102 started using the cpu
-At 3212 job 53 started using disk2
-At 3215 job 261 arrived
-At 3225 job 102 finished using the cpu
-At 3229 job 262 arrived
-At 3229 job 103 started using the cpu
-At 3236 job 263 arrived
-At 3252 job 53 finished using disk1
-At 3256 job 264 arrived
-At 3259 job 103 finished using the cpu
-At 3266 job 49 started using disk1
-At 3272 job 265 arrived
-At 3272 job 104 started using the cpu
-At 3284 job 266 arrived
-At 3286 job 104 finished using the cpu
-At 3286 job 104 terminated
-At 3297 job 49 finished using disk1
-At 3300 job 267 arrived
-At 3300 job 105 started using the cpu
-At 3313 job 268 arrived
-At 3318 job 105 finished using the cpu
-At 3325 job 269 arrived
-At 3325 job 106 started using the cpu
-At 3331 job 270 arrived
-At 3340 job 271 arrived
-At 3341 job 106 finished using the cpu
-At 3348 job 272 arrived
-At 3348 job 107 started using the cpu
-At 3365 job 273 arrived
-At 3368 job 54 started using disk1
-At 3371 job 107 finished using the cpu
-At 3385 job 274 arrived
-At 3385 job 22 started using the cpu
-At 3387 job 54 finished using disk1
-At 3397 job 22 finished using the cpu
-At 3399 job 275 arrived
-At 3399 job 108 started using the cpu
-At 3413 job 108 finished using the cpu
-At 3417 job 276 arrived
-At 3417 job 109 started using the cpu
-At 3418 job 56 started using disk2
-At 3424 job 277 arrived
-At 3433 job 278 arrived
-At 3439 job 109 finished using the cpu
-At 3449 job 279 arrived
-At 3449 job 110 started using the cpu
-At 3450 job 56 finished using disk1
-At 3461 job 280 arrived
-At 3467 job 281 arrived
-At 3474 job 110 finished using the cpu
-At 3482 job 282 arrived
-At 3482 job 111 started using the cpu
-At 3497 job 111 finished using the cpu
-At 3498 job 57 started using disk2
-At 3498 job 283 arrived
-At 3498 job 112 started using the cpu
-At 3509 job 112 finished using the cpu
-At 3513 job 284 arrived
-At 3513 job 113 started using the cpu
-At 3530 job 285 arrived
-At 3533 job 57 finished using disk1
-At 3537 job 113 finished using the cpu
-At 3544 job 286 arrived
-At 3544 job 4 started using the cpu
-At 3562 job 287 arrived
-At 3566 job 58 started using disk2
-At 3572 job 4 finished using the cpu
-At 3572 job 4 terminated
-At 3573 job 288 arrived
-At 3573 job 114 started using the cpu
-At 3589 job 289 arrived
-At 3594 job 114 finished using the cpu
-At 3603 job 58 finished using disk1
-At 3604 job 55 started using disk1
-At 3607 job 290 arrived
-At 3607 job 115 started using the cpu
-At 3620 job 55 finished using disk1
-At 3623 job 115 finished using the cpu
-At 3624 job 291 arrived
-At 3624 job 116 started using the cpu
-At 3638 job 292 arrived
-At 3639 job 116 finished using the cpu
-At 3640 job 59 started using disk2
-At 3647 job 293 arrived
-At 3647 job 117 started using the cpu
-At 3658 job 294 arrived
-At 3662 job 59 finished using disk1
-At 3663 job 117 finished using the cpu
-At 3678 job 295 arrived
-At 3678 job 118 started using the cpu
-At 3686 job 60 started using disk1
-At 3697 job 296 arrived
-At 3701 job 118 finished using the cpu
-At 3709 job 297 arrived
-At 3709 job 23 started using the cpu
-At 3711 job 60 finished using disk1
-At 3722 job 298 arrived
-At 3729 job 299 arrived
-At 3730 job 23 finished using the cpu
-At 3732 job 61 started using disk2
-At 3746 job 300 arrived
-At 3746 job 119 started using the cpu
-At 3759 job 61 finished using disk1
-At 3762 job 301 arrived
-At 3765 job 119 finished using the cpu
-At 3776 job 302 arrived
-At 3776 job 120 started using the cpu
-At 3784 job 62 started using disk2
-At 3788 job 303 arrived
-At 3794 job 120 finished using the cpu
-At 3794 job 120 terminated
-At 3803 job 304 arrived
-At 3803 job 121 started using the cpu
-At 3817 job 62 finished using disk1
-At 3818 job 121 finished using the cpu
-At 3819 job 305 arrived
-At 3819 job 122 started using the cpu
-At 3831 job 122 finished using the cpu
-At 3839 job 306 arrived
-At 3839 job 24 started using the cpu
-At 3848 job 12 started using disk1
-At 3852 job 307 arrived
-At 3865 job 308 arrived
-At 3868 job 24 finished using the cpu
-At 3870 job 309 arrived
-At 3870 job 123 started using the cpu
-At 3874 job 12 finished using disk1
-At 3877 job 310 arrived
-At 3883 job 311 arrived
-At 3889 job 123 finished using the cpu
-At 3889 job 123 terminated
-At 3896 job 63 started using disk1
-At 3898 job 312 arrived
-At 3898 job 124 started using the cpu
-At 3909 job 124 finished using the cpu
-At 3916 job 63 finished using disk1
-At 3918 job 313 arrived
-At 3918 job 125 started using the cpu
+At 2 job 1 finished using the cpu
+At 4 job 1 started using disk2
+At 18 job 2 arrived
+At 18 job 2 started using the cpu
+At 23 job 2 finished using the cpu
+At 42 job 3 arrived
+At 42 job 3 started using the cpu
+At 47 job 3 finished using the cpu
+At 63 job 4 arrived
+At 63 job 4 started using the cpu
+At 64 job 4 finished using the cpu
+At 64 job 4 terminated
+At 74 job 5 arrived
+At 74 job 5 started using the cpu
+At 79 job 5 finished using the cpu
+At 93 job 6 arrived
+At 93 job 6 started using the cpu
+At 94 job 3 started using disk1
+At 96 job 6 finished using the cpu
+At 98 job 7 arrived
+At 98 job 7 started using the cpu
+At 99 job 1 finished using disk1
+At 103 job 8 arrived
+At 103 job 7 finished using the cpu
+At 118 job 9 arrived
+At 118 job 1 started using the cpu
+At 120 job 1 finished using the cpu
+At 138 job 10 arrived
+At 138 job 8 started using the cpu
+At 140 job 8 finished using the cpu
+At 162 job 11 arrived
+At 162 job 9 started using the cpu
+At 167 job 9 finished using the cpu
+At 172 job 12 arrived
+At 172 job 10 started using the cpu
+At 173 job 10 finished using the cpu
+At 173 job 10 terminated
+At 180 job 3 finished using disk1
+At 190 job 13 arrived
+At 190 job 11 started using the cpu
+At 192 job 5 started using disk1
+At 193 job 11 finished using the cpu
+At 215 job 14 arrived
+At 215 job 12 started using the cpu
+At 218 job 15 arrived
+At 218 job 12 finished using the cpu
+At 242 job 16 arrived
+At 242 job 3 started using the cpu
+At 247 job 3 finished using the cpu
+At 267 job 17 arrived
+At 267 job 13 started using the cpu
+At 268 job 5 finished using disk1
+At 268 job 13 finished using the cpu
+At 278 job 18 arrived
+At 278 job 14 started using the cpu
+At 280 job 6 started using disk1
+At 283 job 14 finished using the cpu
+At 301 job 19 arrived
+At 301 job 15 started using the cpu
+At 305 job 15 finished using the cpu
+At 320 job 6 finished using disk1
+At 320 job 20 arrived
+At 320 job 16 started using the cpu
+At 325 job 16 finished using the cpu
+At 330 job 21 arrived
+At 330 job 17 started using the cpu
+At 331 job 17 finished using the cpu
+At 331 job 17 terminated
+At 334 job 2 started using disk2
+At 334 job 22 arrived
+At 334 job 5 started using the cpu
+At 336 job 5 finished using the cpu
+At 347 job 23 arrived
+At 347 job 18 started using the cpu
+At 349 job 18 finished using the cpu
+At 352 job 24 arrived
+At 352 job 19 started using the cpu
+At 353 job 19 finished using the cpu
+At 362 job 25 arrived
+At 362 job 6 started using the cpu
+At 367 job 6 finished using the cpu
+At 367 job 6 terminated
+At 372 job 26 arrived
+At 372 job 20 started using the cpu
+At 374 job 20 finished using the cpu
+At 387 job 27 arrived
+At 387 job 21 started using the cpu
+At 389 job 21 finished using the cpu
+At 392 job 28 arrived
+At 392 job 22 started using the cpu
+At 397 job 22 finished using the cpu
+At 397 job 22 terminated
+At 403 job 29 arrived
+At 403 job 23 started using the cpu
+At 406 job 2 finished using disk1
+At 408 job 23 finished using the cpu
+At 409 job 30 arrived
+At 409 job 24 started using the cpu
+At 413 job 24 finished using the cpu
+At 413 job 24 terminated
+At 426 job 31 arrived
+At 426 job 25 started using the cpu
+At 427 job 25 finished using the cpu
+At 427 job 25 terminated
+At 436 job 9 started using disk2
+At 447 job 32 arrived
+At 447 job 26 started using the cpu
+At 450 job 26 finished using the cpu
+At 470 job 33 arrived
+At 470 job 27 started using the cpu
+At 473 job 9 finished using disk1
+At 473 job 34 arrived
+At 474 job 27 finished using the cpu
+At 475 job 35 arrived
+At 475 job 28 started using the cpu
+At 479 job 28 finished using the cpu
+At 490 job 36 arrived
+At 490 job 29 started using the cpu
+At 491 job 29 finished using the cpu
+At 491 job 29 terminated
+At 494 job 11 started using disk2
+At 499 job 37 arrived
+At 499 job 2 started using the cpu
+At 500 job 38 arrived
+At 500 job 2 finished using the cpu
+At 519 job 39 arrived
+At 519 job 30 started using the cpu
+At 522 job 30 finished using the cpu
+At 527 job 40 arrived
+At 527 job 31 started using the cpu
+At 531 job 31 finished using the cpu
+At 537 job 11 finished using disk1
+At 541 job 41 arrived
+At 541 job 32 started using the cpu
+At 543 job 32 finished using the cpu
+At 546 job 42 arrived
+At 546 job 33 started using the cpu
+At 549 job 33 finished using the cpu
+At 556 job 43 arrived
+At 556 job 9 started using the cpu
+At 558 job 9 finished using the cpu
+At 566 job 12 started using disk2
+At 576 job 44 arrived
+At 576 job 34 started using the cpu
+At 578 job 45 arrived
+At 578 job 34 finished using the cpu
+At 586 job 46 arrived
+At 586 job 35 started using the cpu
+At 587 job 35 finished using the cpu
+At 597 job 47 arrived
+At 597 job 36 started using the cpu
+At 599 job 36 finished using the cpu
+At 599 job 36 terminated
+At 608 job 48 arrived
+At 608 job 37 started using the cpu
+At 612 job 37 finished using the cpu
+At 626 job 49 arrived
+At 626 job 38 started using the cpu
+At 628 job 38 finished using the cpu
+At 634 job 50 arrived
+At 634 job 39 started using the cpu
+At 639 job 39 finished using the cpu
+At 641 job 12 finished using disk1
+At 647 job 51 arrived
+At 647 job 40 started using the cpu
+At 648 job 40 finished using the cpu
+At 650 job 3 started using disk2
+At 663 job 52 arrived
+At 663 job 11 started using the cpu
+At 667 job 11 finished using the cpu
+At 688 job 53 arrived
+At 688 job 41 started using the cpu
+At 692 job 41 finished using the cpu
+At 698 job 54 arrived
+At 698 job 42 started using the cpu
+At 703 job 42 finished using the cpu
+At 703 job 42 terminated
+At 709 job 55 arrived
+At 709 job 43 started using the cpu
+At 710 job 43 finished using the cpu
+At 719 job 3 finished using disk1
+At 721 job 56 arrived
+At 721 job 44 started using the cpu
+At 723 job 57 arrived
+At 725 job 44 finished using the cpu
+At 731 job 58 arrived
+At 731 job 45 started using the cpu
+At 733 job 45 finished using the cpu
+At 748 job 13 started using disk2
+At 756 job 59 arrived
+At 756 job 46 started using the cpu
+At 757 job 46 finished using the cpu
+At 769 job 60 arrived
+At 769 job 47 started using the cpu
+At 774 job 47 finished using the cpu
+At 774 job 47 terminated
+At 793 job 61 arrived
+At 793 job 48 started using the cpu
+At 796 job 48 finished using the cpu
+At 799 job 62 arrived
+At 799 job 49 started using the cpu
+At 801 job 49 finished using the cpu
+At 818 job 63 arrived
+At 818 job 50 started using the cpu
+At 822 job 64 arrived
+At 822 job 50 finished using the cpu
+At 840 job 13 finished using disk1
+At 843 job 65 arrived
+At 843 job 12 started using the cpu
+At 846 job 12 finished using the cpu
+At 863 job 66 arrived
+At 863 job 51 started using the cpu
+At 865 job 51 finished using the cpu
+At 865 job 51 terminated
+At 868 job 67 arrived
+At 868 job 52 started using the cpu
+At 871 job 68 arrived
+At 873 job 52 finished using the cpu
+At 892 job 69 arrived
+At 892 job 53 started using the cpu
+At 895 job 53 finished using the cpu
+At 900 job 14 started using disk2
+At 906 job 70 arrived
+At 906 job 54 started using the cpu
+At 908 job 71 arrived
+At 909 job 54 finished using the cpu
+At 924 job 72 arrived
+At 924 job 55 started using the cpu
+At 927 job 55 finished using the cpu
+At 940 job 73 arrived
+At 940 job 3 started using the cpu
+At 945 job 3 finished using the cpu
+At 961 job 74 arrived
+At 961 job 56 started using the cpu
+At 962 job 56 finished using the cpu
+At 972 job 14 finished using disk1
+At 976 job 75 arrived
+At 976 job 57 started using the cpu
+At 980 job 57 finished using the cpu
+At 996 job 76 arrived
+At 996 job 58 started using the cpu
+At 998 job 77 arrived
+At 1000 job 15 started using disk2
+At 1001 job 58 finished using the cpu
+At 1012 job 78 arrived
+At 1012 job 59 started using the cpu
+At 1015 job 59 finished using the cpu
+At 1022 job 79 arrived
+At 1022 job 60 started using the cpu
+At 1026 job 60 finished using the cpu
+At 1032 job 80 arrived
+At 1032 job 61 started using the cpu
+At 1033 job 61 finished using the cpu
+At 1038 job 15 finished using disk1
+At 1044 job 16 started using disk2
+At 1055 job 81 arrived
+At 1055 job 62 started using the cpu
+At 1058 job 62 finished using the cpu
+At 1064 job 82 arrived
+At 1064 job 63 started using the cpu
+At 1068 job 63 finished using the cpu
+At 1086 job 7 started using disk1
+At 1089 job 83 arrived
+At 1089 job 64 started using the cpu
+At 1090 job 16 finished using disk1
+At 1090 job 84 arrived
+At 1093 job 64 finished using the cpu
+At 1093 job 64 terminated
+At 1103 job 85 arrived
+At 1103 job 13 started using the cpu
+At 1105 job 13 finished using the cpu
+At 1112 job 86 arrived
+At 1112 job 65 started using the cpu
+At 1113 job 65 finished using the cpu
+At 1121 job 87 arrived
+At 1121 job 66 started using the cpu
+At 1122 job 66 finished using the cpu
+At 1124 job 88 arrived
+At 1124 job 67 started using the cpu
+At 1125 job 67 finished using the cpu
+At 1128 job 89 arrived
+At 1128 job 68 started using the cpu
+At 1133 job 68 finished using the cpu
+At 1136 job 90 arrived
+At 1136 job 69 started using the cpu
+At 1140 job 69 finished using the cpu
+At 1156 job 5 started using disk2
+At 1160 job 91 arrived
+At 1160 job 70 started using the cpu
+At 1163 job 70 finished using the cpu
+At 1166 job 92 arrived
+At 1166 job 71 started using the cpu
+At 1169 job 7 finished using disk1
+At 1171 job 71 finished using the cpu
+At 1184 job 93 arrived
+At 1184 job 72 started using the cpu
+At 1187 job 72 finished using the cpu
+At 1189 job 94 arrived
+At 1189 job 73 started using the cpu
+At 1194 job 73 finished using the cpu
+At 1195 job 5 finished using disk1
+At 1197 job 95 arrived
+At 1197 job 74 started using the cpu
+At 1198 job 74 finished using the cpu
+At 1198 job 74 terminated
+At 1216 job 96 arrived
+At 1216 job 14 started using the cpu
+At 1219 job 14 finished using the cpu
+At 1220 job 97 arrived
+At 1220 job 75 started using the cpu
+At 1224 job 1 started using disk1
+At 1224 job 75 finished using the cpu
+At 1229 job 98 arrived
+At 1229 job 76 started using the cpu
+At 1231 job 76 finished using the cpu
+At 1250 job 99 arrived
+At 1250 job 77 started using the cpu
+At 1254 job 77 finished using the cpu
+At 1255 job 100 arrived
+At 1255 job 78 started using the cpu
+At 1258 job 78 finished using the cpu
+At 1268 job 101 arrived
+At 1268 job 79 started using the cpu
+At 1273 job 79 finished using the cpu
+At 1288 job 102 arrived
+At 1288 job 80 started using the cpu
+At 1292 job 80 finished using the cpu
+At 1292 job 80 terminated
+At 1300 job 103 arrived
+At 1300 job 15 started using the cpu
+At 1302 job 15 finished using the cpu
+At 1318 job 104 arrived
+At 1318 job 81 started using the cpu
+At 1319 job 105 arrived
+At 1321 job 81 finished using the cpu
+At 1323 job 1 finished using disk1
+At 1334 job 8 started using disk1
+At 1334 job 106 arrived
+At 1334 job 82 started using the cpu
+At 1338 job 82 finished using the cpu
+At 1343 job 107 arrived
+At 1343 job 83 started using the cpu
+At 1347 job 83 finished using the cpu
+At 1359 job 108 arrived
+At 1359 job 16 started using the cpu
+At 1361 job 16 finished using the cpu
+At 1371 job 8 finished using disk1
+At 1374 job 109 arrived
+At 1374 job 84 started using the cpu
+At 1377 job 84 finished using the cpu
+At 1377 job 84 terminated
+At 1384 job 32 started using disk1
+At 1392 job 110 arrived
+At 1392 job 85 started using the cpu
+At 1395 job 85 finished using the cpu
+At 1395 job 85 terminated
+At 1408 job 111 arrived
+At 1408 job 86 started using the cpu
+At 1410 job 86 finished using the cpu
+At 1418 job 112 arrived
+At 1418 job 87 started using the cpu
+At 1422 job 87 finished using the cpu
+At 1432 job 113 arrived
+At 1432 job 88 started using the cpu
+At 1433 job 88 finished using the cpu
+At 1435 job 32 finished using disk1
+At 1441 job 114 arrived
+At 1441 job 89 started using the cpu
+At 1444 job 89 finished using the cpu
+At 1450 job 33 started using disk1
+At 1459 job 115 arrived
+At 1459 job 90 started using the cpu
+At 1460 job 90 finished using the cpu
+At 1484 job 116 arrived
+At 1484 job 91 started using the cpu
+At 1485 job 117 arrived
+At 1486 job 91 finished using the cpu
+At 1492 job 33 finished using disk1
+At 1495 job 118 arrived
+At 1495 job 92 started using the cpu
+At 1497 job 92 finished using the cpu
+At 1507 job 119 arrived
+At 1507 job 7 started using the cpu
+At 1511 job 7 finished using the cpu
+At 1514 job 9 started using disk1
+At 1528 job 120 arrived
+At 1528 job 93 started using the cpu
+At 1530 job 93 finished using the cpu
+At 1530 job 93 terminated
+At 1532 job 121 arrived
+At 1532 job 94 started using the cpu
+At 1535 job 94 finished using the cpu
+At 1535 job 94 terminated
+At 1550 job 122 arrived
+At 1550 job 5 started using the cpu
+At 1553 job 5 finished using the cpu
+At 1569 job 123 arrived
+At 1569 job 95 started using the cpu
+At 1571 job 95 finished using the cpu
+At 1580 job 124 arrived
+At 1580 job 96 started using the cpu
+At 1584 job 96 finished using the cpu
+At 1588 job 125 arrived
+At 1588 job 97 started using the cpu
+At 1591 job 97 finished using the cpu
+At 1608 job 126 arrived
+At 1608 job 98 started using the cpu
+At 1613 job 9 finished using disk1
+At 1613 job 98 finished using the cpu
+At 1613 job 98 terminated
+At 1630 job 127 arrived
+At 1630 job 99 started using the cpu
+At 1632 job 99 finished using the cpu
+At 1644 job 37 started using disk1
+At 1649 job 128 arrived
+At 1649 job 100 started using the cpu
+At 1652 job 100 finished using the cpu
+At 1657 job 129 arrived
+At 1657 job 101 started using the cpu
+At 1659 job 101 finished using the cpu
+At 1660 job 130 arrived
+At 1660 job 102 started using the cpu
+At 1663 job 102 finished using the cpu
+At 1666 job 131 arrived
+At 1666 job 103 started using the cpu
+At 1667 job 132 arrived
+At 1668 job 103 finished using the cpu
+At 1675 job 133 arrived
+At 1675 job 104 started using the cpu
+At 1676 job 104 finished using the cpu
+At 1676 job 104 terminated
+At 1679 job 134 arrived
+At 1679 job 105 started using the cpu
+At 1682 job 105 finished using the cpu
+At 1684 job 135 arrived
+At 1684 job 1 started using the cpu
+At 1685 job 136 arrived
+At 1687 job 1 finished using the cpu
+At 1687 job 1 terminated
+At 1695 job 37 finished using disk1
+At 1697 job 137 arrived
+At 1697 job 106 started using the cpu
+At 1698 job 106 finished using the cpu
+At 1722 job 138 arrived
+At 1722 job 107 started using the cpu
+At 1723 job 107 finished using the cpu
+At 1728 job 139 arrived
+At 1728 job 108 started using the cpu
+At 1731 job 108 finished using the cpu
+At 1731 job 108 terminated
+At 1743 job 140 arrived
+At 1743 job 8 started using the cpu
+At 1744 job 8 finished using the cpu
+At 1746 job 38 started using disk1
+At 1762 job 141 arrived
+At 1762 job 109 started using the cpu
+At 1766 job 109 finished using the cpu
+At 1785 job 142 arrived
+At 1785 job 110 started using the cpu
+At 1787 job 110 finished using the cpu
+At 1809 job 143 arrived
+At 1809 job 111 started using the cpu
+At 1812 job 144 arrived
+At 1813 job 111 finished using the cpu
+At 1836 job 145 arrived
+At 1836 job 112 started using the cpu
+At 1838 job 112 finished using the cpu
+At 1840 job 146 arrived
+At 1840 job 113 started using the cpu
+At 1842 job 38 finished using disk1
+At 1843 job 147 arrived
+At 1844 job 113 finished using the cpu
+At 1850 job 148 arrived
+At 1850 job 32 started using the cpu
+At 1852 job 32 finished using the cpu
+At 1854 job 39 started using disk1
+At 1854 job 149 arrived
+At 1854 job 114 started using the cpu
+At 1857 job 150 arrived
+At 1857 job 114 finished using the cpu
+At 1860 job 151 arrived
+At 1860 job 115 started using the cpu
+At 1861 job 115 finished using the cpu
+At 1874 job 152 arrived
+At 1874 job 116 started using the cpu
+At 1877 job 116 finished using the cpu
+At 1894 job 153 arrived
+At 1894 job 117 started using the cpu
+At 1898 job 117 finished using the cpu
+At 1905 job 154 arrived
+At 1905 job 33 started using the cpu
+At 1910 job 33 finished using the cpu
+At 1914 job 155 arrived
+At 1914 job 118 started using the cpu
+At 1919 job 118 finished using the cpu
+At 1924 job 39 finished using disk1
+At 1925 job 156 arrived
+At 1925 job 119 started using the cpu
+At 1928 job 119 finished using the cpu
+At 1939 job 157 arrived
+At 1939 job 120 started using the cpu
+At 1944 job 120 finished using the cpu
+At 1960 job 40 started using disk1
+At 1960 job 158 arrived
+At 1960 job 121 started using the cpu
+At 1961 job 121 finished using the cpu
+At 1983 job 159 arrived
+At 1983 job 122 started using the cpu
+At 1986 job 122 finished using the cpu
+At 1996 job 160 arrived
+At 1996 job 123 started using the cpu
+At 2001 job 123 finished using the cpu
+At 2003 job 161 arrived
+At 2003 job 124 started using the cpu
+At 2005 job 124 finished using the cpu
+At 2005 job 124 terminated
+At 2025 job 162 arrived
+At 2025 job 125 started using the cpu
+At 2026 job 125 finished using the cpu
+At 2031 job 40 finished using disk1
+At 2042 job 163 arrived
+At 2042 job 126 started using the cpu
+At 2046 job 164 arrived
+At 2046 job 126 finished using the cpu
+At 2046 job 126 terminated
+At 2052 job 11 started using disk1
+At 2070 job 165 arrived
+At 2070 job 9 started using the cpu
+At 2074 job 9 finished using the cpu
+At 2079 job 166 arrived
+At 2079 job 127 started using the cpu
+At 2081 job 127 finished using the cpu
+At 2100 job 167 arrived
+At 2100 job 128 started using the cpu
+At 2102 job 128 finished using the cpu
+At 2102 job 128 terminated
+At 2117 job 11 finished using disk1
+At 2120 job 168 arrived
+At 2120 job 129 started using the cpu
+At 2125 job 129 finished using the cpu
+At 2136 job 41 started using disk1
+At 2137 job 169 arrived
+At 2137 job 130 started using the cpu
+At 2140 job 130 finished using the cpu
+At 2161 job 170 arrived
+At 2161 job 131 started using the cpu
+At 2163 job 41 finished using disk1
+At 2163 job 131 finished using the cpu
+At 2178 job 171 arrived
+At 2178 job 132 started using the cpu
+At 2181 job 132 finished using the cpu
+At 2186 job 172 arrived
+At 2186 job 133 started using the cpu
+At 2187 job 133 finished using the cpu
+At 2210 job 43 started using disk1
+At 2210 job 173 arrived
+At 2210 job 134 started using the cpu
+At 2213 job 134 finished using the cpu
+At 2216 job 174 arrived
+At 2216 job 135 started using the cpu
+At 2220 job 135 finished using the cpu
+At 2233 job 175 arrived
+At 2233 job 136 started using the cpu
+At 2238 job 136 finished using the cpu
+At 2249 job 176 arrived
+At 2249 job 37 started using the cpu
+At 2253 job 177 arrived
+At 2254 job 37 finished using the cpu
+At 2257 job 43 finished using disk1
+At 2266 job 44 started using disk1
+At 2272 job 178 arrived
+At 2272 job 137 started using the cpu
+At 2274 job 137 finished using the cpu
+At 2284 job 179 arrived
+At 2284 job 138 started using the cpu
+At 2287 job 138 finished using the cpu
+At 2291 job 180 arrived
+At 2291 job 139 started using the cpu
+At 2295 job 139 finished using the cpu
+At 2295 job 139 terminated
+At 2311 job 181 arrived
+At 2311 job 140 started using the cpu
+At 2312 job 182 arrived
+At 2314 job 140 finished using the cpu
+At 2324 job 183 arrived
+At 2324 job 141 started using the cpu
+At 2326 job 141 finished using the cpu
+At 2347 job 184 arrived
+At 2347 job 142 started using the cpu
+At 2350 job 142 finished using the cpu
+At 2350 job 142 terminated
+At 2359 job 44 finished using disk1
+At 2365 job 185 arrived
+At 2365 job 143 started using the cpu
+At 2366 job 143 finished using the cpu
+At 2374 job 45 started using disk1
+At 2376 job 186 arrived
+At 2376 job 144 started using the cpu
+At 2379 job 187 arrived
+At 2380 job 144 finished using the cpu
+At 2392 job 188 arrived
+At 2392 job 145 started using the cpu
+At 2395 job 145 finished using the cpu
+At 2397 job 189 arrived
+At 2397 job 146 started using the cpu
+At 2398 job 146 finished using the cpu
+At 2398 job 146 terminated
+At 2400 job 190 arrived
+At 2400 job 38 started using the cpu
+At 2403 job 38 finished using the cpu
+At 2416 job 191 arrived
+At 2416 job 147 started using the cpu
+At 2420 job 147 finished using the cpu
+At 2420 job 147 terminated
+At 2422 job 192 arrived
+At 2422 job 148 started using the cpu
+At 2423 job 148 finished using the cpu
+At 2430 job 193 arrived
+At 2430 job 149 started using the cpu
+At 2431 job 149 finished using the cpu
+At 2449 job 194 arrived
+At 2449 job 150 started using the cpu
+At 2452 job 150 finished using the cpu
+At 2456 job 195 arrived
+At 2456 job 151 started using the cpu
+At 2457 job 196 arrived
+At 2458 job 151 finished using the cpu
+At 2464 job 45 finished using disk1
+At 2465 job 197 arrived
+At 2465 job 152 started using the cpu
+At 2468 job 152 finished using the cpu
+At 2468 job 152 terminated
+At 2471 job 198 arrived
+At 2471 job 153 started using the cpu
+At 2474 job 153 finished using the cpu
+At 2478 job 199 arrived
+At 2478 job 154 started using the cpu
+At 2483 job 154 finished using the cpu
+At 2491 job 200 arrived
+At 2491 job 155 started using the cpu
+At 2494 job 155 finished using the cpu
+At 2508 job 46 started using disk1
+At 2508 job 201 arrived
+At 2508 job 39 started using the cpu
+At 2512 job 39 finished using the cpu
+At 2530 job 202 arrived
+At 2530 job 156 started using the cpu
+At 2535 job 156 finished using the cpu
+At 2550 job 203 arrived
+At 2550 job 157 started using the cpu
+At 2551 job 157 finished using the cpu
+At 2551 job 157 terminated
+At 2570 job 204 arrived
+At 2570 job 158 started using the cpu
+At 2573 job 205 arrived
+At 2574 job 158 finished using the cpu
+At 2577 job 46 finished using disk1
+At 2596 job 206 arrived
+At 2596 job 159 started using the cpu
+At 2600 job 159 finished using the cpu
+At 2604 job 48 started using disk1
+At 2617 job 207 arrived
+At 2617 job 160 started using the cpu
+At 2622 job 160 finished using the cpu
+At 2629 job 208 arrived
+At 2629 job 161 started using the cpu
+At 2632 job 161 finished using the cpu
+At 2633 job 209 arrived
+At 2633 job 162 started using the cpu
+At 2634 job 162 finished using the cpu
+At 2634 job 162 terminated
+At 2638 job 210 arrived
+At 2638 job 40 started using the cpu
+At 2640 job 40 finished using the cpu
+At 2660 job 48 finished using disk1
+At 2663 job 211 arrived
+At 2663 job 163 started using the cpu
+At 2664 job 163 finished using the cpu
+At 2676 job 49 started using disk1
+At 2681 job 212 arrived
+At 2681 job 164 started using the cpu
+At 2686 job 164 finished using the cpu
+At 2704 job 213 arrived
+At 2704 job 165 started using the cpu
+At 2705 job 165 finished using the cpu
+At 2705 job 165 terminated
+At 2723 job 214 arrived
+At 2723 job 166 started using the cpu
+At 2726 job 166 finished using the cpu
+At 2726 job 166 terminated
+At 2733 job 215 arrived
+At 2733 job 167 started using the cpu
+At 2737 job 167 finished using the cpu
+At 2742 job 216 arrived
+At 2742 job 11 started using the cpu
+At 2745 job 11 finished using the cpu
+At 2745 job 11 terminated
+At 2751 job 217 arrived
+At 2751 job 168 started using the cpu
+At 2754 job 168 finished using the cpu
+At 2754 job 168 terminated
+At 2756 job 49 finished using disk1
+At 2773 job 218 arrived
+At 2773 job 169 started using the cpu
+At 2774 job 219 arrived
+At 2775 job 169 finished using the cpu
+At 2778 job 220 arrived
+At 2778 job 170 started using the cpu
+At 2779 job 170 finished using the cpu
+At 2795 job 221 arrived
+At 2795 job 41 started using the cpu
+At 2800 job 41 finished using the cpu
+At 2816 job 222 arrived
+At 2816 job 171 started using the cpu
+At 2820 job 50 started using disk1
+At 2821 job 171 finished using the cpu
+At 2824 job 223 arrived
+At 2824 job 172 started using the cpu
+At 2826 job 172 finished using the cpu
+At 2840 job 224 arrived
+At 2840 job 173 started using the cpu
+At 2845 job 173 finished using the cpu
+At 2845 job 173 terminated
+At 2847 job 225 arrived
+At 2847 job 174 started using the cpu
+At 2848 job 226 arrived
+At 2849 job 174 finished using the cpu
+At 2867 job 227 arrived
+At 2867 job 175 started using the cpu
+At 2869 job 228 arrived
+At 2870 job 175 finished using the cpu
+At 2873 job 229 arrived
+At 2873 job 176 started using the cpu
+At 2874 job 230 arrived
+At 2876 job 176 finished using the cpu
+At 2879 job 231 arrived
+At 2879 job 177 started using the cpu
+At 2880 job 177 finished using the cpu
+At 2899 job 232 arrived
+At 2899 job 43 started using the cpu
+At 2902 job 43 finished using the cpu
+At 2907 job 50 finished using disk1
+At 2912 job 233 arrived
+At 2912 job 178 started using the cpu
+At 2915 job 178 finished using the cpu
+At 2920 job 12 started using disk1
+At 2922 job 234 arrived
+At 2922 job 179 started using the cpu
+At 2925 job 179 finished using the cpu
+At 2941 job 235 arrived
+At 2941 job 180 started using the cpu
+At 2945 job 180 finished using the cpu
+At 2951 job 236 arrived
+At 2951 job 181 started using the cpu
+At 2956 job 181 finished using the cpu
+At 2969 job 237 arrived
+At 2969 job 182 started using the cpu
+At 2973 job 182 finished using the cpu
+At 2978 job 12 finished using disk1
+At 2987 job 238 arrived
+At 2987 job 183 started using the cpu
+At 2989 job 183 finished using the cpu
+At 2993 job 239 arrived
+At 2993 job 184 started using the cpu
+At 2994 job 52 started using disk1
+At 2996 job 184 finished using the cpu
+At 3003 job 240 arrived
+At 3003 job 44 started using the cpu
+At 3006 job 44 finished using the cpu
+At 3006 job 44 terminated
+At 3011 job 241 arrived
+At 3011 job 185 started using the cpu
+At 3012 job 185 finished using the cpu
+At 3031 job 242 arrived
+At 3031 job 186 started using the cpu
+At 3035 job 186 finished using the cpu
+At 3035 job 186 terminated
+At 3053 job 243 arrived
+At 3053 job 187 started using the cpu
+At 3058 job 187 finished using the cpu
+At 3073 job 52 finished using disk1
+At 3074 job 244 arrived
+At 3074 job 188 started using the cpu
+At 3076 job 188 finished using the cpu
+At 3089 job 245 arrived
+At 3089 job 189 started using the cpu
+At 3092 job 189 finished using the cpu
+At 3106 job 53 started using disk1
+At 3113 job 246 arrived
+At 3113 job 190 started using the cpu
+At 3115 job 190 finished using the cpu
+At 3115 job 190 terminated
+At 3132 job 247 arrived
+At 3132 job 191 started using the cpu
+At 3134 job 191 finished using the cpu
+At 3134 job 191 terminated
+At 3136 job 248 arrived
+At 3136 job 192 started using the cpu
+At 3139 job 192 finished using the cpu
+At 3151 job 249 arrived
+At 3151 job 193 started using the cpu
+At 3154 job 193 finished using the cpu
+At 3169 job 250 arrived
+At 3169 job 194 started using the cpu
+At 3171 job 251 arrived
+At 3171 job 194 finished using the cpu
+At 3176 job 53 finished using disk1
+At 3182 job 54 started using disk1
+At 3187 job 252 arrived
+At 3187 job 195 started using the cpu
+At 3188 job 195 finished using the cpu
+At 3208 job 253 arrived
+At 3208 job 196 started using the cpu
+At 3210 job 196 finished using the cpu
+At 3216 job 54 finished using disk1
+At 3218 job 254 arrived
+At 3218 job 45 started using the cpu
+At 3219 job 45 finished using the cpu
+At 3234 job 255 arrived
+At 3234 job 197 started using the cpu
+At 3235 job 197 finished using the cpu
+At 3254 job 256 arrived
+At 3254 job 198 started using the cpu
+At 3257 job 198 finished using the cpu
+At 3264 job 55 started using disk1
+At 3274 job 257 arrived
+At 3274 job 199 started using the cpu
+At 3276 job 199 finished using the cpu
+At 3283 job 258 arrived
+At 3283 job 200 started using the cpu
+At 3284 job 200 finished using the cpu
+At 3291 job 55 finished using disk1
+At 3304 job 3 started using disk1
+At 3307 job 259 arrived
+At 3307 job 201 started using the cpu
+At 3308 job 201 finished using the cpu
+At 3312 job 260 arrived
+At 3312 job 202 started using the cpu
+At 3314 job 202 finished using the cpu
+At 3314 job 202 terminated
+At 3320 job 261 arrived
+At 3320 job 203 started using the cpu
+At 3321 job 203 finished using the cpu
+At 3321 job 203 terminated
+At 3325 job 262 arrived
+At 3325 job 204 started using the cpu
+At 3326 job 263 arrived
+At 3330 job 204 finished using the cpu
+At 3342 job 3 finished using disk1
+At 3349 job 264 arrived
+At 3349 job 205 started using the cpu
+At 3353 job 205 finished using the cpu
+At 3364 job 56 started using disk1
+At 3365 job 265 arrived
+At 3365 job 46 started using the cpu
+At 3366 job 46 finished using the cpu
+At 3375 job 266 arrived
+At 3375 job 206 started using the cpu
+At 3378 job 206 finished using the cpu
+At 3379 job 267 arrived
+At 3379 job 207 started using the cpu
+At 3380 job 207 finished using the cpu
+At 3385 job 268 arrived
+At 3385 job 208 started using the cpu
+At 3387 job 208 finished using the cpu
+At 3400 job 269 arrived
+At 3400 job 209 started using the cpu
+At 3403 job 209 finished using the cpu
+At 3412 job 270 arrived
+At 3412 job 210 started using the cpu
+At 3414 job 271 arrived
+At 3416 job 210 finished using the cpu
+At 3420 job 56 finished using disk1
+At 3439 job 272 arrived
+At 3439 job 48 started using the cpu
+At 3441 job 48 finished using the cpu
+At 3444 job 273 arrived
+At 3444 job 211 started using the cpu
+At 3446 job 18 started using disk2
+At 3446 job 211 finished using the cpu
+At 3462 job 274 arrived
+At 3462 job 212 started using the cpu
+At 3464 job 212 finished using the cpu
+At 3472 job 18 finished using disk1
+At 3487 job 275 arrived
+At 3487 job 213 started using the cpu
+At 3488 job 19 started using disk2
+At 3492 job 213 finished using the cpu
+At 3492 job 213 terminated
+At 3512 job 276 arrived
+At 3512 job 214 started using the cpu
+At 3517 job 214 finished using the cpu
+At 3517 job 214 terminated
+At 3523 job 277 arrived
+At 3523 job 215 started using the cpu
+At 3528 job 215 finished using the cpu
+At 3532 job 57 started using disk1
+At 3538 job 278 arrived
+At 3538 job 216 started using the cpu
+At 3543 job 216 finished using the cpu
+At 3553 job 279 arrived
+At 3553 job 217 started using the cpu
+At 3554 job 280 arrived
+At 3558 job 217 finished using the cpu
+At 3576 job 281 arrived
+At 3576 job 49 started using the cpu
+At 3579 job 49 finished using the cpu
+At 3584 job 282 arrived
+At 3584 job 218 started using the cpu
+At 3585 job 57 finished using disk1
+At 3588 job 19 finished using disk1
+At 3588 job 218 finished using the cpu
+At 3599 job 283 arrived
+At 3599 job 219 started using the cpu
+At 3601 job 219 finished using the cpu
+At 3608 job 284 arrived
+At 3608 job 220 started using the cpu
+At 3609 job 285 arrived
+At 3611 job 220 finished using the cpu
+At 3611 job 220 terminated
+At 3625 job 286 arrived
+At 3625 job 221 started using the cpu
+At 3626 job 20 started using disk2
+At 3627 job 221 finished using the cpu
+At 3637 job 287 arrived
+At 3637 job 222 started using the cpu
+At 3638 job 222 finished using the cpu
+At 3638 job 222 terminated
+At 3639 job 288 arrived
+At 3639 job 223 started using the cpu
+At 3642 job 223 finished using the cpu
+At 3658 job 289 arrived
+At 3658 job 224 started using the cpu
+At 3660 job 224 finished using the cpu
+At 3666 job 290 arrived
+At 3666 job 225 started using the cpu
+At 3670 job 225 finished using the cpu
+At 3678 job 291 arrived
+At 3678 job 226 started using the cpu
+At 3682 job 226 finished using the cpu
+At 3686 job 292 arrived
+At 3686 job 227 started using the cpu
+At 3691 job 20 finished using disk1
+At 3691 job 227 finished using the cpu
+At 3692 job 293 arrived
+At 3692 job 228 started using the cpu
+At 3697 job 228 finished using the cpu
+At 3697 job 228 terminated
+At 3703 job 294 arrived
+At 3703 job 229 started using the cpu
+At 3704 job 21 started using disk2
+At 3707 job 229 finished using the cpu
+At 3707 job 229 terminated
+At 3728 job 295 arrived
+At 3728 job 230 started using the cpu
+At 3732 job 230 finished using the cpu
+At 3744 job 296 arrived
+At 3744 job 231 started using the cpu
+At 3745 job 231 finished using the cpu
+At 3751 job 297 arrived
+At 3751 job 232 started using the cpu
+At 3754 job 232 finished using the cpu
+At 3761 job 298 arrived
+At 3761 job 50 started using the cpu
+At 3764 job 299 arrived
+At 3766 job 50 finished using the cpu
+At 3779 job 300 arrived
+At 3779 job 233 started using the cpu
+At 3781 job 233 finished using the cpu
+At 3782 job 301 arrived
+At 3782 job 234 started using the cpu
+At 3784 job 21 finished using disk1
+At 3786 job 234 finished using the cpu
+At 3795 job 302 arrived
+At 3795 job 235 started using the cpu
+At 3796 job 23 started using disk2
+At 3797 job 303 arrived
+At 3797 job 235 finished using the cpu
+At 3813 job 304 arrived
+At 3813 job 236 started using the cpu
+At 3814 job 305 arrived
+At 3815 job 236 finished using the cpu
+At 3838 job 306 arrived
+At 3838 job 237 started using the cpu
+At 3843 job 237 finished using the cpu
+At 3848 job 307 arrived
+At 3848 job 12 started using the cpu
+At 3852 job 12 finished using the cpu
+At 3852 job 12 terminated
+At 3873 job 308 arrived
+At 3873 job 238 started using the cpu
+At 3877 job 238 finished using the cpu
+At 3881 job 309 arrived
+At 3881 job 239 started using the cpu
+At 3884 job 23 finished using disk1
+At 3884 job 239 finished using the cpu
+At 3884 job 239 terminated
+At 3888 job 26 started using disk2
+At 3899 job 310 arrived
+At 3899 job 240 started using the cpu
+At 3902 job 311 arrived
+At 3903 job 240 finished using the cpu
+At 3911 job 312 arrived
+At 3911 job 241 started using the cpu
+At 3916 job 241 finished using the cpu
+At 3916 job 241 terminated
+At 3922 job 313 arrived
+At 3922 job 242 started using the cpu
 At 3923 job 314 arrived
-At 3932 job 315 arrived
-At 3944 job 125 finished using the cpu
-At 3950 job 316 arrived
-At 3950 job 126 started using the cpu
-At 3952 job 64 started using disk1
-At 3966 job 317 arrived
-At 3970 job 126 finished using the cpu
-At 3977 job 318 arrived
-At 3977 job 127 started using the cpu
-At 3983 job 64 finished using disk1
-At 3993 job 319 arrived
-At 4002 job 320 arrived
-At 4005 job 127 finished using the cpu
-At 4022 job 321 arrived
-At 4022 job 25 started using the cpu
-At 4041 job 322 arrived
-At 4046 job 323 arrived
-At 4051 job 25 finished using the cpu
-At 4051 job 25 terminated
-At 4066 job 324 arrived
-At 4066 job 128 started using the cpu
-At 4078 job 325 arrived
-At 4090 job 326 arrived
-At 4093 job 128 finished using the cpu
-At 4110 job 327 arrived
-At 4110 job 129 started using the cpu
-At 4121 job 328 arrived
-At 4134 job 329 arrived
-At 4140 job 129 finished using the cpu
-At 4140 job 330 arrived
-At 4140 job 130 started using the cpu
-At 4148 job 65 started using disk1
-At 4159 job 331 arrived
-At 4160 job 130 finished using the cpu
-At 4177 job 332 arrived
-At 4177 job 26 started using the cpu
-At 4180 job 65 finished using disk1
-At 4187 job 333 arrived
-At 4193 job 26 finished using the cpu
-At 4204 job 13 started using disk2
-At 4205 job 334 arrived
-At 4205 job 131 started using the cpu
-At 4217 job 335 arrived
-At 4231 job 13 finished using disk1
-At 4233 job 336 arrived
-At 4234 job 131 finished using the cpu
-At 4244 job 337 arrived
-At 4244 job 132 started using the cpu
-At 4248 job 69 started using disk2
-At 4256 job 338 arrived
-At 4269 job 339 arrived
-At 4272 job 132 finished using the cpu
-At 4272 job 132 terminated
-At 4284 job 69 finished using disk1
-At 4284 job 340 arrived
-At 4284 job 133 started using the cpu
-At 4298 job 341 arrived
-At 4300 job 133 finished using the cpu
-At 4306 job 342 arrived
-At 4306 job 5 started using the cpu
-At 4322 job 70 started using disk2
-At 4326 job 343 arrived
-At 4334 job 5 finished using the cpu
-At 4345 job 344 arrived
-At 4345 job 134 started using the cpu
-At 4352 job 345 arrived
-At 4357 job 346 arrived
-At 4358 job 70 finished using disk1
-At 4368 job 134 finished using the cpu
-At 4377 job 347 arrived
-At 4377 job 135 started using the cpu
-At 4380 job 68 started using disk1
-At 4391 job 348 arrived
-At 4396 job 68 finished using disk1
-At 4399 job 135 finished using the cpu
-At 4406 job 349 arrived
-At 4406 job 27 started using the cpu
-At 4418 job 350 arrived
-At 4423 job 27 finished using the cpu
-At 4425 job 351 arrived
-At 4425 job 136 started using the cpu
-At 4439 job 352 arrived
-At 4442 job 136 finished using the cpu
-At 4442 job 136 terminated
-At 4456 job 353 arrived
-At 4456 job 137 started using the cpu
-At 4462 job 71 started using disk2
-At 4471 job 354 arrived
-At 4480 job 137 finished using the cpu
-At 4480 job 137 terminated
-At 4482 job 355 arrived
-At 4482 job 138 started using the cpu
-At 4489 job 356 arrived
-At 4493 job 138 finished using the cpu
-At 4497 job 71 finished using disk1
-At 4504 job 357 arrived
-At 4504 job 139 started using the cpu
-At 4510 job 358 arrived
-At 4524 job 359 arrived
-At 4525 job 139 finished using the cpu
-At 4525 job 139 terminated
-At 4533 job 360 arrived
-At 4533 job 28 started using the cpu
-At 4546 job 15 started using disk1
-At 4548 job 361 arrived
-At 4554 job 362 arrived
-At 4555 job 28 finished using the cpu
-At 4574 job 15 finished using disk1
-At 4574 job 363 arrived
-At 4574 job 140 started using the cpu
-At 4594 job 364 arrived
-At 4600 job 140 finished using the cpu
-At 4603 job 365 arrived
-At 4603 job 141 started using the cpu
-At 4608 job 72 started using disk2
-At 4617 job 141 finished using the cpu
-At 4618 job 366 arrived
-At 4618 job 142 started using the cpu
-At 4632 job 367 arrived
-At 4636 job 142 finished using the cpu
-At 4641 job 72 finished using disk1
-At 4642 job 368 arrived
-At 4642 job 143 started using the cpu
-At 4649 job 369 arrived
-At 4653 job 143 finished using the cpu
-At 4666 job 370 arrived
-At 4666 job 144 started using the cpu
-At 4674 job 371 arrived
-At 4681 job 144 finished using the cpu
-At 4688 job 372 arrived
-At 4688 job 145 started using the cpu
-At 4698 job 373 arrived
-At 4710 job 374 arrived
-At 4717 job 145 finished using the cpu
-At 4720 job 375 arrived
-At 4720 job 146 started using the cpu
-At 4725 job 376 arrived
-At 4736 job 377 arrived
-At 4744 job 146 finished using the cpu
-At 4755 job 378 arrived
-At 4755 job 147 started using the cpu
-At 4764 job 379 arrived
-At 4770 job 380 arrived
-At 4772 job 147 finished using the cpu
-At 4788 job 381 arrived
-At 4788 job 148 started using the cpu
-At 4793 job 382 arrived
-At 4808 job 383 arrived
-At 4809 job 148 finished using the cpu
-At 4809 job 148 terminated
-At 4814 job 384 arrived
-At 4814 job 149 started using the cpu
-At 4824 job 75 started using disk2
-At 4830 job 149 finished using the cpu
-At 4833 job 385 arrived
-At 4833 job 150 started using the cpu
-At 4838 job 386 arrived
-At 4849 job 75 finished using disk1
-At 4854 job 387 arrived
-At 4858 job 150 finished using the cpu
-At 4868 job 78 started using disk2
-At 4872 job 388 arrived
-At 4872 job 151 started using the cpu
-At 4890 job 389 arrived
-At 4896 job 390 arrived
-At 4897 job 151 finished using the cpu
-At 4898 job 78 finished using disk1
-At 4908 job 391 arrived
-At 4908 job 152 started using the cpu
-At 4916 job 392 arrived
-At 4925 job 393 arrived
-At 4928 job 152 finished using the cpu
-At 4943 job 394 arrived
-At 4943 job 30 started using the cpu
-At 4944 job 79 started using disk2
-At 4959 job 30 finished using the cpu
-At 4959 job 30 terminated
-At 4960 job 395 arrived
-At 4960 job 153 started using the cpu
-At 4968 job 79 finished using disk1
-At 4972 job 396 arrived
-At 4976 job 153 finished using the cpu
-At 4992 job 397 arrived
-At 4992 job 154 started using the cpu
-At 4999 job 398 arrived
-At 5004 job 80 started using disk2
-At 5009 job 154 finished using the cpu
-At 5009 job 399 arrived
-At 5009 job 155 started using the cpu
-At 5027 job 400 arrived
-At 5032 job 80 finished using disk1
-At 5035 job 155 finished using the cpu
-At 5040 job 401 arrived
-At 5040 job 31 started using the cpu
-At 5045 job 402 arrived
-At 5063 job 403 arrived
-At 5065 job 31 finished using the cpu
-At 5082 job 404 arrived
-At 5082 job 156 started using the cpu
-At 5093 job 156 finished using the cpu
-At 5098 job 405 arrived
-At 5098 job 157 started using the cpu
-At 5112 job 157 finished using the cpu
-At 5112 job 157 terminated
-At 5118 job 406 arrived
-At 5118 job 158 started using the cpu
-At 5133 job 158 finished using the cpu
-At 5133 job 158 terminated
-At 5134 job 407 arrived
-At 5134 job 32 started using the cpu
-At 5142 job 408 arrived
-At 5152 job 81 started using disk2
-At 5157 job 32 finished using the cpu
-At 5159 job 409 arrived
-At 5159 job 159 started using the cpu
-At 5170 job 159 finished using the cpu
-At 5176 job 410 arrived
-At 5176 job 160 started using the cpu
-At 5178 job 81 finished using disk1
-At 5190 job 160 finished using the cpu
-At 5193 job 411 arrived
-At 5193 job 161 started using the cpu
-At 5203 job 161 finished using the cpu
-At 5207 job 412 arrived
-At 5207 job 162 started using the cpu
-At 5212 job 16 started using disk2
-At 5219 job 162 finished using the cpu
-At 5224 job 413 arrived
-At 5224 job 163 started using the cpu
-At 5238 job 414 arrived
-At 5248 job 163 finished using the cpu
-At 5251 job 16 finished using disk1
-At 5253 job 415 arrived
-At 5253 job 164 started using the cpu
-At 5272 job 416 arrived
-At 5273 job 164 finished using the cpu
-At 5273 job 164 terminated
-At 5284 job 417 arrived
-At 5284 job 1 started using the cpu
-At 5296 job 418 arrived
-At 5304 job 1 finished using the cpu
-At 5315 job 419 arrived
-At 5315 job 165 started using the cpu
-At 5331 job 165 finished using the cpu
-At 5334 job 420 arrived
-At 5334 job 166 started using the cpu
-At 5344 job 421 arrived
-At 5345 job 166 finished using the cpu
-At 5345 job 166 terminated
-At 5355 job 422 arrived
-At 5355 job 167 started using the cpu
-At 5360 job 83 started using disk2
-At 5369 job 423 arrived
-At 5384 job 167 finished using the cpu
-At 5385 job 424 arrived
-At 5385 job 168 started using the cpu
-At 5391 job 425 arrived
-At 5396 job 83 finished using disk1
-At 5401 job 168 finished using the cpu
-At 5403 job 426 arrived
-At 5403 job 169 started using the cpu
-At 5414 job 427 arrived
-At 5423 job 169 finished using the cpu
-At 5423 job 169 terminated
-At 5423 job 428 arrived
-At 5423 job 170 started using the cpu
-At 5429 job 429 arrived
-At 5436 job 170 finished using the cpu
-At 5449 job 430 arrived
-At 5449 job 171 started using the cpu
-At 5462 job 86 started using disk2
-At 5462 job 431 arrived
-At 5469 job 432 arrived
-At 5479 job 171 finished using the cpu
-At 5479 job 433 arrived
-At 5479 job 34 started using the cpu
-At 5493 job 434 arrived
-At 5499 job 86 finished using disk1
-At 5509 job 34 finished using the cpu
-At 5509 job 34 terminated
-At 5513 job 435 arrived
-At 5513 job 172 started using the cpu
-At 5520 job 436 arrived
-At 5524 job 88 started using disk2
-At 5531 job 172 finished using the cpu
-At 5537 job 437 arrived
-At 5537 job 173 started using the cpu
-At 5542 job 438 arrived
-At 5547 job 439 arrived
-At 5552 job 173 finished using the cpu
-At 5559 job 88 finished using disk1
-At 5564 job 440 arrived
-At 5564 job 174 started using the cpu
-At 5582 job 89 started using disk2
-At 5582 job 441 arrived
-At 5584 job 174 finished using the cpu
-At 5601 job 442 arrived
-At 5601 job 175 started using the cpu
-At 5609 job 89 finished using disk1
-At 5611 job 443 arrived
-At 5623 job 444 arrived
-At 5631 job 175 finished using the cpu
-At 5632 job 90 started using disk2
-At 5641 job 445 arrived
-At 5641 job 176 started using the cpu
-At 5647 job 446 arrived
-At 5656 job 176 finished using the cpu
-At 5663 job 447 arrived
-At 5663 job 177 started using the cpu
-At 5669 job 90 finished using disk1
-At 5676 job 177 finished using the cpu
-At 5677 job 448 arrived
-At 5677 job 178 started using the cpu
-At 5690 job 18 started using disk2
-At 5694 job 449 arrived
-At 5694 job 178 finished using the cpu
-At 5701 job 450 arrived
-At 5701 job 179 started using the cpu
-At 5712 job 451 arrived
-At 5720 job 18 finished using disk1
-At 5725 job 179 finished using the cpu
-At 5725 job 179 terminated
-At 5729 job 452 arrived
-At 5729 job 180 started using the cpu
-At 5736 job 453 arrived
-At 5740 job 180 finished using the cpu
-At 5751 job 454 arrived
-At 5751 job 181 started using the cpu
-At 5768 job 181 finished using the cpu
-At 5771 job 455 arrived
-At 5771 job 182 started using the cpu
-At 5774 job 91 started using disk2
-At 5779 job 456 arrived
-At 5784 job 457 arrived
-At 5799 job 458 arrived
-At 5800 job 182 finished using the cpu
-At 5800 job 182 terminated
-At 5808 job 91 finished using disk1
-At 5812 job 459 arrived
-At 5812 job 183 started using the cpu
-At 5822 job 460 arrived
-At 5823 job 183 finished using the cpu
-At 5823 job 183 terminated
-At 5831 job 461 arrived
-At 5831 job 184 started using the cpu
-At 5834 job 92 started using disk2
-At 5842 job 462 arrived
-At 5846 job 184 finished using the cpu
-At 5858 job 463 arrived
-At 5858 job 185 started using the cpu
-At 5860 job 92 finished using disk1
-At 5876 job 464 arrived
-At 5877 job 185 finished using the cpu
-At 5882 job 465 arrived
-At 5882 job 7 started using the cpu
-At 5902 job 466 arrived
-At 5904 job 7 finished using the cpu
-At 5911 job 467 arrived
-At 5911 job 186 started using the cpu
-At 5919 job 468 arrived
-At 5934 job 469 arrived
-At 5936 job 186 finished using the cpu
-At 5946 job 470 arrived
-At 5946 job 187 started using the cpu
-At 5959 job 471 arrived
-At 5960 job 187 finished using the cpu
-At 5960 job 187 terminated
-At 5965 job 472 arrived
-At 5965 job 188 started using the cpu
-At 5980 job 473 arrived
-At 5989 job 188 finished using the cpu
-At 5990 job 474 arrived
-At 5990 job 189 started using the cpu
-At 6002 job 189 finished using the cpu
-At 6002 job 189 terminated
-At 6007 job 475 arrived
-At 6007 job 190 started using the cpu
-At 6025 job 190 finished using the cpu
-At 6027 job 476 arrived
-At 6027 job 38 started using the cpu
-At 6040 job 93 started using disk2
-At 6047 job 477 arrived
-At 6053 job 478 arrived
-At 6057 job 38 finished using the cpu
-At 6059 job 479 arrived
-At 6059 job 191 started using the cpu
-At 6067 job 480 arrived
-At 6073 job 481 arrived
-At 6075 job 93 finished using disk1
-At 6079 job 482 arrived
-At 6080 job 191 finished using the cpu
-At 6080 job 191 terminated
-At 6084 job 19 started using disk2
-At 6090 job 483 arrived
-At 6090 job 192 started using the cpu
-At 6104 job 484 arrived
-At 6105 job 19 finished using disk1
-At 6112 job 485 arrived
-At 6120 job 192 finished using the cpu
-At 6125 job 486 arrived
-At 6125 job 193 started using the cpu
-At 6132 job 487 arrived
-At 6144 job 193 finished using the cpu
-At 6144 job 193 terminated
-At 6145 job 488 arrived
-At 6145 job 194 started using the cpu
-At 6150 job 97 started using disk2
-At 6160 job 489 arrived
-At 6167 job 194 finished using the cpu
-At 6167 job 194 terminated
-At 6170 job 490 arrived
-At 6170 job 195 started using the cpu
-At 6184 job 491 arrived
-At 6184 job 195 finished using the cpu
-At 6184 job 195 terminated
-At 6187 job 97 finished using disk1
-At 6194 job 98 started using disk2
-At 6203 job 492 arrived
-At 6203 job 196 started using the cpu
-At 6213 job 493 arrived
-At 6218 job 494 arrived
-At 6225 job 98 finished using disk1
-At 6230 job 196 finished using the cpu
-At 6230 job 196 terminated
-At 6237 job 495 arrived
-At 6237 job 197 started using the cpu
-At 6243 job 496 arrived
-At 6248 job 99 started using disk2
-At 6251 job 497 arrived
-At 6263 job 498 arrived
-At 6267 job 197 finished using the cpu
-At 6271 job 499 arrived
-At 6271 job 198 started using the cpu
-At 6280 job 99 finished using disk1
-At 6283 job 500 arrived
-At 6291 job 501 arrived
-At 6299 job 198 finished using the cpu
-At 6299 job 198 terminated
-At 6308 job 502 arrived
-At 6308 job 8 started using the cpu
-At 6314 job 100 started using disk2
-At 6323 job 503 arrived
-At 6327 job 8 finished using the cpu
-At 6333 job 504 arrived
-At 6333 job 199 started using the cpu
-At 6338 job 505 arrived
-At 6351 job 506 arrived
-At 6352 job 100 finished using disk1
-At 6357 job 199 finished using the cpu
-At 6371 job 507 arrived
-At 6371 job 200 started using the cpu
-At 6378 job 508 arrived
-At 6382 job 20 started using disk2
-At 6392 job 200 finished using the cpu
-At 6398 job 509 arrived
-At 6398 job 201 started using the cpu
-At 6403 job 510 arrived
-At 6410 job 20 finished using disk1
-At 6412 job 201 finished using the cpu
-At 6418 job 511 arrived
-At 6418 job 202 started using the cpu
-At 6430 job 202 finished using the cpu
-At 6435 job 512 arrived
-At 6435 job 203 started using the cpu
-At 6450 job 101 started using disk2
-At 6455 job 513 arrived
-At 6462 job 203 finished using the cpu
-At 6462 job 203 terminated
-At 6467 job 514 arrived
-At 6467 job 39 started using the cpu
-At 6473 job 101 finished using disk1
-At 6481 job 515 arrived
-At 6488 job 39 finished using the cpu
-At 6488 job 516 arrived
-At 6488 job 204 started using the cpu
-At 6496 job 517 arrived
-At 6509 job 204 finished using the cpu
-At 6509 job 518 arrived
-At 6509 job 205 started using the cpu
-At 6518 job 102 started using disk2
-At 6525 job 519 arrived
-At 6535 job 205 finished using the cpu
-At 6535 job 205 terminated
-At 6543 job 520 arrived
-At 6543 job 206 started using the cpu
-At 6552 job 102 finished using disk1
-At 6553 job 521 arrived
-At 6564 job 522 arrived
-At 6566 job 206 finished using the cpu
-At 6571 job 523 arrived
-At 6571 job 207 started using the cpu
-At 6576 job 524 arrived
-At 6583 job 207 finished using the cpu
-At 6593 job 525 arrived
-At 6593 job 208 started using the cpu
-At 6600 job 526 arrived
-At 6609 job 208 finished using the cpu
-At 6609 job 208 terminated
-At 6612 job 527 arrived
-At 6612 job 209 started using the cpu
-At 6628 job 528 arrived
-At 6636 job 103 started using disk2
-At 6638 job 209 finished using the cpu
-At 6641 job 529 arrived
-At 6641 job 210 started using the cpu
-At 6651 job 530 arrived
-At 6657 job 210 finished using the cpu
-At 6657 job 210 terminated
-At 6663 job 103 finished using disk1
-At 6663 job 531 arrived
-At 6663 job 211 started using the cpu
-At 6674 job 532 arrived
-At 6682 job 105 started using disk2
-At 6689 job 211 finished using the cpu
-At 6692 job 533 arrived
-At 6692 job 212 started using the cpu
-At 6705 job 534 arrived
-At 6707 job 212 finished using the cpu
-At 6712 job 105 finished using disk1
-At 6712 job 535 arrived
-At 6712 job 213 started using the cpu
-At 6717 job 536 arrived
-At 6733 job 537 arrived
-At 6740 job 213 finished using the cpu
-At 6742 job 106 started using disk2
-At 6753 job 538 arrived
-At 6753 job 42 started using the cpu
-At 6763 job 539 arrived
-At 6774 job 42 finished using the cpu
-At 6774 job 42 terminated
-At 6779 job 540 arrived
-At 6779 job 214 started using the cpu
-At 6781 job 106 finished using disk1
-At 6794 job 107 started using disk2
-At 6795 job 214 finished using the cpu
-At 6799 job 541 arrived
-At 6799 job 215 started using the cpu
-At 6804 job 542 arrived
-At 6812 job 543 arrived
-At 6820 job 544 arrived
-At 6821 job 215 finished using the cpu
-At 6825 job 107 finished using disk1
-At 6826 job 22 started using disk2
-At 6835 job 545 arrived
-At 6835 job 216 started using the cpu
-At 6844 job 546 arrived
-At 6850 job 22 finished using disk1
-At 6854 job 216 finished using the cpu
-At 6860 job 547 arrived
-At 6860 job 40 started using the cpu
-At 6878 job 108 started using disk2
-At 6879 job 548 arrived
-At 6884 job 40 finished using the cpu
-At 6892 job 549 arrived
-At 6892 job 217 started using the cpu
-At 6912 job 108 finished using disk1
-At 6912 job 550 arrived
-At 6917 job 217 finished using the cpu
-At 6922 job 551 arrived
-At 6922 job 218 started using the cpu
-At 6937 job 552 arrived
-At 6942 job 553 arrived
-At 6943 job 218 finished using the cpu
-At 6948 job 109 started using disk2
-At 6960 job 554 arrived
-At 6960 job 219 started using the cpu
-At 6972 job 555 arrived
-At 6978 job 109 finished using disk1
-At 6981 job 219 finished using the cpu
-At 6983 job 556 arrived
-At 6983 job 220 started using the cpu
-At 6994 job 110 started using disk2
-At 6994 job 557 arrived
-At 7002 job 558 arrived
-At 7005 job 220 finished using the cpu
-At 7005 job 220 terminated
-At 7016 job 559 arrived
-At 7016 job 221 started using the cpu
-At 7028 job 110 finished using disk1
-At 7033 job 221 finished using the cpu
-At 7036 job 560 arrived
-At 7036 job 222 started using the cpu
-At 7055 job 561 arrived
-At 7056 job 222 finished using the cpu
-At 7071 job 562 arrived
-At 7071 job 223 started using the cpu
-At 7074 job 111 started using disk2
-At 7076 job 563 arrived
-At 7083 job 564 arrived
-At 7092 job 223 finished using the cpu
-At 7099 job 565 arrived
-At 7099 job 224 started using the cpu
-At 7106 job 111 finished using disk1
-At 7113 job 566 arrived
-At 7121 job 224 finished using the cpu
-At 7131 job 567 arrived
-At 7131 job 225 started using the cpu
-At 7147 job 568 arrived
-At 7152 job 569 arrived
-At 7155 job 225 finished using the cpu
-At 7155 job 225 terminated
-At 7165 job 570 arrived
-At 7165 job 226 started using the cpu
-At 7176 job 571 arrived
-At 7177 job 226 finished using the cpu
-At 7188 job 112 started using disk2
-At 7196 job 572 arrived
-At 7196 job 227 started using the cpu
-At 7214 job 573 arrived
-At 7219 job 227 finished using the cpu
-At 7220 job 112 finished using disk1
-At 7227 job 574 arrived
-At 7227 job 228 started using the cpu
-At 7240 job 228 finished using the cpu
-At 7246 job 74 started using disk1
-At 7247 job 575 arrived
-At 7247 job 43 started using the cpu
-At 7261 job 576 arrived
-At 7268 job 43 finished using the cpu
-At 7270 job 577 arrived
-At 7270 job 229 started using the cpu
-At 7275 job 578 arrived
-At 7277 job 74 finished using disk1
-At 7278 job 115 started using disk1
-At 7284 job 229 finished using the cpu
-At 7284 job 579 arrived
-At 7284 job 230 started using the cpu
-At 7301 job 580 arrived
-At 7310 job 115 finished using disk1
-At 7313 job 230 finished using the cpu
-At 7313 job 581 arrived
-At 7313 job 231 started using the cpu
-At 7324 job 582 arrived
-At 7326 job 113 started using disk2
-At 7337 job 231 finished using the cpu
-At 7337 job 231 terminated
-At 7339 job 583 arrived
-At 7339 job 45 started using the cpu
-At 7353 job 113 finished using disk1
-At 7356 job 584 arrived
-At 7360 job 45 finished using the cpu
-At 7369 job 585 arrived
-At 7369 job 232 started using the cpu
-At 7382 job 586 arrived
-At 7389 job 587 arrived
-At 7392 job 232 finished using the cpu
-At 7402 job 116 started using disk1
-At 7407 job 588 arrived
-At 7407 job 233 started using the cpu
-At 7415 job 589 arrived
-At 7421 job 116 finished using disk1
-At 7425 job 590 arrived
-At 7430 job 233 finished using the cpu
-At 7430 job 591 arrived
-At 7430 job 234 started using the cpu
-At 7442 job 592 arrived
-At 7442 job 234 finished using the cpu
-At 7453 job 593 arrived
-At 7453 job 235 started using the cpu
-At 7460 job 118 started using disk1
-At 7463 job 594 arrived
-At 7470 job 235 finished using the cpu
-At 7475 job 118 finished using disk1
-At 7475 job 595 arrived
-At 7475 job 46 started using the cpu
-At 7493 job 596 arrived
-At 7501 job 46 finished using the cpu
-At 7506 job 597 arrived
-At 7506 job 236 started using the cpu
-At 7521 job 598 arrived
-At 7530 job 114 started using disk2
-At 7530 job 236 finished using the cpu
-At 7540 job 599 arrived
-At 7540 job 237 started using the cpu
-At 7552 job 600 arrived
-At 7557 job 114 finished using disk1
-At 7564 job 601 arrived
-At 7569 job 602 arrived
-At 7570 job 237 finished using the cpu
-At 7570 job 237 terminated
-At 7581 job 603 arrived
-At 7581 job 238 started using the cpu
-At 7592 job 238 finished using the cpu
-At 7593 job 604 arrived
-At 7593 job 9 started using the cpu
-At 7608 job 605 arrived
-At 7616 job 9 finished using the cpu
-At 7621 job 606 arrived
-At 7621 job 239 started using the cpu
-At 7627 job 607 arrived
-At 7636 job 23 started using disk1
-At 7640 job 608 arrived
-At 7648 job 239 finished using the cpu
-At 7658 job 609 arrived
-At 7658 job 240 started using the cpu
-At 7666 job 23 finished using disk1
-At 7668 job 610 arrived
-At 7684 job 240 finished using the cpu
-At 7686 job 611 arrived
-At 7686 job 241 started using the cpu
-At 7697 job 612 arrived
-At 7715 job 241 finished using the cpu
-At 7717 job 613 arrived
-At 7717 job 242 started using the cpu
-At 7723 job 614 arrived
-At 7735 job 242 finished using the cpu
-At 7735 job 615 arrived
-At 7735 job 47 started using the cpu
-At 7736 job 117 started using disk2
-At 7750 job 616 arrived
-At 7764 job 47 finished using the cpu
-At 7764 job 47 terminated
-At 7767 job 117 finished using disk1
-At 7770 job 617 arrived
-At 7770 job 243 started using the cpu
-At 7789 job 618 arrived
-At 7798 job 243 finished using the cpu
-At 7805 job 619 arrived
-At 7805 job 244 started using the cpu
-At 7818 job 119 started using disk2
-At 7818 job 620 arrived
-At 7823 job 244 finished using the cpu
-At 7823 job 244 terminated
-At 7826 job 621 arrived
-At 7826 job 245 started using the cpu
-At 7841 job 622 arrived
-At 7842 job 119 finished using disk1
-At 7846 job 245 finished using the cpu
-At 7861 job 623 arrived
-At 7861 job 246 started using the cpu
-At 7877 job 246 finished using the cpu
-At 7877 job 246 terminated
-At 7879 job 624 arrived
-At 7879 job 247 started using the cpu
-At 7888 job 121 started using disk1
-At 7896 job 625 arrived
-At 7899 job 247 finished using the cpu
-At 7915 job 626 arrived
-At 7915 job 48 started using the cpu
-At 7918 job 121 finished using disk1
-At 7924 job 627 arrived
-At 7932 job 48 finished using the cpu
-At 7932 job 48 terminated
-At 7939 job 628 arrived
-At 7939 job 248 started using the cpu
-At 7940 job 24 started using disk2
-At 7950 job 629 arrived
-At 7961 job 24 finished using disk1
-At 7962 job 630 arrived
-At 7965 job 248 finished using the cpu
-At 7970 job 631 arrived
-At 7970 job 249 started using the cpu
-At 7989 job 632 arrived
-At 7991 job 249 finished using the cpu
-At 7991 job 249 terminated
-At 8004 job 633 arrived
-At 8004 job 250 started using the cpu
-At 8010 job 124 started using disk2
-At 8016 job 634 arrived
-At 8017 job 250 finished using the cpu
-At 8032 job 124 finished using disk1
-At 8033 job 635 arrived
-At 8033 job 251 started using the cpu
-At 8052 job 636 arrived
-At 8056 job 251 finished using the cpu
-At 8065 job 637 arrived
-At 8065 job 252 started using the cpu
-At 8074 job 638 arrived
-At 8085 job 252 finished using the cpu
-At 8085 job 639 arrived
-At 8085 job 253 started using the cpu
-At 8092 job 640 arrived
-At 8098 job 253 finished using the cpu
-At 8104 job 641 arrived
-At 8104 job 50 started using the cpu
-At 8115 job 642 arrived
-At 8122 job 643 arrived
-At 8131 job 50 finished using the cpu
-At 8140 job 644 arrived
-At 8140 job 254 started using the cpu
-At 8157 job 254 finished using the cpu
-At 8158 job 645 arrived
-At 8158 job 255 started using the cpu
-At 8165 job 646 arrived
-At 8171 job 255 finished using the cpu
-At 8172 job 647 arrived
-At 8172 job 256 started using the cpu
-At 8178 job 648 arrived
-At 8186 job 122 started using disk1
-At 8189 job 256 finished using the cpu
-At 8197 job 649 arrived
-At 8197 job 257 started using the cpu
-At 8208 job 122 finished using disk1
-At 8215 job 650 arrived
-At 8217 job 257 finished using the cpu
-At 8217 job 257 terminated
-At 8227 job 651 arrived
-At 8227 job 51 started using the cpu
-At 8247 job 652 arrived
-At 8255 job 51 finished using the cpu
-At 8258 job 653 arrived
-At 8258 job 258 started using the cpu
-At 8270 job 654 arrived
-At 8273 job 258 finished using the cpu
-At 8280 job 125 started using disk1
-At 8284 job 655 arrived
-At 8284 job 259 started using the cpu
-At 8296 job 656 arrived
-At 8296 job 259 finished using the cpu
-At 8310 job 125 finished using disk1
-At 8314 job 657 arrived
-At 8314 job 52 started using the cpu
-At 8320 job 126 started using disk2
-At 8322 job 658 arrived
-At 8333 job 659 arrived
-At 8339 job 660 arrived
-At 8340 job 52 finished using the cpu
-At 8345 job 126 finished using disk1
-At 8355 job 661 arrived
-At 8355 job 260 started using the cpu
-At 8370 job 662 arrived
-At 8372 job 260 finished using the cpu
-At 8382 job 663 arrived
-At 8382 job 261 started using the cpu
-At 8386 job 128 started using disk1
-At 8393 job 664 arrived
-At 8402 job 665 arrived
-At 8408 job 261 finished using the cpu
-At 8411 job 666 arrived
-At 8411 job 262 started using the cpu
-At 8412 job 128 finished using disk1
-At 8425 job 667 arrived
-At 8429 job 262 finished using the cpu
-At 8442 job 668 arrived
-At 8442 job 263 started using the cpu
-At 8457 job 669 arrived
-At 8463 job 263 finished using the cpu
-At 8468 job 127 started using disk2
-At 8468 job 670 arrived
-At 8468 job 53 started using the cpu
-At 8481 job 671 arrived
-At 8490 job 672 arrived
-At 8493 job 127 finished using disk1
-At 8494 job 53 finished using the cpu
-At 8494 job 53 terminated
-At 8508 job 673 arrived
-At 8508 job 264 started using the cpu
-At 8517 job 674 arrived
-At 8518 job 264 finished using the cpu
-At 8531 job 675 arrived
-At 8531 job 265 started using the cpu
-At 8546 job 676 arrived
-At 8554 job 677 arrived
-At 8559 job 265 finished using the cpu
-At 8559 job 265 terminated
-At 8569 job 678 arrived
-At 8569 job 266 started using the cpu
-At 8584 job 266 finished using the cpu
-At 8586 job 679 arrived
-At 8586 job 49 started using the cpu
-At 8600 job 129 started using disk1
-At 8602 job 680 arrived
-At 8606 job 49 finished using the cpu
-At 8613 job 681 arrived
-At 8613 job 267 started using the cpu
-At 8621 job 129 finished using disk1
-At 8625 job 682 arrived
-At 8631 job 267 finished using the cpu
-At 8638 job 683 arrived
-At 8638 job 268 started using the cpu
-At 8647 job 684 arrived
-At 8652 job 685 arrived
-At 8658 job 268 finished using the cpu
-At 8659 job 686 arrived
-At 8659 job 269 started using the cpu
-At 8668 job 130 started using disk2
-At 8670 job 269 finished using the cpu
-At 8679 job 687 arrived
-At 8679 job 270 started using the cpu
-At 8688 job 688 arrived
-At 8698 job 689 arrived
-At 8702 job 130 finished using disk1
-At 8702 job 270 finished using the cpu
-At 8702 job 270 terminated
-At 8707 job 690 arrived
-At 8707 job 271 started using the cpu
-At 8714 job 691 arrived
-At 8726 job 692 arrived
-At 8729 job 271 finished using the cpu
-At 8736 job 26 started using disk1
-At 8746 job 693 arrived
-At 8746 job 272 started using the cpu
-At 8756 job 26 finished using disk1
-At 8757 job 694 arrived
-At 8766 job 272 finished using the cpu
-At 8777 job 695 arrived
-At 8777 job 273 started using the cpu
-At 8789 job 273 finished using the cpu
-At 8790 job 696 arrived
-At 8790 job 274 started using the cpu
-At 8798 job 131 started using disk2
-At 8802 job 274 finished using the cpu
-At 8806 job 697 arrived
-At 8806 job 54 started using the cpu
-At 8820 job 54 finished using the cpu
-At 8821 job 698 arrived
-At 8821 job 275 started using the cpu
-At 8827 job 131 finished using disk1
-At 8839 job 699 arrived
-At 8846 job 5 started using disk2
-At 8847 job 700 arrived
-At 8851 job 275 finished using the cpu
-At 8853 job 701 arrived
-At 8853 job 276 started using the cpu
-At 8859 job 702 arrived
-At 8867 job 276 finished using the cpu
-At 8867 job 276 terminated
-At 8869 job 703 arrived
-At 8869 job 277 started using the cpu
-At 8882 job 5 finished using disk1
-At 8889 job 704 arrived
-At 8892 job 277 finished using the cpu
-At 8899 job 705 arrived
-At 8899 job 278 started using the cpu
-At 8908 job 706 arrived
-At 8913 job 278 finished using the cpu
-At 8913 job 278 terminated
-At 8927 job 707 arrived
-At 8927 job 279 started using the cpu
-At 8941 job 708 arrived
-At 8942 job 279 finished using the cpu
-At 8957 job 709 arrived
-At 8957 job 56 started using the cpu
-At 8977 job 710 arrived
-At 8979 job 56 finished using the cpu
-At 8986 job 135 started using disk2
-At 8989 job 711 arrived
-At 8989 job 280 started using the cpu
-At 9008 job 712 arrived
-At 9008 job 280 finished using the cpu
-At 9018 job 135 finished using disk1
-At 9020 job 713 arrived
-At 9020 job 281 started using the cpu
-At 9029 job 714 arrived
-At 9042 job 281 finished using the cpu
-At 9043 job 715 arrived
-At 9043 job 282 started using the cpu
-At 9057 job 282 finished using the cpu
-At 9060 job 716 arrived
-At 9060 job 283 started using the cpu
-At 9072 job 283 finished using the cpu
-At 9080 job 717 arrived
-At 9080 job 284 started using the cpu
-At 9090 job 284 finished using the cpu
-At 9092 job 718 arrived
-At 9092 job 285 started using the cpu
-At 9102 job 285 finished using the cpu
-At 9108 job 719 arrived
-At 9108 job 57 started using the cpu
-At 9110 job 27 started using disk2
-At 9119 job 720 arrived
-At 9124 job 721 arrived
-At 9129 job 57 finished using the cpu
-At 9133 job 27 finished using disk1
-At 9138 job 722 arrived
-At 9138 job 286 started using the cpu
-At 9151 job 286 finished using the cpu
-At 9151 job 286 terminated
-At 9157 job 723 arrived
-At 9157 job 287 started using the cpu
-At 9162 job 724 arrived
-At 9170 job 287 finished using the cpu
-At 9171 job 725 arrived
-At 9171 job 288 started using the cpu
-At 9177 job 726 arrived
-At 9189 job 288 finished using the cpu
-At 9190 job 727 arrived
-At 9190 job 289 started using the cpu
-At 9200 job 138 started using disk2
-At 9200 job 289 finished using the cpu
-At 9205 job 728 arrived
-At 9205 job 58 started using the cpu
-At 9213 job 729 arrived
-At 9227 job 138 finished using disk1
-At 9227 job 58 finished using the cpu
-At 9228 job 730 arrived
-At 9228 job 290 started using the cpu
-At 9234 job 133 started using disk1
-At 9247 job 731 arrived
-At 9254 job 290 finished using the cpu
-At 9254 job 732 arrived
-At 9254 job 55 started using the cpu
-At 9266 job 133 finished using disk1
-At 9267 job 733 arrived
-At 9272 job 28 started using disk2
-At 9274 job 734 arrived
-At 9276 job 55 finished using the cpu
-At 9279 job 735 arrived
-At 9279 job 291 started using the cpu
-At 9287 job 736 arrived
-At 9292 job 291 finished using the cpu
-At 9295 job 737 arrived
-At 9295 job 292 started using the cpu
-At 9303 job 28 finished using disk1
-At 9305 job 738 arrived
-At 9306 job 134 started using disk1
-At 9313 job 739 arrived
-At 9319 job 292 finished using the cpu
-At 9324 job 134 finished using disk1
-At 9333 job 740 arrived
-At 9333 job 293 started using the cpu
-At 9349 job 741 arrived
-At 9349 job 293 finished using the cpu
-At 9355 job 742 arrived
-At 9355 job 294 started using the cpu
-At 9362 job 141 started using disk1
-At 9367 job 294 finished using the cpu
-At 9367 job 294 terminated
-At 9373 job 743 arrived
-At 9373 job 59 started using the cpu
-At 9387 job 744 arrived
-At 9397 job 141 finished using disk1
-At 9399 job 745 arrived
-At 9400 job 59 finished using the cpu
-At 9417 job 746 arrived
-At 9417 job 295 started using the cpu
-At 9424 job 747 arrived
-At 9434 job 143 started using disk1
-At 9435 job 748 arrived
-At 9437 job 295 finished using the cpu
-At 9450 job 143 finished using disk1
-At 9452 job 749 arrived
-At 9452 job 296 started using the cpu
-At 9470 job 750 arrived
-At 9477 job 296 finished using the cpu
-At 9477 job 751 arrived
-At 9477 job 297 started using the cpu
-At 9488 job 140 started using disk2
-At 9496 job 752 arrived
-At 9499 job 297 finished using the cpu
-At 9503 job 753 arrived
-At 9503 job 60 started using the cpu
-At 9510 job 754 arrived
-At 9515 job 755 arrived
-At 9518 job 60 finished using the cpu
-At 9523 job 140 finished using disk1
-At 9531 job 756 arrived
-At 9531 job 298 started using the cpu
-At 9537 job 757 arrived
-At 9543 job 298 finished using the cpu
-At 9544 job 142 started using disk2
-At 9548 job 758 arrived
-At 9548 job 299 started using the cpu
-At 9561 job 759 arrived
-At 9564 job 142 finished using disk1
-At 9572 job 299 finished using the cpu
-At 9572 job 760 arrived
-At 9572 job 300 started using the cpu
-At 9585 job 761 arrived
-At 9589 job 300 finished using the cpu
-At 9589 job 300 terminated
-At 9593 job 762 arrived
-At 9593 job 61 started using the cpu
-At 9598 job 763 arrived
-At 9605 job 764 arrived
-At 9611 job 765 arrived
-At 9615 job 61 finished using the cpu
-At 9615 job 61 terminated
-At 9620 job 766 arrived
-At 9620 job 301 started using the cpu
-At 9626 job 767 arrived
-At 9640 job 768 arrived
-At 9641 job 301 finished using the cpu
-At 9656 job 769 arrived
-At 9656 job 302 started using the cpu
-At 9660 job 144 started using disk1
-At 9668 job 302 finished using the cpu
-At 9672 job 770 arrived
-At 9672 job 303 started using the cpu
-At 9676 job 144 finished using disk1
-At 9691 job 771 arrived
-At 9696 job 303 finished using the cpu
-At 9696 job 772 arrived
-At 9696 job 304 started using the cpu
-At 9704 job 773 arrived
-At 9715 job 774 arrived
-At 9716 job 146 started using disk2
-At 9720 job 304 finished using the cpu
-At 9720 job 304 terminated
-At 9727 job 775 arrived
-At 9727 job 62 started using the cpu
-At 9736 job 776 arrived
-At 9740 job 62 finished using the cpu
-At 9742 job 146 finished using disk1
-At 9748 job 777 arrived
-At 9748 job 305 started using the cpu
-At 9758 job 305 finished using the cpu
-At 9758 job 305 terminated
-At 9762 job 778 arrived
-At 9762 job 306 started using the cpu
-At 9770 job 779 arrived
-At 9772 job 306 finished using the cpu
-At 9776 job 780 arrived
-At 9776 job 307 started using the cpu
-At 9788 job 307 finished using the cpu
-At 9794 job 147 started using disk2
-At 9794 job 781 arrived
-At 9794 job 308 started using the cpu
-At 9805 job 308 finished using the cpu
-At 9805 job 308 terminated
-At 9812 job 782 arrived
-At 9812 job 309 started using the cpu
-At 9831 job 783 arrived
-At 9833 job 147 finished using disk1
-At 9834 job 309 finished using the cpu
-At 9834 job 309 terminated
-At 9850 job 784 arrived
-At 9850 job 12 started using the cpu
-At 9856 job 150 started using disk2
-At 9869 job 785 arrived
-At 9878 job 12 finished using the cpu
-At 9886 job 786 arrived
-At 9886 job 310 started using the cpu
-At 9889 job 150 finished using disk1
-At 9894 job 787 arrived
-At 9903 job 788 arrived
-At 9910 job 310 finished using the cpu
-At 9910 job 789 arrived
-At 9910 job 311 started using the cpu
-At 9928 job 790 arrived
-At 9933 job 791 arrived
-At 9934 job 311 finished using the cpu
-At 9946 job 792 arrived
-At 9946 job 312 started using the cpu
-At 9952 job 151 started using disk2
-At 9955 job 793 arrived
-At 9967 job 794 arrived
-At 9969 job 312 finished using the cpu
-At 9973 job 151 finished using disk1
-At 9986 job 795 arrived
-At 9986 job 63 started using the cpu
-At 9995 job 796 arrived
-At 10000 the simulation terminated
+At 3925 job 242 finished using the cpu
+At 3944 job 315 arrived
+At 3944 job 243 started using the cpu
+At 3947 job 243 finished using the cpu
+At 3952 job 316 arrived
+At 3952 job 52 started using the cpu
+At 3956 job 52 finished using the cpu
+At 3962 job 317 arrived
+At 3962 job 244 started using the cpu
+At 3963 job 244 finished using the cpu
+At 3974 job 318 arrived
+At 3974 job 245 started using the cpu
+At 3976 job 245 finished using the cpu
+At 3985 job 26 finished using disk1
+At 3999 job 319 arrived
+At 3999 job 246 started using the cpu
+At 4001 job 246 finished using the cpu
+At 4002 job 27 started using disk2
+At 4014 job 320 arrived
+At 4014 job 247 started using the cpu
+At 4019 job 247 finished using the cpu
+At 4030 job 321 arrived
+At 4030 job 248 started using the cpu
+At 4034 job 248 finished using the cpu
+At 4034 job 248 terminated
+At 4042 job 322 arrived
+At 4042 job 249 started using the cpu
+At 4043 job 249 finished using the cpu
+At 4065 job 323 arrived
+At 4065 job 250 started using the cpu
+At 4067 job 250 finished using the cpu
+At 4067 job 250 terminated
+At 4072 job 324 arrived
+At 4072 job 251 started using the cpu
+At 4073 job 325 arrived
+At 4076 job 251 finished using the cpu
+At 4078 job 326 arrived
+At 4078 job 53 started using the cpu
+At 4079 job 53 finished using the cpu
+At 4086 job 27 finished using disk1
+At 4094 job 327 arrived
+At 4094 job 252 started using the cpu
+At 4098 job 252 finished using the cpu
+At 4098 job 252 terminated
+At 4110 job 328 arrived
+At 4110 job 253 started using the cpu
+At 4111 job 329 arrived
+At 4115 job 253 finished using the cpu
+At 4119 job 330 arrived
+At 4119 job 54 started using the cpu
+At 4121 job 54 finished using the cpu
+At 4136 job 331 arrived
+At 4136 job 254 started using the cpu
+At 4140 job 254 finished using the cpu
+At 4147 job 332 arrived
+At 4147 job 255 started using the cpu
+At 4148 job 28 started using disk2
+At 4152 job 255 finished using the cpu
+At 4159 job 333 arrived
+At 4159 job 256 started using the cpu
+At 4160 job 256 finished using the cpu
+At 4171 job 334 arrived
+At 4171 job 257 started using the cpu
+At 4175 job 257 finished using the cpu
+At 4190 job 335 arrived
+At 4190 job 258 started using the cpu
+At 4191 job 258 finished using the cpu
+At 4192 job 336 arrived
+At 4192 job 55 started using the cpu
+At 4197 job 55 finished using the cpu
+At 4197 job 55 terminated
+At 4199 job 337 arrived
+At 4199 job 259 started using the cpu
+At 4200 job 259 finished using the cpu
+At 4201 job 338 arrived
+At 4201 job 260 started using the cpu
+At 4205 job 260 finished using the cpu
+At 4213 job 339 arrived
+At 4213 job 261 started using the cpu
+At 4215 job 261 finished using the cpu
+At 4229 job 340 arrived
+At 4229 job 262 started using the cpu
+At 4232 job 262 finished using the cpu
+At 4238 job 341 arrived
+At 4238 job 263 started using the cpu
+At 4239 job 263 finished using the cpu
+At 4239 job 263 terminated
+At 4242 job 28 finished using disk1
+At 4250 job 2 started using disk2
+At 4257 job 342 arrived
+At 4257 job 3 started using the cpu
+At 4262 job 3 finished using the cpu
+At 4282 job 343 arrived
+At 4282 job 264 started using the cpu
+At 4285 job 264 finished using the cpu
+At 4296 job 344 arrived
+At 4296 job 265 started using the cpu
+At 4299 job 265 finished using the cpu
+At 4299 job 265 terminated
+At 4305 job 345 arrived
+At 4305 job 266 started using the cpu
+At 4309 job 266 finished using the cpu
+At 4312 job 2 finished using disk1
+At 4315 job 346 arrived
+At 4315 job 267 started using the cpu
+At 4320 job 267 finished using the cpu
+At 4326 job 30 started using disk2
+At 4331 job 347 arrived
+At 4331 job 268 started using the cpu
+At 4333 job 348 arrived
+At 4333 job 268 finished using the cpu
+At 4339 job 349 arrived
+At 4339 job 269 started using the cpu
+At 4343 job 269 finished using the cpu
+At 4364 job 350 arrived
+At 4364 job 270 started using the cpu
+At 4366 job 270 finished using the cpu
+At 4378 job 351 arrived
+At 4378 job 271 started using the cpu
+At 4381 job 271 finished using the cpu
+At 4391 job 352 arrived
+At 4391 job 56 started using the cpu
+At 4396 job 56 finished using the cpu
+At 4399 job 30 finished using disk1
+At 4405 job 353 arrived
+At 4405 job 272 started using the cpu
+At 4409 job 272 finished using the cpu
+At 4411 job 354 arrived
+At 4411 job 273 started using the cpu
+At 4416 job 273 finished using the cpu
+At 4419 job 355 arrived
+At 4419 job 274 started using the cpu
+At 4422 job 274 finished using the cpu
+At 4426 job 31 started using disk2
+At 4426 job 356 arrived
+At 4426 job 18 started using the cpu
+At 4431 job 18 finished using the cpu
+At 4450 job 357 arrived
+At 4450 job 275 started using the cpu
+At 4451 job 275 finished using the cpu
+At 4451 job 275 terminated
+At 4455 job 358 arrived
+At 4455 job 276 started using the cpu
+At 4456 job 31 finished using disk1
+At 4459 job 276 finished using the cpu
+At 4461 job 359 arrived
+At 4461 job 277 started using the cpu
+At 4463 job 277 finished using the cpu
+At 4467 job 360 arrived
+At 4467 job 278 started using the cpu
+At 4472 job 278 finished using the cpu
+At 4476 job 34 started using disk2
+At 4488 job 361 arrived
+At 4488 job 279 started using the cpu
+At 4493 job 279 finished using the cpu
+At 4502 job 362 arrived
+At 4502 job 280 started using the cpu
+At 4506 job 280 finished using the cpu
+At 4525 job 363 arrived
+At 4525 job 281 started using the cpu
+At 4528 job 34 finished using disk1
+At 4529 job 281 finished using the cpu
+At 4531 job 364 arrived
+At 4531 job 282 started using the cpu
+At 4532 job 282 finished using the cpu
+At 4548 job 35 started using disk2
+At 4548 job 365 arrived
+At 4548 job 57 started using the cpu
+At 4549 job 57 finished using the cpu
+At 4573 job 366 arrived
+At 4573 job 19 started using the cpu
+At 4575 job 367 arrived
+At 4575 job 19 finished using the cpu
+At 4591 job 368 arrived
+At 4591 job 283 started using the cpu
+At 4593 job 369 arrived
+At 4595 job 283 finished using the cpu
+At 4605 job 35 finished using disk1
+At 4618 job 370 arrived
+At 4618 job 284 started using the cpu
+At 4621 job 284 finished using the cpu
+At 4624 job 371 arrived
+At 4624 job 285 started using the cpu
+At 4625 job 372 arrived
+At 4628 job 107 started using disk2
+At 4629 job 285 finished using the cpu
+At 4629 job 285 terminated
+At 4638 job 373 arrived
+At 4638 job 286 started using the cpu
+At 4643 job 286 finished using the cpu
+At 4657 job 374 arrived
+At 4657 job 287 started using the cpu
+At 4662 job 287 finished using the cpu
+At 4666 job 107 finished using disk1
+At 4681 job 375 arrived
+At 4681 job 288 started using the cpu
+At 4686 job 288 finished using the cpu
+At 4698 job 376 arrived
+At 4698 job 289 started using the cpu
+At 4699 job 289 finished using the cpu
+At 4708 job 377 arrived
+At 4708 job 290 started using the cpu
+At 4711 job 290 finished using the cpu
+At 4717 job 378 arrived
+At 4717 job 291 started using the cpu
+At 4719 job 291 finished using the cpu
+At 4729 job 379 arrived
+At 4729 job 292 started using the cpu
+At 4732 job 8 started using disk2
+At 4732 job 292 finished using the cpu
+At 4738 job 380 arrived
+At 4738 job 20 started using the cpu
+At 4740 job 20 finished using the cpu
+At 4751 job 381 arrived
+At 4751 job 293 started using the cpu
+At 4756 job 293 finished using the cpu
+At 4756 job 293 terminated
+At 4762 job 8 finished using disk1
+At 4772 job 382 arrived
+At 4772 job 294 started using the cpu
+At 4777 job 294 finished using the cpu
+At 4782 job 383 arrived
+At 4782 job 295 started using the cpu
+At 4785 job 384 arrived
+At 4786 job 295 finished using the cpu
+At 4786 job 295 terminated
+At 4790 job 110 started using disk2
+At 4793 job 385 arrived
+At 4793 job 296 started using the cpu
+At 4796 job 296 finished using the cpu
+At 4811 job 386 arrived
+At 4811 job 297 started using the cpu
+At 4815 job 110 finished using disk1
+At 4815 job 297 finished using the cpu
+At 4828 job 387 arrived
+At 4828 job 298 started using the cpu
+At 4831 job 298 finished using the cpu
+At 4834 job 388 arrived
+At 4834 job 299 started using the cpu
+At 4835 job 299 finished using the cpu
+At 4835 job 299 terminated
+At 4843 job 389 arrived
+At 4843 job 300 started using the cpu
+At 4844 job 300 finished using the cpu
+At 4844 job 300 terminated
+At 4846 job 111 started using disk2
+At 4848 job 390 arrived
+At 4848 job 301 started using the cpu
+At 4851 job 301 finished using the cpu
+At 4871 job 391 arrived
+At 4871 job 21 started using the cpu
+At 4874 job 21 finished using the cpu
+At 4874 job 21 terminated
+At 4883 job 392 arrived
+At 4883 job 302 started using the cpu
+At 4886 job 302 finished using the cpu
+At 4900 job 393 arrived
+At 4900 job 303 started using the cpu
+At 4902 job 303 finished using the cpu
+At 4924 job 394 arrived
+At 4924 job 304 started using the cpu
+At 4927 job 111 finished using disk1
+At 4927 job 304 finished using the cpu
+At 4933 job 395 arrived
+At 4933 job 305 started using the cpu
+At 4934 job 396 arrived
+At 4936 job 305 finished using the cpu
+At 4938 job 397 arrived
+At 4938 job 306 started using the cpu
+At 4942 job 306 finished using the cpu
+At 4948 job 112 started using disk2
+At 4949 job 398 arrived
+At 4949 job 307 started using the cpu
+At 4952 job 307 finished using the cpu
+At 4965 job 399 arrived
+At 4965 job 308 started using the cpu
+At 4967 job 308 finished using the cpu
+At 4967 job 308 terminated
+At 4972 job 400 arrived
+At 4972 job 309 started using the cpu
+At 4976 job 309 finished using the cpu
+At 4984 job 112 finished using disk1
+At 4988 job 113 started using disk2
+At 4993 job 401 arrived
+At 4993 job 23 started using the cpu
+At 4994 job 23 finished using the cpu
+At 4998 job 402 arrived
+At 4998 job 310 started using the cpu
+At 5000 job 310 finished using the cpu
+At 5023 job 403 arrived
+At 5023 job 311 started using the cpu
+At 5024 job 311 finished using the cpu
+At 5024 job 311 terminated
+At 5026 job 404 arrived
+At 5026 job 312 started using the cpu
+At 5027 job 312 finished using the cpu
+At 5027 job 312 terminated
+At 5029 job 405 arrived
+At 5029 job 313 started using the cpu
+At 5030 job 313 finished using the cpu
+At 5044 job 406 arrived
+At 5044 job 314 started using the cpu
+At 5048 job 314 finished using the cpu
+At 5062 job 407 arrived
+At 5062 job 315 started using the cpu
+At 5064 job 315 finished using the cpu
+At 5073 job 113 finished using disk1
+At 5078 job 408 arrived
+At 5078 job 316 started using the cpu
+At 5079 job 316 finished using the cpu
+At 5086 job 409 arrived
+At 5086 job 317 started using the cpu
+At 5090 job 317 finished using the cpu
+At 5100 job 410 arrived
+At 5100 job 318 started using the cpu
+At 5103 job 318 finished using the cpu
+At 5103 job 318 terminated
+At 5110 job 411 arrived
+At 5110 job 26 started using the cpu
+At 5114 job 26 finished using the cpu
+At 5119 job 412 arrived
+At 5119 job 319 started using the cpu
+At 5123 job 319 finished using the cpu
+At 5125 job 413 arrived
+At 5125 job 320 started using the cpu
+At 5128 job 320 finished using the cpu
+At 5128 job 320 terminated
+At 5135 job 414 arrived
+At 5135 job 321 started using the cpu
+At 5138 job 415 arrived
+At 5140 job 321 finished using the cpu
+At 5148 job 32 started using disk2
+At 5149 job 416 arrived
+At 5149 job 322 started using the cpu
+At 5151 job 322 finished using the cpu
+At 5155 job 417 arrived
+At 5155 job 323 started using the cpu
+At 5156 job 323 finished using the cpu
+At 5174 job 418 arrived
+At 5174 job 324 started using the cpu
+At 5176 job 324 finished using the cpu
+At 5176 job 324 terminated
+At 5181 job 419 arrived
+At 5181 job 325 started using the cpu
+At 5182 job 325 finished using the cpu
+At 5184 job 420 arrived
+At 5184 job 326 started using the cpu
+At 5187 job 326 finished using the cpu
+At 5197 job 421 arrived
+At 5197 job 27 started using the cpu
+At 5198 job 32 finished using disk1
+At 5200 job 114 started using disk2
+At 5201 job 27 finished using the cpu
+At 5204 job 422 arrived
+At 5204 job 327 started using the cpu
+At 5207 job 327 finished using the cpu
+At 5222 job 423 arrived
+At 5222 job 328 started using the cpu
+At 5224 job 328 finished using the cpu
+At 5224 job 328 terminated
+At 5243 job 424 arrived
+At 5243 job 329 started using the cpu
+At 5244 job 329 finished using the cpu
+At 5254 job 425 arrived
+At 5254 job 330 started using the cpu
+At 5259 job 330 finished using the cpu
+At 5259 job 330 terminated
+At 5271 job 114 finished using disk1
+At 5275 job 426 arrived
+At 5275 job 331 started using the cpu
+At 5278 job 427 arrived
+At 5278 job 331 finished using the cpu
+At 5280 job 115 started using disk2
+At 5299 job 428 arrived
+At 5299 job 332 started using the cpu
+At 5301 job 429 arrived
+At 5304 job 332 finished using the cpu
+At 5314 job 115 finished using disk1
+At 5316 job 430 arrived
+At 5316 job 333 started using the cpu
+At 5319 job 333 finished using the cpu
+At 5323 job 431 arrived
+At 5323 job 334 started using the cpu
+At 5325 job 334 finished using the cpu
+At 5325 job 334 terminated
+At 5328 job 116 started using disk2
+At 5342 job 432 arrived
+At 5342 job 335 started using the cpu
+At 5347 job 335 finished using the cpu
+At 5347 job 335 terminated
+At 5367 job 433 arrived
+At 5367 job 336 started using the cpu
+At 5368 job 116 finished using disk1
+At 5369 job 336 finished using the cpu
+At 5372 job 117 started using disk2
+At 5386 job 434 arrived
+At 5386 job 337 started using the cpu
+At 5389 job 337 finished using the cpu
+At 5401 job 435 arrived
+At 5401 job 338 started using the cpu
+At 5402 job 338 finished using the cpu
+At 5402 job 338 terminated
+At 5409 job 436 arrived
+At 5409 job 339 started using the cpu
+At 5411 job 339 finished using the cpu
+At 5411 job 339 terminated
+At 5416 job 437 arrived
+At 5416 job 340 started using the cpu
+At 5420 job 340 finished using the cpu
+At 5423 job 438 arrived
+At 5423 job 341 started using the cpu
+At 5428 job 341 finished using the cpu
+At 5428 job 341 terminated
+At 5445 job 117 finished using disk1
+At 5448 job 439 arrived
+At 5448 job 28 started using the cpu
+At 5452 job 28 finished using the cpu
+At 5452 job 28 terminated
+At 5464 job 440 arrived
+At 5464 job 342 started using the cpu
+At 5465 job 342 finished using the cpu
+At 5469 job 441 arrived
+At 5469 job 343 started using the cpu
+At 5472 job 442 arrived
+At 5474 job 33 started using disk2
+At 5474 job 343 finished using the cpu
+At 5481 job 443 arrived
+At 5481 job 344 started using the cpu
+At 5484 job 344 finished using the cpu
+At 5497 job 444 arrived
+At 5497 job 345 started using the cpu
+At 5498 job 345 finished using the cpu
+At 5500 job 445 arrived
+At 5500 job 2 started using the cpu
+At 5504 job 2 finished using the cpu
+At 5522 job 446 arrived
+At 5522 job 346 started using the cpu
+At 5524 job 447 arrived
+At 5524 job 346 finished using the cpu
+At 5524 job 346 terminated
+At 5528 job 448 arrived
+At 5528 job 347 started using the cpu
+At 5529 job 449 arrived
+At 5533 job 347 finished using the cpu
+At 5552 job 450 arrived
+At 5552 job 348 started using the cpu
+At 5556 job 348 finished using the cpu
+At 5563 job 451 arrived
+At 5563 job 349 started using the cpu
+At 5566 job 349 finished using the cpu
+At 5566 job 349 terminated
+At 5567 job 452 arrived
+At 5567 job 350 started using the cpu
+At 5570 job 350 finished using the cpu
+At 5573 job 33 finished using disk1
+At 5575 job 453 arrived
+At 5575 job 351 started using the cpu
+At 5577 job 351 finished using the cpu
+At 5586 job 454 arrived
+At 5586 job 352 started using the cpu
+At 5589 job 352 finished using the cpu
+At 5600 job 118 started using disk2
+At 5600 job 455 arrived
+At 5600 job 30 started using the cpu
+At 5604 job 30 finished using the cpu
+At 5611 job 456 arrived
+At 5611 job 353 started using the cpu
+At 5616 job 353 finished using the cpu
+At 5635 job 457 arrived
+At 5635 job 354 started using the cpu
+At 5637 job 354 finished using the cpu
+At 5656 job 458 arrived
+At 5656 job 355 started using the cpu
+At 5659 job 355 finished using the cpu
+At 5677 job 118 finished using disk1
+At 5681 job 459 arrived
+At 5681 job 356 started using the cpu
+At 5686 job 356 finished using the cpu
+At 5698 job 119 started using disk2
+At 5702 job 460 arrived
+At 5702 job 357 started using the cpu
+At 5704 job 461 arrived
+At 5705 job 357 finished using the cpu
+At 5729 job 462 arrived
+At 5729 job 358 started using the cpu
+At 5730 job 358 finished using the cpu
+At 5734 job 463 arrived
+At 5734 job 31 started using the cpu
+At 5739 job 31 finished using the cpu
+At 5746 job 464 arrived
+At 5746 job 359 started using the cpu
+At 5750 job 359 finished using the cpu
+At 5751 job 465 arrived
+At 5751 job 360 started using the cpu
+At 5755 job 360 finished using the cpu
+At 5755 job 360 terminated
+At 5757 job 466 arrived
+At 5757 job 361 started using the cpu
+At 5758 job 467 arrived
+At 5759 job 361 finished using the cpu
+At 5759 job 361 terminated
+At 5762 job 468 arrived
+At 5762 job 362 started using the cpu
+At 5765 job 362 finished using the cpu
+At 5769 job 119 finished using disk1
+At 5776 job 469 arrived
+At 5776 job 363 started using the cpu
+At 5778 job 363 finished using the cpu
+At 5787 job 470 arrived
+At 5787 job 34 started using the cpu
+At 5792 job 34 finished using the cpu
+At 5792 job 34 terminated
+At 5804 job 120 started using disk2
+At 5804 job 471 arrived
+At 5804 job 364 started using the cpu
+At 5808 job 364 finished using the cpu
+At 5808 job 364 terminated
+At 5813 job 472 arrived
+At 5813 job 365 started using the cpu
+At 5815 job 365 finished using the cpu
+At 5828 job 473 arrived
+At 5828 job 366 started using the cpu
+At 5833 job 474 arrived
+At 5833 job 366 finished using the cpu
+At 5854 job 475 arrived
+At 5854 job 367 started using the cpu
+At 5859 job 367 finished using the cpu
+At 5866 job 476 arrived
+At 5866 job 368 started using the cpu
+At 5868 job 120 finished using disk1
+At 5868 job 368 finished using the cpu
+At 5885 job 477 arrived
+At 5885 job 369 started using the cpu
+At 5886 job 478 arrived
+At 5888 job 369 finished using the cpu
+At 5890 job 121 started using disk2
+At 5893 job 479 arrived
+At 5893 job 35 started using the cpu
+At 5897 job 35 finished using the cpu
+At 5914 job 480 arrived
+At 5914 job 370 started using the cpu
+At 5916 job 370 finished using the cpu
+At 5917 job 121 finished using disk1
+At 5922 job 481 arrived
+At 5922 job 371 started using the cpu
+At 5923 job 482 arrived
+At 5923 job 371 finished using the cpu
+At 5946 job 122 started using disk2
+At 5948 job 483 arrived
+At 5948 job 372 started using the cpu
+At 5949 job 484 arrived
+At 5951 job 372 finished using the cpu
+At 5970 job 485 arrived
+At 5970 job 373 started using the cpu
+At 5972 job 486 arrived
+At 5973 job 373 finished using the cpu
+At 5980 job 487 arrived
+At 5980 job 374 started using the cpu
+At 5984 job 374 finished using the cpu
+At 5985 job 488 arrived
+At 5985 job 107 started using the cpu
+At 5988 job 107 finished using the cpu
+At 5990 job 122 finished using disk1
+At 5992 job 123 started using disk2
+At 5995 job 489 arrived
+At 5995 job 375 started using the cpu
+At 5999 job 375 finished using the cpu
+At 6010 job 490 arrived
+At 6010 job 376 started using the cpu
+At 6014 job 376 finished using the cpu
+At 6030 job 123 finished using disk1
+At 6031 job 491 arrived
+At 6031 job 377 started using the cpu
+At 6032 job 377 finished using the cpu
+At 6037 job 492 arrived
+At 6037 job 378 started using the cpu
+At 6039 job 378 finished using the cpu
+At 6055 job 493 arrived
+At 6055 job 379 started using the cpu
+At 6059 job 379 finished using the cpu
+At 6070 job 494 arrived
+At 6070 job 380 started using the cpu
+At 6074 job 380 finished using the cpu
+At 6091 job 495 arrived
+At 6091 job 381 started using the cpu
+At 6093 job 381 finished using the cpu
+At 6110 job 496 arrived
+At 6110 job 8 started using the cpu
+At 6114 job 8 finished using the cpu
+At 6116 job 125 started using disk2
+At 6131 job 497 arrived
+At 6131 job 382 started using the cpu
+At 6134 job 382 finished using the cpu
+At 6145 job 498 arrived
+At 6145 job 383 started using the cpu
+At 6146 job 499 arrived
+At 6147 job 383 finished using the cpu
+At 6159 job 500 arrived
+At 6159 job 384 started using the cpu
+At 6164 job 384 finished using the cpu
+At 6176 job 501 arrived
+At 6176 job 385 started using the cpu
+At 6178 job 125 finished using disk1
+At 6181 job 385 finished using the cpu
+At 6184 job 9 started using disk2
+At 6191 job 502 arrived
+At 6191 job 386 started using the cpu
+At 6194 job 386 finished using the cpu
+At 6194 job 386 terminated
+At 6204 job 503 arrived
+At 6204 job 110 started using the cpu
+At 6206 job 110 finished using the cpu
+At 6208 job 504 arrived
+At 6208 job 387 started using the cpu
+At 6213 job 387 finished using the cpu
+At 6233 job 9 finished using disk1
+At 6233 job 505 arrived
+At 6233 job 388 started using the cpu
+At 6234 job 506 arrived
+At 6238 job 388 finished using the cpu
+At 6256 job 507 arrived
+At 6256 job 389 started using the cpu
+At 6261 job 389 finished using the cpu
+At 6271 job 508 arrived
+At 6271 job 390 started using the cpu
+At 6276 job 390 finished using the cpu
+At 6278 job 127 started using disk2
+At 6289 job 509 arrived
+At 6289 job 391 started using the cpu
+At 6291 job 391 finished using the cpu
+At 6295 job 510 arrived
+At 6295 job 392 started using the cpu
+At 6298 job 392 finished using the cpu
+At 6318 job 511 arrived
+At 6318 job 393 started using the cpu
+At 6322 job 393 finished using the cpu
+At 6322 job 393 terminated
+At 6328 job 512 arrived
+At 6328 job 394 started using the cpu
+At 6329 job 394 finished using the cpu
+At 6329 job 394 terminated
+At 6331 job 513 arrived
+At 6331 job 111 started using the cpu
+At 6332 job 111 finished using the cpu
+At 6346 job 514 arrived
+At 6346 job 395 started using the cpu
+At 6350 job 395 finished using the cpu
+At 6350 job 395 terminated
+At 6354 job 127 finished using disk1
+At 6365 job 515 arrived
+At 6365 job 396 started using the cpu
+At 6367 job 396 finished using the cpu
+At 6367 job 396 terminated
+At 6376 job 129 started using disk2
+At 6385 job 516 arrived
+At 6385 job 397 started using the cpu
+At 6389 job 397 finished using the cpu
+At 6390 job 517 arrived
+At 6390 job 398 started using the cpu
+At 6395 job 398 finished using the cpu
+At 6409 job 129 finished using disk1
+At 6409 job 518 arrived
+At 6409 job 399 started using the cpu
+At 6412 job 399 finished using the cpu
+At 6420 job 130 started using disk2
+At 6432 job 519 arrived
+At 6432 job 400 started using the cpu
+At 6433 job 400 finished using the cpu
+At 6443 job 520 arrived
+At 6443 job 112 started using the cpu
+At 6446 job 521 arrived
+At 6447 job 112 finished using the cpu
+At 6458 job 522 arrived
+At 6458 job 401 started using the cpu
+At 6459 job 401 finished using the cpu
+At 6475 job 523 arrived
+At 6475 job 402 started using the cpu
+At 6476 job 402 finished using the cpu
+At 6494 job 524 arrived
+At 6494 job 403 started using the cpu
+At 6495 job 403 finished using the cpu
+At 6509 job 130 finished using disk1
+At 6514 job 131 started using disk2
+At 6518 job 525 arrived
+At 6518 job 404 started using the cpu
+At 6519 job 404 finished using the cpu
+At 6519 job 404 terminated
+At 6538 job 526 arrived
+At 6538 job 405 started using the cpu
+At 6543 job 405 finished using the cpu
+At 6546 job 527 arrived
+At 6546 job 406 started using the cpu
+At 6551 job 406 finished using the cpu
+At 6551 job 406 terminated
+At 6558 job 528 arrived
+At 6558 job 407 started using the cpu
+At 6563 job 407 finished using the cpu
+At 6566 job 529 arrived
+At 6566 job 113 started using the cpu
+At 6570 job 113 finished using the cpu
+At 6574 job 530 arrived
+At 6574 job 408 started using the cpu
+At 6575 job 531 arrived
+At 6577 job 408 finished using the cpu
+At 6577 job 532 arrived
+At 6577 job 409 started using the cpu
+At 6581 job 131 finished using disk1
+At 6581 job 409 finished using the cpu
+At 6581 job 409 terminated
+At 6596 job 533 arrived
+At 6596 job 410 started using the cpu
+At 6598 job 410 finished using the cpu
+At 6607 job 534 arrived
+At 6607 job 411 started using the cpu
+At 6608 job 411 finished using the cpu
+At 6616 job 132 started using disk2
+At 6623 job 535 arrived
+At 6623 job 412 started using the cpu
+At 6626 job 412 finished using the cpu
+At 6637 job 536 arrived
+At 6637 job 413 started using the cpu
+At 6641 job 413 finished using the cpu
+At 6651 job 537 arrived
+At 6651 job 414 started using the cpu
+At 6654 job 414 finished using the cpu
+At 6672 job 538 arrived
+At 6672 job 415 started using the cpu
+At 6675 job 415 finished using the cpu
+At 6676 job 132 finished using disk1
+At 6692 job 539 arrived
+At 6692 job 416 started using the cpu
+At 6694 job 416 finished using the cpu
+At 6694 job 416 terminated
+At 6706 job 133 started using disk2
+At 6711 job 540 arrived
+At 6711 job 417 started using the cpu
+At 6712 job 417 finished using the cpu
+At 6712 job 417 terminated
+At 6727 job 541 arrived
+At 6727 job 418 started using the cpu
+At 6731 job 418 finished using the cpu
+At 6744 job 542 arrived
+At 6744 job 419 started using the cpu
+At 6745 job 419 finished using the cpu
+At 6749 job 543 arrived
+At 6749 job 420 started using the cpu
+At 6752 job 420 finished using the cpu
+At 6755 job 544 arrived
+At 6755 job 421 started using the cpu
+At 6756 job 421 finished using the cpu
+At 6759 job 545 arrived
+At 6759 job 32 started using the cpu
+At 6764 job 32 finished using the cpu
+At 6776 job 546 arrived
+At 6776 job 422 started using the cpu
+At 6779 job 422 finished using the cpu
+At 6783 job 547 arrived
+At 6783 job 423 started using the cpu
+At 6785 job 548 arrived
+At 6785 job 423 finished using the cpu
+At 6794 job 133 finished using disk1
+At 6802 job 549 arrived
+At 6802 job 424 started using the cpu
+At 6803 job 550 arrived
+At 6806 job 134 started using disk2
+At 6806 job 424 finished using the cpu
+At 6822 job 551 arrived
+At 6822 job 425 started using the cpu
+At 6824 job 425 finished using the cpu
+At 6824 job 425 terminated
+At 6840 job 552 arrived
+At 6840 job 114 started using the cpu
+At 6841 job 553 arrived
+At 6843 job 114 finished using the cpu
+At 6844 job 134 finished using disk1
+At 6856 job 554 arrived
+At 6856 job 426 started using the cpu
+At 6860 job 555 arrived
+At 6861 job 426 finished using the cpu
+At 6861 job 426 terminated
+At 6876 job 556 arrived
+At 6876 job 427 started using the cpu
+At 6878 job 427 finished using the cpu
+At 6880 job 557 arrived
+At 6880 job 428 started using the cpu
+At 6882 job 135 started using disk2
+At 6885 job 428 finished using the cpu
+At 6886 job 558 arrived
+At 6886 job 429 started using the cpu
+At 6890 job 429 finished using the cpu
+At 6891 job 559 arrived
+At 6891 job 115 started using the cpu
+At 6894 job 115 finished using the cpu
+At 6906 job 560 arrived
+At 6906 job 430 started using the cpu
+At 6907 job 430 finished using the cpu
+At 6912 job 561 arrived
+At 6912 job 431 started using the cpu
+At 6916 job 431 finished using the cpu
+At 6926 job 562 arrived
+At 6926 job 432 started using the cpu
+At 6930 job 432 finished using the cpu
+At 6951 job 563 arrived
+At 6951 job 433 started using the cpu
+At 6955 job 433 finished using the cpu
+At 6960 job 135 finished using disk1
+At 6961 job 564 arrived
+At 6961 job 116 started using the cpu
+At 6964 job 116 finished using the cpu
+At 6985 job 565 arrived
+At 6985 job 434 started using the cpu
+At 6988 job 434 finished using the cpu
+At 6988 job 434 terminated
+At 7000 job 566 arrived
+At 7000 job 435 started using the cpu
+At 7004 job 435 finished using the cpu
+At 7021 job 567 arrived
+At 7021 job 436 started using the cpu
+At 7022 job 568 arrived
+At 7024 job 436 finished using the cpu
+At 7026 job 569 arrived
+At 7026 job 437 started using the cpu
+At 7028 job 437 finished using the cpu
+At 7046 job 570 arrived
+At 7046 job 438 started using the cpu
+At 7050 job 438 finished using the cpu
+At 7055 job 571 arrived
+At 7055 job 117 started using the cpu
+At 7056 job 136 started using disk2
+At 7059 job 117 finished using the cpu
+At 7059 job 117 terminated
+At 7071 job 572 arrived
+At 7071 job 439 started using the cpu
+At 7075 job 439 finished using the cpu
+At 7081 job 573 arrived
+At 7081 job 440 started using the cpu
+At 7085 job 440 finished using the cpu
+At 7085 job 440 terminated
+At 7094 job 574 arrived
+At 7094 job 441 started using the cpu
+At 7096 job 441 finished using the cpu
+At 7096 job 441 terminated
+At 7112 job 575 arrived
+At 7112 job 442 started using the cpu
+At 7117 job 442 finished using the cpu
+At 7117 job 442 terminated
+At 7118 job 136 finished using disk1
+At 7137 job 576 arrived
+At 7137 job 443 started using the cpu
+At 7141 job 443 finished using the cpu
+At 7141 job 443 terminated
+At 7158 job 37 started using disk2
+At 7161 job 577 arrived
+At 7161 job 444 started using the cpu
+At 7163 job 444 finished using the cpu
+At 7186 job 578 arrived
+At 7186 job 445 started using the cpu
+At 7187 job 445 finished using the cpu
+At 7190 job 37 finished using disk1
+At 7191 job 579 arrived
+At 7191 job 446 started using the cpu
+At 7193 job 446 finished using the cpu
+At 7202 job 137 started using disk2
+At 7212 job 580 arrived
+At 7212 job 447 started using the cpu
+At 7217 job 447 finished using the cpu
+At 7217 job 447 terminated
+At 7218 job 581 arrived
+At 7218 job 448 started using the cpu
+At 7219 job 582 arrived
+At 7221 job 448 finished using the cpu
+At 7235 job 583 arrived
+At 7235 job 449 started using the cpu
+At 7240 job 449 finished using the cpu
+At 7247 job 137 finished using disk1
+At 7248 job 584 arrived
+At 7248 job 450 started using the cpu
+At 7251 job 450 finished using the cpu
+At 7252 job 585 arrived
+At 7252 job 451 started using the cpu
+At 7254 job 138 started using disk2
+At 7256 job 451 finished using the cpu
+At 7270 job 586 arrived
+At 7270 job 452 started using the cpu
+At 7273 job 452 finished using the cpu
+At 7295 job 587 arrived
+At 7295 job 33 started using the cpu
+At 7299 job 33 finished using the cpu
+At 7313 job 588 arrived
+At 7313 job 453 started using the cpu
+At 7316 job 589 arrived
+At 7316 job 453 finished using the cpu
+At 7323 job 590 arrived
+At 7323 job 454 started using the cpu
+At 7325 job 138 finished using disk1
+At 7328 job 454 finished using the cpu
+At 7333 job 591 arrived
+At 7333 job 455 started using the cpu
+At 7335 job 455 finished using the cpu
+At 7340 job 140 started using disk2
+At 7349 job 592 arrived
+At 7349 job 456 started using the cpu
+At 7354 job 456 finished using the cpu
+At 7372 job 593 arrived
+At 7372 job 457 started using the cpu
+At 7376 job 457 finished using the cpu
+At 7378 job 594 arrived
+At 7378 job 458 started using the cpu
+At 7380 job 458 finished using the cpu
+At 7398 job 595 arrived
+At 7398 job 118 started using the cpu
+At 7402 job 118 finished using the cpu
+At 7402 job 118 terminated
+At 7403 job 596 arrived
+At 7403 job 459 started using the cpu
+At 7406 job 459 finished using the cpu
+At 7406 job 459 terminated
+At 7412 job 597 arrived
+At 7412 job 460 started using the cpu
+At 7414 job 460 finished using the cpu
+At 7414 job 460 terminated
+At 7418 job 140 finished using disk1
+At 7430 job 598 arrived
+At 7430 job 461 started using the cpu
+At 7433 job 599 arrived
+At 7435 job 461 finished using the cpu
+At 7435 job 461 terminated
+At 7446 job 600 arrived
+At 7446 job 462 started using the cpu
+At 7448 job 462 finished using the cpu
+At 7450 job 601 arrived
+At 7450 job 463 started using the cpu
+At 7454 job 463 finished using the cpu
+At 7464 job 141 started using disk2
+At 7468 job 602 arrived
+At 7468 job 464 started using the cpu
+At 7470 job 464 finished using the cpu
+At 7487 job 603 arrived
+At 7487 job 465 started using the cpu
+At 7489 job 465 finished using the cpu
+At 7492 job 604 arrived
+At 7492 job 466 started using the cpu
+At 7493 job 466 finished using the cpu
+At 7495 job 605 arrived
+At 7495 job 467 started using the cpu
+At 7497 job 467 finished using the cpu
+At 7499 job 606 arrived
+At 7499 job 468 started using the cpu
+At 7504 job 468 finished using the cpu
+At 7523 job 607 arrived
+At 7523 job 119 started using the cpu
+At 7524 job 119 finished using the cpu
+At 7541 job 608 arrived
+At 7541 job 469 started using the cpu
+At 7544 job 469 finished using the cpu
+At 7551 job 609 arrived
+At 7551 job 470 started using the cpu
+At 7553 job 470 finished using the cpu
+At 7555 job 610 arrived
+At 7555 job 471 started using the cpu
+At 7558 job 141 finished using disk1
+At 7558 job 471 finished using the cpu
+At 7558 job 471 terminated
+At 7562 job 143 started using disk2
+At 7564 job 611 arrived
+At 7564 job 472 started using the cpu
+At 7569 job 472 finished using the cpu
+At 7578 job 612 arrived
+At 7578 job 473 started using the cpu
+At 7579 job 473 finished using the cpu
+At 7585 job 613 arrived
+At 7585 job 474 started using the cpu
+At 7589 job 474 finished using the cpu
+At 7598 job 614 arrived
+At 7598 job 475 started using the cpu
+At 7602 job 475 finished using the cpu
+At 7602 job 475 terminated
+At 7608 job 143 finished using disk1
+At 7613 job 615 arrived
+At 7613 job 476 started using the cpu
+At 7618 job 476 finished using the cpu
+At 7630 job 144 started using disk2
+At 7633 job 616 arrived
+At 7633 job 120 started using the cpu
+At 7635 job 120 finished using the cpu
+At 7645 job 617 arrived
+At 7645 job 477 started using the cpu
+At 7648 job 477 finished using the cpu
+At 7652 job 618 arrived
+At 7652 job 478 started using the cpu
+At 7657 job 478 finished using the cpu
+At 7668 job 619 arrived
+At 7668 job 479 started using the cpu
+At 7672 job 479 finished using the cpu
+At 7672 job 479 terminated
+At 7680 job 620 arrived
+At 7680 job 480 started using the cpu
+At 7681 job 480 finished using the cpu
+At 7687 job 621 arrived
+At 7687 job 121 started using the cpu
+At 7692 job 121 finished using the cpu
+At 7707 job 622 arrived
+At 7707 job 481 started using the cpu
+At 7710 job 623 arrived
+At 7710 job 481 finished using the cpu
+At 7718 job 144 finished using disk1
+At 7727 job 624 arrived
+At 7727 job 482 started using the cpu
+At 7728 job 482 finished using the cpu
+At 7743 job 625 arrived
+At 7743 job 483 started using the cpu
+At 7746 job 483 finished using the cpu
+At 7754 job 145 started using disk2
+At 7755 job 626 arrived
+At 7755 job 484 started using the cpu
+At 7756 job 484 finished using the cpu
+At 7756 job 484 terminated
+At 7764 job 627 arrived
+At 7764 job 485 started using the cpu
+At 7767 job 485 finished using the cpu
+At 7771 job 628 arrived
+At 7771 job 486 started using the cpu
+At 7775 job 629 arrived
+At 7775 job 486 finished using the cpu
+At 7777 job 630 arrived
+At 7777 job 487 started using the cpu
+At 7781 job 487 finished using the cpu
+At 7785 job 631 arrived
+At 7785 job 488 started using the cpu
+At 7790 job 488 finished using the cpu
+At 7805 job 632 arrived
+At 7805 job 122 started using the cpu
+At 7806 job 122 finished using the cpu
+At 7813 job 633 arrived
+At 7813 job 489 started using the cpu
+At 7816 job 489 finished using the cpu
+At 7830 job 634 arrived
+At 7830 job 490 started using the cpu
+At 7834 job 145 finished using disk1
+At 7834 job 490 finished using the cpu
+At 7834 job 490 terminated
+At 7840 job 635 arrived
+At 7840 job 123 started using the cpu
+At 7841 job 123 finished using the cpu
+At 7847 job 636 arrived
+At 7847 job 491 started using the cpu
+At 7849 job 491 finished using the cpu
+At 7850 job 38 started using disk2
+At 7871 job 637 arrived
+At 7871 job 492 started using the cpu
+At 7875 job 492 finished using the cpu
+At 7875 job 492 terminated
+At 7883 job 638 arrived
+At 7883 job 493 started using the cpu
+At 7884 job 493 finished using the cpu
+At 7900 job 38 finished using disk1
+At 7903 job 639 arrived
+At 7903 job 494 started using the cpu
+At 7905 job 494 finished using the cpu
+At 7912 job 148 started using disk2
+At 7928 job 640 arrived
+At 7928 job 495 started using the cpu
+At 7929 job 495 finished using the cpu
+At 7930 job 641 arrived
+At 7930 job 496 started using the cpu
+At 7931 job 496 finished using the cpu
+At 7931 job 496 terminated
+At 7953 job 642 arrived
+At 7953 job 497 started using the cpu
+At 7956 job 497 finished using the cpu
+At 7956 job 497 terminated
+At 7966 job 643 arrived
+At 7966 job 498 started using the cpu
+At 7970 job 498 finished using the cpu
+At 7973 job 644 arrived
+At 7973 job 499 started using the cpu
+At 7976 job 499 finished using the cpu
+At 7990 job 645 arrived
+At 7990 job 500 started using the cpu
+At 7995 job 500 finished using the cpu
+At 7997 job 646 arrived
+At 7997 job 501 started using the cpu
+At 7999 job 501 finished using the cpu
+At 7999 job 501 terminated
+At 8001 job 148 finished using disk1
+At 8002 job 149 started using disk2
+At 8020 job 647 arrived
+At 8020 job 125 started using the cpu
+At 8021 job 125 finished using the cpu
+At 8021 job 125 terminated
+At 8033 job 648 arrived
+At 8033 job 502 started using the cpu
+At 8034 job 502 finished using the cpu
+At 8038 job 149 finished using disk1
+At 8058 job 649 arrived
+At 8058 job 503 started using the cpu
+At 8061 job 503 finished using the cpu
+At 8071 job 650 arrived
+At 8071 job 504 started using the cpu
+At 8074 job 504 finished using the cpu
+At 8086 job 150 started using disk2
+At 8088 job 651 arrived
+At 8088 job 9 started using the cpu
+At 8091 job 9 finished using the cpu
+At 8092 job 652 arrived
+At 8092 job 505 started using the cpu
+At 8094 job 505 finished using the cpu
+At 8094 job 505 terminated
+At 8115 job 653 arrived
+At 8115 job 506 started using the cpu
+At 8116 job 506 finished using the cpu
+At 8118 job 150 finished using disk1
+At 8132 job 654 arrived
+At 8132 job 507 started using the cpu
+At 8135 job 507 finished using the cpu
+At 8136 job 655 arrived
+At 8136 job 508 started using the cpu
+At 8139 job 508 finished using the cpu
+At 8152 job 151 started using disk2
+At 8156 job 656 arrived
+At 8156 job 509 started using the cpu
+At 8159 job 509 finished using the cpu
+At 8175 job 657 arrived
+At 8175 job 510 started using the cpu
+At 8180 job 510 finished using the cpu
+At 8190 job 658 arrived
+At 8190 job 511 started using the cpu
+At 8191 job 511 finished using the cpu
+At 8191 job 511 terminated
+At 8197 job 659 arrived
+At 8197 job 512 started using the cpu
+At 8198 job 512 finished using the cpu
+At 8208 job 151 finished using disk1
+At 8222 job 660 arrived
+At 8222 job 513 started using the cpu
+At 8224 job 513 finished using the cpu
+At 8230 job 153 started using disk2
+At 8239 job 661 arrived
+At 8239 job 514 started using the cpu
+At 8240 job 514 finished using the cpu
+At 8260 job 662 arrived
+At 8260 job 127 started using the cpu
+At 8262 job 663 arrived
+At 8262 job 127 finished using the cpu
+At 8275 job 664 arrived
+At 8275 job 515 started using the cpu
+At 8276 job 515 finished using the cpu
+At 8287 job 665 arrived
+At 8287 job 516 started using the cpu
+At 8288 job 666 arrived
+At 8289 job 516 finished using the cpu
+At 8289 job 516 terminated
+At 8296 job 667 arrived
+At 8296 job 517 started using the cpu
+At 8297 job 517 finished using the cpu
+At 8297 job 517 terminated
+At 8316 job 668 arrived
+At 8316 job 129 started using the cpu
+At 8318 job 129 finished using the cpu
+At 8318 job 129 terminated
+At 8324 job 153 finished using disk1
+At 8335 job 669 arrived
+At 8335 job 518 started using the cpu
+At 8339 job 518 finished using the cpu
+At 8350 job 154 started using disk2
+At 8350 job 670 arrived
+At 8350 job 519 started using the cpu
+At 8353 job 519 finished using the cpu
+At 8375 job 671 arrived
+At 8375 job 520 started using the cpu
+At 8376 job 520 finished using the cpu
+At 8393 job 672 arrived
+At 8393 job 521 started using the cpu
+At 8394 job 521 finished using the cpu
+At 8408 job 673 arrived
+At 8408 job 522 started using the cpu
+At 8412 job 522 finished using the cpu
+At 8419 job 674 arrived
+At 8419 job 523 started using the cpu
+At 8424 job 523 finished using the cpu
+At 8435 job 154 finished using disk1
+At 8442 job 675 arrived
+At 8442 job 524 started using the cpu
+At 8446 job 524 finished using the cpu
+At 8457 job 676 arrived
+At 8457 job 130 started using the cpu
+At 8458 job 677 arrived
+At 8458 job 130 finished using the cpu
+At 8463 job 678 arrived
+At 8463 job 525 started using the cpu
+At 8464 job 155 started using disk2
+At 8465 job 525 finished using the cpu
+At 8487 job 679 arrived
+At 8487 job 526 started using the cpu
+At 8490 job 526 finished using the cpu
+At 8495 job 680 arrived
+At 8495 job 527 started using the cpu
+At 8500 job 527 finished using the cpu
+At 8507 job 681 arrived
+At 8507 job 528 started using the cpu
+At 8512 job 528 finished using the cpu
+At 8522 job 155 finished using disk1
+At 8523 job 682 arrived
+At 8523 job 529 started using the cpu
+At 8524 job 39 started using disk2
+At 8526 job 529 finished using the cpu
+At 8534 job 683 arrived
+At 8534 job 530 started using the cpu
+At 8537 job 530 finished using the cpu
+At 8539 job 684 arrived
+At 8539 job 531 started using the cpu
+At 8541 job 531 finished using the cpu
+At 8547 job 685 arrived
+At 8547 job 532 started using the cpu
+At 8548 job 532 finished using the cpu
+At 8570 job 686 arrived
+At 8570 job 131 started using the cpu
+At 8571 job 131 finished using the cpu
+At 8584 job 687 arrived
+At 8584 job 533 started using the cpu
+At 8589 job 533 finished using the cpu
+At 8603 job 688 arrived
+At 8603 job 534 started using the cpu
+At 8604 job 534 finished using the cpu
+At 8604 job 534 terminated
+At 8613 job 689 arrived
+At 8613 job 535 started using the cpu
+At 8618 job 535 finished using the cpu
+At 8619 job 39 finished using disk1
+At 8633 job 690 arrived
+At 8633 job 536 started using the cpu
+At 8634 job 536 finished using the cpu
+At 8639 job 691 arrived
+At 8639 job 537 started using the cpu
+At 8640 job 156 started using disk2
+At 8644 job 537 finished using the cpu
+At 8660 job 692 arrived
+At 8660 job 538 started using the cpu
+At 8665 job 538 finished using the cpu
+At 8665 job 538 terminated
+At 8669 job 693 arrived
+At 8669 job 132 started using the cpu
+At 8671 job 132 finished using the cpu
+At 8685 job 694 arrived
+At 8685 job 539 started using the cpu
+At 8686 job 156 finished using disk1
+At 8690 job 539 finished using the cpu
+At 8708 job 695 arrived
+At 8708 job 540 started using the cpu
+At 8713 job 540 finished using the cpu
+At 8728 job 696 arrived
+At 8728 job 541 started using the cpu
+At 8730 job 541 finished using the cpu
+At 8732 job 158 started using disk2
+At 8737 job 697 arrived
+At 8737 job 542 started using the cpu
+At 8742 job 542 finished using the cpu
+At 8744 job 698 arrived
+At 8744 job 543 started using the cpu
+At 8746 job 543 finished using the cpu
+At 8763 job 699 arrived
+At 8763 job 544 started using the cpu
+At 8765 job 544 finished using the cpu
+At 8776 job 700 arrived
+At 8776 job 545 started using the cpu
+At 8777 job 545 finished using the cpu
+At 8794 job 701 arrived
+At 8794 job 546 started using the cpu
+At 8795 job 546 finished using the cpu
+At 8795 job 546 terminated
+At 8808 job 702 arrived
+At 8808 job 547 started using the cpu
+At 8810 job 547 finished using the cpu
+At 8821 job 158 finished using disk1
+At 8831 job 703 arrived
+At 8831 job 548 started using the cpu
+At 8832 job 159 started using disk2
+At 8836 job 548 finished using the cpu
+At 8844 job 704 arrived
+At 8844 job 133 started using the cpu
+At 8847 job 133 finished using the cpu
+At 8853 job 705 arrived
+At 8853 job 549 started using the cpu
+At 8855 job 549 finished using the cpu
+At 8876 job 706 arrived
+At 8876 job 550 started using the cpu
+At 8879 job 550 finished using the cpu
+At 8885 job 159 finished using disk1
+At 8888 job 707 arrived
+At 8888 job 551 started using the cpu
+At 8890 job 551 finished using the cpu
+At 8906 job 708 arrived
+At 8906 job 552 started using the cpu
+At 8911 job 552 finished using the cpu
+At 8918 job 160 started using disk2
+At 8919 job 709 arrived
+At 8919 job 553 started using the cpu
+At 8922 job 553 finished using the cpu
+At 8943 job 710 arrived
+At 8943 job 134 started using the cpu
+At 8945 job 134 finished using the cpu
+At 8957 job 711 arrived
+At 8957 job 554 started using the cpu
+At 8961 job 554 finished using the cpu
+At 8969 job 712 arrived
+At 8969 job 555 started using the cpu
+At 8972 job 555 finished using the cpu
+At 8982 job 713 arrived
+At 8982 job 556 started using the cpu
+At 8985 job 160 finished using disk1
+At 8985 job 714 arrived
+At 8986 job 161 started using disk2
+At 8987 job 556 finished using the cpu
+At 8987 job 556 terminated
+At 8992 job 715 arrived
+At 8992 job 557 started using the cpu
+At 8993 job 557 finished using the cpu
+At 9007 job 716 arrived
+At 9007 job 558 started using the cpu
+At 9009 job 558 finished using the cpu
+At 9013 job 717 arrived
+At 9013 job 559 started using the cpu
+At 9014 job 559 finished using the cpu
+At 9014 job 559 terminated
+At 9015 job 718 arrived
+At 9015 job 560 started using the cpu
+At 9018 job 161 finished using disk1
+At 9018 job 560 finished using the cpu
+At 9027 job 719 arrived
+At 9027 job 561 started using the cpu
+At 9031 job 720 arrived
+At 9031 job 561 finished using the cpu
+At 9051 job 721 arrived
+At 9051 job 562 started using the cpu
+At 9052 job 562 finished using the cpu
+At 9058 job 40 started using disk2
+At 9075 job 722 arrived
+At 9075 job 563 started using the cpu
+At 9077 job 563 finished using the cpu
+At 9077 job 563 terminated
+At 9097 job 723 arrived
+At 9097 job 135 started using the cpu
+At 9101 job 135 finished using the cpu
+At 9108 job 724 arrived
+At 9108 job 564 started using the cpu
+At 9111 job 564 finished using the cpu
+At 9123 job 725 arrived
+At 9123 job 565 started using the cpu
+At 9124 job 726 arrived
+At 9124 job 565 finished using the cpu
+At 9124 job 565 terminated
+At 9133 job 40 finished using disk1
+At 9134 job 727 arrived
+At 9134 job 566 started using the cpu
+At 9139 job 566 finished using the cpu
+At 9150 job 163 started using disk2
+At 9159 job 728 arrived
+At 9159 job 567 started using the cpu
+At 9163 job 567 finished using the cpu
+At 9177 job 729 arrived
+At 9177 job 568 started using the cpu
+At 9180 job 568 finished using the cpu
+At 9182 job 730 arrived
+At 9182 job 569 started using the cpu
+At 9185 job 569 finished using the cpu
+At 9192 job 731 arrived
+At 9192 job 570 started using the cpu
+At 9195 job 570 finished using the cpu
+At 9215 job 732 arrived
+At 9215 job 571 started using the cpu
+At 9216 job 571 finished using the cpu
+At 9219 job 733 arrived
+At 9219 job 572 started using the cpu
+At 9223 job 572 finished using the cpu
+At 9240 job 734 arrived
+At 9240 job 573 started using the cpu
+At 9241 job 735 arrived
+At 9242 job 573 finished using the cpu
+At 9247 job 163 finished using disk1
+At 9255 job 736 arrived
+At 9255 job 574 started using the cpu
+At 9256 job 574 finished using the cpu
+At 9272 job 737 arrived
+At 9272 job 575 started using the cpu
+At 9275 job 575 finished using the cpu
+At 9276 job 738 arrived
+At 9276 job 136 started using the cpu
+At 9277 job 136 finished using the cpu
+At 9277 job 136 terminated
+At 9286 job 164 started using disk2
+At 9294 job 739 arrived
+At 9294 job 576 started using the cpu
+At 9295 job 576 finished using the cpu
+At 9295 job 576 terminated
+At 9305 job 740 arrived
+At 9305 job 577 started using the cpu
+At 9309 job 577 finished using the cpu
+At 9320 job 741 arrived
+At 9320 job 578 started using the cpu
+At 9322 job 578 finished using the cpu
+At 9342 job 742 arrived
+At 9342 job 37 started using the cpu
+At 9346 job 37 finished using the cpu
+At 9348 job 743 arrived
+At 9348 job 579 started using the cpu
+At 9353 job 579 finished using the cpu
+At 9369 job 744 arrived
+At 9369 job 580 started using the cpu
+At 9370 job 580 finished using the cpu
+At 9376 job 745 arrived
+At 9376 job 581 started using the cpu
+At 9377 job 164 finished using disk1
+At 9380 job 581 finished using the cpu
+At 9380 job 581 terminated
+At 9381 job 746 arrived
+At 9381 job 582 started using the cpu
+At 9385 job 582 finished using the cpu
+At 9398 job 167 started using disk2
+At 9402 job 747 arrived
+At 9402 job 583 started using the cpu
+At 9407 job 583 finished using the cpu
+At 9423 job 748 arrived
+At 9423 job 137 started using the cpu
+At 9428 job 137 finished using the cpu
+At 9431 job 749 arrived
+At 9431 job 584 started using the cpu
+At 9433 job 584 finished using the cpu
+At 9441 job 167 finished using disk1
+At 9451 job 750 arrived
+At 9451 job 585 started using the cpu
+At 9452 job 585 finished using the cpu
+At 9460 job 751 arrived
+At 9460 job 586 started using the cpu
+At 9464 job 169 started using disk2
+At 9464 job 586 finished using the cpu
+At 9467 job 752 arrived
+At 9467 job 587 started using the cpu
+At 9468 job 587 finished using the cpu
+At 9468 job 587 terminated
+At 9490 job 753 arrived
+At 9490 job 588 started using the cpu
+At 9493 job 588 finished using the cpu
+At 9498 job 169 finished using disk1
+At 9504 job 754 arrived
+At 9504 job 589 started using the cpu
+At 9507 job 589 finished using the cpu
+At 9508 job 755 arrived
+At 9508 job 590 started using the cpu
+At 9511 job 590 finished using the cpu
+At 9515 job 756 arrived
+At 9515 job 138 started using the cpu
+At 9516 job 138 finished using the cpu
+At 9516 job 138 terminated
+At 9517 job 757 arrived
+At 9517 job 591 started using the cpu
+At 9522 job 591 finished using the cpu
+At 9539 job 758 arrived
+At 9539 job 592 started using the cpu
+At 9544 job 592 finished using the cpu
+At 9545 job 759 arrived
+At 9545 job 593 started using the cpu
+At 9546 job 593 finished using the cpu
+At 9554 job 170 started using disk2
+At 9570 job 760 arrived
+At 9570 job 594 started using the cpu
+At 9575 job 594 finished using the cpu
+At 9583 job 761 arrived
+At 9583 job 595 started using the cpu
+At 9587 job 595 finished using the cpu
+At 9590 job 762 arrived
+At 9590 job 596 started using the cpu
+At 9593 job 170 finished using disk1
+At 9594 job 763 arrived
+At 9594 job 596 finished using the cpu
+At 9594 job 596 terminated
+At 9611 job 764 arrived
+At 9611 job 597 started using the cpu
+At 9614 job 597 finished using the cpu
+At 9630 job 41 started using disk2
+At 9635 job 765 arrived
+At 9635 job 140 started using the cpu
+At 9639 job 766 arrived
+At 9639 job 140 finished using the cpu
+At 9658 job 767 arrived
+At 9658 job 598 started using the cpu
+At 9659 job 598 finished using the cpu
+At 9664 job 768 arrived
+At 9664 job 599 started using the cpu
+At 9668 job 769 arrived
+At 9669 job 599 finished using the cpu
+At 9669 job 599 terminated
+At 9670 job 770 arrived
+At 9670 job 600 started using the cpu
+At 9672 job 600 finished using the cpu
+At 9676 job 771 arrived
+At 9676 job 601 started using the cpu
+At 9677 job 601 finished using the cpu
+At 9690 job 772 arrived
+At 9690 job 602 started using the cpu
+At 9691 job 773 arrived
+At 9695 job 602 finished using the cpu
+At 9702 job 41 finished using disk1
+At 9708 job 774 arrived
+At 9708 job 603 started using the cpu
+At 9713 job 603 finished using the cpu
+At 9716 job 775 arrived
+At 9716 job 604 started using the cpu
+At 9717 job 604 finished using the cpu
+At 9735 job 776 arrived
+At 9735 job 605 started using the cpu
+At 9740 job 605 finished using the cpu
+At 9752 job 777 arrived
+At 9752 job 606 started using the cpu
+At 9755 job 606 finished using the cpu
+At 9759 job 778 arrived
+At 9759 job 607 started using the cpu
+At 9760 job 607 finished using the cpu
+At 9760 job 607 terminated
+At 9761 job 779 arrived
+At 9761 job 608 started using the cpu
+At 9762 job 608 finished using the cpu
+At 9768 job 780 arrived
+At 9768 job 609 started using the cpu
+At 9772 job 171 started using disk2
+At 9772 job 781 arrived
+At 9772 job 609 finished using the cpu
+At 9772 job 609 terminated
+At 9781 job 782 arrived
+At 9781 job 610 started using the cpu
+At 9783 job 610 finished using the cpu
+At 9800 job 783 arrived
+At 9800 job 141 started using the cpu
+At 9805 job 141 finished using the cpu
+At 9818 job 784 arrived
+At 9818 job 611 started using the cpu
+At 9821 job 611 finished using the cpu
+At 9830 job 785 arrived
+At 9830 job 612 started using the cpu
+At 9832 job 612 finished using the cpu
+At 9841 job 786 arrived
+At 9841 job 613 started using the cpu
+At 9842 job 787 arrived
+At 9845 job 613 finished using the cpu
+At 9845 job 613 terminated
+At 9854 job 788 arrived
+At 9854 job 614 started using the cpu
+At 9859 job 614 finished using the cpu
+At 9862 job 789 arrived
+At 9862 job 143 started using the cpu
+At 9866 job 143 finished using the cpu
+At 9869 job 171 finished using disk1
+At 9872 job 172 started using disk2
+At 9881 job 790 arrived
+At 9881 job 615 started using the cpu
+At 9885 job 615 finished using the cpu
+At 9885 job 615 terminated
+At 9888 job 791 arrived
+At 9888 job 616 started using the cpu
+At 9892 job 616 finished using the cpu
+At 9892 job 616 terminated
+At 9898 job 792 arrived
+At 9898 job 617 started using the cpu
+At 9899 job 617 finished using the cpu
+At 9899 job 617 terminated
+At 9919 job 793 arrived
+At 9919 job 618 started using the cpu
+At 9921 job 618 finished using the cpu
+At 9938 job 794 arrived
+At 9938 job 619 started using the cpu
+At 9943 job 619 finished using the cpu
+At 9943 job 619 terminated
+At 9947 job 172 finished using disk1
+At 9952 job 174 started using disk2
+At 9956 job 795 arrived
+At 9956 job 620 started using the cpu
+At 9958 job 620 finished using the cpu
+At 9968 job 796 arrived
+At 9968 job 621 started using the cpu
+At 9972 job 621 finished using the cpu
+At 9972 job 621 terminated
+At 9975 job 797 arrived
+At 9975 job 622 started using the cpu
+At 9980 job 622 finished using the cpu
+At 9995 job 798 arrived
+At 9995 job 623 started using the cpu
+At 9996 job 623 finished using the cpu
+At 10011 job 799 arrived
+At 10011 job 144 started using the cpu
+At 10014 job 144 finished using the cpu
+At 10025 job 800 arrived
+At 10025 job 624 started using the cpu
+At 10026 job 624 finished using the cpu
+At 10039 job 174 finished using disk1
+At 10046 job 801 arrived
+At 10046 job 625 started using the cpu
+At 10048 job 625 finished using the cpu
+At 10053 job 802 arrived
+At 10053 job 626 started using the cpu
+At 10055 job 626 finished using the cpu
+At 10057 job 803 arrived
+At 10057 job 627 started using the cpu
+At 10060 job 175 started using disk2
+At 10060 job 627 finished using the cpu
+At 10080 job 804 arrived
+At 10080 job 628 started using the cpu
+At 10085 job 628 finished using the cpu
+At 10104 job 805 arrived
+At 10104 job 629 started using the cpu
+At 10105 job 629 finished using the cpu
+At 10105 job 629 terminated
+At 10116 job 806 arrived
+At 10116 job 630 started using the cpu
+At 10117 job 630 finished using the cpu
+At 10136 job 807 arrived
+At 10136 job 631 started using the cpu
+At 10141 job 631 finished using the cpu
+At 10143 job 175 finished using disk1
+At 10150 job 808 arrived
+At 10150 job 632 started using the cpu
+At 10153 job 632 finished using the cpu
+At 10157 job 809 arrived
+At 10157 job 633 started using the cpu
+At 10158 job 176 started using disk2
+At 10162 job 633 finished using the cpu
+At 10177 job 810 arrived
+At 10177 job 634 started using the cpu
+At 10179 job 811 arrived
+At 10180 job 812 arrived
+At 10182 job 634 finished using the cpu
+At 10182 job 634 terminated
+At 10187 job 176 finished using disk1
+At 10193 job 813 arrived
+At 10193 job 145 started using the cpu
+At 10194 job 145 finished using the cpu
+At 10197 job 814 arrived
+At 10197 job 635 started using the cpu
+At 10198 job 815 arrived
+At 10198 job 635 finished using the cpu
+At 10198 job 635 terminated
+At 10218 job 816 arrived
+At 10218 job 636 started using the cpu
+At 10219 job 636 finished using the cpu
+At 10219 job 636 terminated
+At 10228 job 177 started using disk2
+At 10242 job 817 arrived
+At 10242 job 637 started using the cpu
+At 10244 job 637 finished using the cpu
+At 10255 job 818 arrived
+At 10255 job 638 started using the cpu
+At 10258 job 638 finished using the cpu
+At 10268 job 819 arrived
+At 10268 job 38 started using the cpu
+At 10272 job 38 finished using the cpu
+At 10272 job 38 terminated
+At 10277 job 177 finished using disk1
+At 10280 job 43 started using disk2
+At 10288 job 820 arrived
+At 10288 job 639 started using the cpu
+At 10291 job 821 arrived
+At 10291 job 639 finished using the cpu
+At 10314 job 822 arrived
+At 10314 job 640 started using the cpu
+At 10315 job 640 finished using the cpu
+At 10331 job 823 arrived
+At 10331 job 641 started using the cpu
+At 10332 job 641 finished using the cpu
+At 10350 job 824 arrived
+At 10350 job 642 started using the cpu
+At 10351 job 642 finished using the cpu
+At 10357 job 43 finished using disk1
+At 10364 job 178 started using disk2
+At 10372 job 825 arrived
+At 10372 job 643 started using the cpu
+At 10373 job 826 arrived
+At 10374 job 643 finished using the cpu
+At 10392 job 827 arrived
+At 10392 job 644 started using the cpu
+At 10393 job 644 finished using the cpu
+At 10404 job 828 arrived
+At 10404 job 645 started using the cpu
+At 10406 job 645 finished using the cpu
+At 10429 job 829 arrived
+At 10429 job 646 started using the cpu
+At 10431 job 646 finished using the cpu
+At 10443 job 830 arrived
+At 10443 job 148 started using the cpu
+At 10445 job 148 finished using the cpu
+At 10450 job 178 finished using disk1
+At 10451 job 831 arrived
+At 10451 job 647 started using the cpu
+At 10452 job 647 finished using the cpu
+At 10472 job 832 arrived
+At 10472 job 648 started using the cpu
+At 10473 job 648 finished using the cpu
+At 10488 job 179 started using disk2
+At 10492 job 833 arrived
+At 10492 job 149 started using the cpu
+At 10496 job 149 finished using the cpu
+At 10503 job 834 arrived
+At 10503 job 649 started using the cpu
+At 10505 job 649 finished using the cpu
+At 10522 job 835 arrived
+At 10522 job 650 started using the cpu
+At 10523 job 650 finished using the cpu
+At 10542 job 836 arrived
+At 10542 job 651 started using the cpu
+At 10546 job 651 finished using the cpu
+At 10546 job 651 terminated
+At 10558 job 837 arrived
+At 10558 job 652 started using the cpu
+At 10560 job 652 finished using the cpu
+At 10561 job 179 finished using disk1
+At 10563 job 838 arrived
+At 10563 job 653 started using the cpu
+At 10568 job 653 finished using the cpu
+At 10569 job 839 arrived
+At 10569 job 150 started using the cpu
+At 10572 job 150 finished using the cpu
+At 10588 job 840 arrived
+At 10588 job 654 started using the cpu
+At 10592 job 841 arrived
+At 10592 job 654 finished using the cpu
+At 10600 job 842 arrived
+At 10600 job 655 started using the cpu
+At 10602 job 655 finished using the cpu
+At 10608 job 180 started using disk2
+At 10624 job 843 arrived
+At 10624 job 656 started using the cpu
+At 10627 job 656 finished using the cpu
+At 10638 job 844 arrived
+At 10638 job 657 started using the cpu
+At 10643 job 657 finished using the cpu
+At 10655 job 845 arrived
+At 10655 job 658 started using the cpu
+At 10657 job 658 finished using the cpu
+At 10676 job 846 arrived
+At 10676 job 659 started using the cpu
+At 10678 job 659 finished using the cpu
+At 10685 job 180 finished using disk1
+At 10697 job 847 arrived
+At 10697 job 151 started using the cpu
+At 10702 job 151 finished using the cpu
+At 10714 job 848 arrived
+At 10714 job 660 started using the cpu
+At 10718 job 660 finished using the cpu
+At 10734 job 849 arrived
+At 10734 job 661 started using the cpu
+At 10737 job 661 finished using the cpu
+At 10738 job 181 started using disk2
+At 10743 job 850 arrived
+At 10743 job 662 started using the cpu
+At 10744 job 662 finished using the cpu
+At 10761 job 851 arrived
+At 10761 job 663 started using the cpu
+At 10763 job 852 arrived
+At 10763 job 663 finished using the cpu
+At 10769 job 853 arrived
+At 10769 job 664 started using the cpu
+At 10774 job 664 finished using the cpu
+At 10786 job 854 arrived
+At 10786 job 665 started using the cpu
+At 10787 job 665 finished using the cpu
+At 10792 job 181 finished using disk1
+At 10797 job 855 arrived
+At 10797 job 666 started using the cpu
+At 10802 job 666 finished using the cpu
+At 10812 job 856 arrived
+At 10812 job 667 started using the cpu
+At 10815 job 667 finished using the cpu
+At 10820 job 857 arrived
+At 10820 job 668 started using the cpu
+At 10824 job 668 finished using the cpu
+At 10837 job 858 arrived
+At 10837 job 153 started using the cpu
+At 10838 job 153 finished using the cpu
+At 10840 job 182 started using disk2
+At 10853 job 859 arrived
+At 10853 job 669 started using the cpu
+At 10854 job 669 finished using the cpu
+At 10873 job 182 finished using disk1
+At 10876 job 860 arrived
+At 10876 job 670 started using the cpu
+At 10880 job 670 finished using the cpu
+At 10892 job 861 arrived
+At 10892 job 671 started using the cpu
+At 10897 job 671 finished using the cpu
+At 10903 job 862 arrived
+At 10903 job 672 started using the cpu
+At 10908 job 672 finished using the cpu
+At 10912 job 863 arrived
+At 10912 job 673 started using the cpu
+At 10913 job 673 finished using the cpu
+At 10913 job 673 terminated
+At 10914 job 864 arrived
+At 10914 job 674 started using the cpu
+At 10915 job 674 finished using the cpu
+At 10926 job 865 arrived
+At 10926 job 154 started using the cpu
+At 10927 job 866 arrived
+At 10930 job 183 started using disk2
+At 10931 job 154 finished using the cpu
+At 10943 job 867 arrived
+At 10943 job 675 started using the cpu
+At 10948 job 675 finished using the cpu
+At 10963 job 868 arrived
+At 10963 job 676 started using the cpu
+At 10968 job 676 finished using the cpu
+At 10981 job 869 arrived
+At 10981 job 677 started using the cpu
+At 10982 job 677 finished using the cpu
+At 10990 job 870 arrived
+At 10990 job 678 started using the cpu
+At 10991 job 678 finished using the cpu
+At 11001 job 871 arrived
+At 11001 job 679 started using the cpu
+At 11003 job 183 finished using disk1
+At 11004 job 679 finished using the cpu
+At 11004 job 679 terminated
+At 11007 job 872 arrived
+At 11007 job 680 started using the cpu
+At 11008 job 184 started using disk2
+At 11011 job 680 finished using the cpu
+At 11011 job 680 terminated
+At 11013 job 873 arrived
+At 11013 job 681 started using the cpu
+At 11016 job 681 finished using the cpu
+At 11037 job 874 arrived
+At 11037 job 155 started using the cpu
+At 11041 job 155 finished using the cpu
+At 11041 job 155 terminated
+At 11055 job 875 arrived
+At 11055 job 682 started using the cpu
+At 11056 job 876 arrived
+At 11057 job 682 finished using the cpu
+At 11075 job 184 finished using disk1
+At 11076 job 877 arrived
+At 11076 job 683 started using the cpu
+At 11080 job 683 finished using the cpu
+At 11080 job 683 terminated
+At 11086 job 878 arrived
+At 11086 job 684 started using the cpu
+At 11091 job 684 finished using the cpu
+At 11097 job 879 arrived
+At 11097 job 685 started using the cpu
+At 11099 job 880 arrived
+At 11101 job 685 finished using the cpu
+At 11101 job 685 terminated
+At 11112 job 185 started using disk2
+At 11116 job 881 arrived
+At 11116 job 686 started using the cpu
+At 11119 job 882 arrived
+At 11119 job 686 finished using the cpu
+At 11119 job 686 terminated
+At 11124 job 883 arrived
+At 11124 job 687 started using the cpu
+At 11127 job 884 arrived
+At 11128 job 687 finished using the cpu
+At 11140 job 885 arrived
+At 11140 job 688 started using the cpu
+At 11145 job 688 finished using the cpu
+At 11162 job 886 arrived
+At 11162 job 689 started using the cpu
+At 11164 job 689 finished using the cpu
+At 11173 job 887 arrived
+At 11173 job 39 started using the cpu
+At 11177 job 39 finished using the cpu
+At 11184 job 888 arrived
+At 11184 job 690 started using the cpu
+At 11187 job 690 finished using the cpu
+At 11196 job 889 arrived
+At 11196 job 691 started using the cpu
+At 11199 job 691 finished using the cpu
+At 11204 job 185 finished using disk1
+At 11208 job 187 started using disk2
+At 11219 job 890 arrived
+At 11219 job 692 started using the cpu
+At 11223 job 692 finished using the cpu
+At 11223 job 692 terminated
+At 11227 job 891 arrived
+At 11227 job 693 started using the cpu
+At 11232 job 693 finished using the cpu
+At 11250 job 892 arrived
+At 11250 job 694 started using the cpu
+At 11252 job 694 finished using the cpu
+At 11257 job 187 finished using disk1
+At 11261 job 893 arrived
+At 11261 job 156 started using the cpu
+At 11263 job 156 finished using the cpu
+At 11274 job 188 started using disk2
+At 11279 job 894 arrived
+At 11279 job 695 started using the cpu
+At 11280 job 895 arrived
+At 11281 job 695 finished using the cpu
+At 11281 job 896 arrived
+At 11281 job 696 started using the cpu
+At 11282 job 696 finished using the cpu
+At 11284 job 897 arrived
+At 11284 job 697 started using the cpu
+At 11286 job 697 finished using the cpu
+At 11307 job 898 arrived
+At 11307 job 698 started using the cpu
+At 11312 job 698 finished using the cpu
+At 11318 job 58 started using disk1
+At 11325 job 899 arrived
+At 11325 job 699 started using the cpu
+At 11326 job 699 finished using the cpu
+At 11335 job 900 arrived
+At 11335 job 700 started using the cpu
+At 11340 job 700 finished using the cpu
+At 11350 job 58 finished using disk1
+At 11352 job 188 finished using disk1
+At 11354 job 901 arrived
+At 11354 job 701 started using the cpu
+At 11356 job 701 finished using the cpu
+At 11359 job 902 arrived
+At 11359 job 702 started using the cpu
+At 11364 job 903 arrived
+At 11364 job 702 finished using the cpu
+At 11364 job 702 terminated
+At 11372 job 59 started using disk1
+At 11387 job 904 arrived
+At 11387 job 158 started using the cpu
+At 11391 job 158 finished using the cpu
+At 11396 job 905 arrived
+At 11396 job 703 started using the cpu
+At 11397 job 703 finished using the cpu
+At 11408 job 906 arrived
+At 11408 job 704 started using the cpu
+At 11413 job 704 finished using the cpu
+At 11413 job 704 terminated
+At 11423 job 907 arrived
+At 11423 job 705 started using the cpu
+At 11425 job 705 finished using the cpu
+At 11431 job 908 arrived
+At 11431 job 706 started using the cpu
+At 11435 job 706 finished using the cpu
+At 11435 job 706 terminated
+At 11438 job 59 finished using disk1
+At 11454 job 909 arrived
+At 11454 job 159 started using the cpu
+At 11458 job 159 finished using the cpu
+At 11460 job 60 started using disk1
+At 11477 job 910 arrived
+At 11477 job 707 started using the cpu
+At 11478 job 189 started using disk2
+At 11481 job 707 finished using the cpu
+At 11495 job 911 arrived
+At 11495 job 708 started using the cpu
+At 11496 job 708 finished using the cpu
+At 11509 job 60 finished using disk1
+At 11509 job 189 finished using disk1
+At 11514 job 912 arrived
+At 11514 job 709 started using the cpu
+At 11519 job 709 finished using the cpu
+At 11530 job 61 started using disk1
+At 11537 job 913 arrived
+At 11537 job 710 started using the cpu
+At 11542 job 710 finished using the cpu
+At 11542 job 710 terminated
+At 11560 job 914 arrived
+At 11560 job 711 started using the cpu
+At 11562 job 61 finished using disk1
+At 11563 job 711 finished using the cpu
+At 11573 job 915 arrived
+At 11573 job 712 started using the cpu
+At 11575 job 712 finished using the cpu
+At 11579 job 916 arrived
+At 11579 job 713 started using the cpu
+At 11580 job 713 finished using the cpu
+At 11589 job 917 arrived
+At 11589 job 160 started using the cpu
+At 11592 job 160 finished using the cpu
+At 11592 job 160 terminated
+At 11600 job 918 arrived
+At 11600 job 714 started using the cpu
+At 11603 job 714 finished using the cpu
+At 11622 job 919 arrived
+At 11622 job 715 started using the cpu
+At 11624 job 715 finished using the cpu
+At 11624 job 715 terminated
+At 11630 job 62 started using disk1
+At 11639 job 920 arrived
+At 11639 job 716 started using the cpu
+At 11644 job 716 finished using the cpu
+At 11645 job 921 arrived
+At 11645 job 717 started using the cpu
+At 11648 job 717 finished using the cpu
+At 11666 job 922 arrived
+At 11666 job 718 started using the cpu
+At 11669 job 718 finished using the cpu
+At 11673 job 923 arrived
+At 11673 job 161 started using the cpu
+At 11675 job 161 finished using the cpu
+At 11677 job 924 arrived
+At 11677 job 719 started using the cpu
+At 11678 job 719 finished using the cpu
+At 11695 job 925 arrived
+At 11695 job 720 started using the cpu
+At 11698 job 720 finished using the cpu
+At 11701 job 62 finished using disk1
+At 11718 job 63 started using disk1
+At 11719 job 926 arrived
+At 11719 job 721 started using the cpu
+At 11721 job 721 finished using the cpu
+At 11721 job 721 terminated
+At 11739 job 927 arrived
+At 11739 job 722 started using the cpu
+At 11740 job 722 finished using the cpu
+At 11747 job 63 finished using disk1
+At 11757 job 928 arrived
+At 11757 job 723 started using the cpu
+At 11761 job 723 finished using the cpu
+At 11772 job 929 arrived
+At 11772 job 724 started using the cpu
+At 11773 job 724 finished using the cpu
+At 11776 job 13 started using disk1
+At 11785 job 930 arrived
+At 11785 job 725 started using the cpu
+At 11787 job 725 finished using the cpu
+At 11805 job 931 arrived
+At 11805 job 726 started using the cpu
+At 11807 job 726 finished using the cpu
+At 11827 job 13 finished using disk1
+At 11829 job 932 arrived
+At 11829 job 40 started using the cpu
+At 11832 job 65 started using disk1
+At 11834 job 40 finished using the cpu
+At 11834 job 40 terminated
+At 11835 job 933 arrived
+At 11835 job 727 started using the cpu
+At 11839 job 727 finished using the cpu
+At 11840 job 934 arrived
+At 11840 job 728 started using the cpu
+At 11844 job 935 arrived
+At 11844 job 728 finished using the cpu
+At 11868 job 936 arrived
+At 11868 job 729 started using the cpu
+At 11869 job 937 arrived
+At 11871 job 938 arrived
+At 11872 job 729 finished using the cpu
+At 11891 job 939 arrived
+At 11891 job 730 started using the cpu
+At 11894 job 730 finished using the cpu
+At 11898 job 940 arrived
+At 11898 job 731 started using the cpu
+At 11901 job 731 finished using the cpu
+At 11901 job 731 terminated
+At 11923 job 65 finished using disk1
+At 11923 job 941 arrived
+At 11923 job 732 started using the cpu
+At 11925 job 942 arrived
+At 11925 job 732 finished using the cpu
+At 11934 job 943 arrived
+At 11934 job 733 started using the cpu
+At 11939 job 733 finished using the cpu
+At 11940 job 944 arrived
+At 11940 job 734 started using the cpu
+At 11941 job 734 finished using the cpu
+At 11941 job 734 terminated
+At 11946 job 66 started using disk1
+At 11962 job 945 arrived
+At 11962 job 735 started using the cpu
+At 11965 job 735 finished using the cpu
+At 11983 job 946 arrived
+At 11983 job 163 started using the cpu
+At 11985 job 163 finished using the cpu
+At 11989 job 66 finished using disk1
+At 11998 job 67 started using disk1
+At 11999 job 947 arrived
+At 11999 job 736 started using the cpu
+At 12001 job 736 finished using the cpu
+At 12012 job 948 arrived
+At 12012 job 737 started using the cpu
+At 12017 job 737 finished using the cpu
+At 12020 job 949 arrived
+At 12020 job 738 started using the cpu
+At 12021 job 738 finished using the cpu
+At 12040 job 950 arrived
+At 12040 job 739 started using the cpu
+At 12043 job 739 finished using the cpu
+At 12051 job 67 finished using disk1
+At 12063 job 951 arrived
+At 12063 job 740 started using the cpu
+At 12064 job 68 started using disk1
+At 12067 job 740 finished using the cpu
+At 12076 job 952 arrived
+At 12076 job 741 started using the cpu
+At 12077 job 741 finished using the cpu
+At 12088 job 953 arrived
+At 12088 job 742 started using the cpu
+At 12092 job 742 finished using the cpu
+At 12095 job 954 arrived
+At 12095 job 743 started using the cpu
+At 12096 job 743 finished using the cpu
+At 12099 job 68 finished using disk1
+At 12105 job 955 arrived
+At 12105 job 744 started using the cpu
+At 12106 job 744 finished using the cpu
+At 12118 job 69 started using disk1
+At 12122 job 956 arrived
+At 12122 job 745 started using the cpu
+At 12123 job 745 finished using the cpu
+At 12124 job 957 arrived
+At 12124 job 164 started using the cpu
+At 12126 job 164 finished using the cpu
+At 12126 job 164 terminated
+At 12129 job 958 arrived
+At 12129 job 746 started using the cpu
+At 12133 job 746 finished using the cpu
+At 12138 job 959 arrived
+At 12138 job 747 started using the cpu
+At 12143 job 747 finished using the cpu
+At 12159 job 960 arrived
+At 12159 job 748 started using the cpu
+At 12160 job 69 finished using disk1
+At 12161 job 748 finished using the cpu
+At 12161 job 748 terminated
+At 12169 job 961 arrived
+At 12169 job 749 started using the cpu
+At 12173 job 749 finished using the cpu
+At 12186 job 70 started using disk1
+At 12193 job 962 arrived
+At 12193 job 167 started using the cpu
+At 12195 job 167 finished using the cpu
+At 12207 job 963 arrived
+At 12207 job 750 started using the cpu
+At 12211 job 750 finished using the cpu
+At 12229 job 964 arrived
+At 12229 job 751 started using the cpu
+At 12234 job 751 finished using the cpu
+At 12253 job 965 arrived
+At 12253 job 752 started using the cpu
+At 12254 job 70 finished using disk1
+At 12255 job 752 finished using the cpu
+At 12268 job 71 started using disk1
+At 12277 job 966 arrived
+At 12277 job 753 started using the cpu
+At 12281 job 753 finished using the cpu
+At 12287 job 967 arrived
+At 12287 job 169 started using the cpu
+At 12292 job 169 finished using the cpu
+At 12298 job 968 arrived
+At 12298 job 754 started using the cpu
+At 12303 job 754 finished using the cpu
+At 12303 job 754 terminated
+At 12319 job 969 arrived
+At 12319 job 755 started using the cpu
+At 12323 job 755 finished using the cpu
+At 12335 job 71 finished using disk1
+At 12344 job 970 arrived
+At 12344 job 756 started using the cpu
+At 12345 job 756 finished using the cpu
+At 12362 job 72 started using disk1
+At 12367 job 971 arrived
+At 12367 job 757 started using the cpu
+At 12368 job 757 finished using the cpu
+At 12389 job 72 finished using disk1
+At 12392 job 972 arrived
+At 12392 job 758 started using the cpu
+At 12393 job 973 arrived
+At 12397 job 758 finished using the cpu
+At 12407 job 974 arrived
+At 12407 job 759 started using the cpu
+At 12411 job 759 finished using the cpu
+At 12412 job 73 started using disk1
+At 12420 job 975 arrived
+At 12420 job 760 started using the cpu
+At 12421 job 760 finished using the cpu
+At 12434 job 976 arrived
+At 12434 job 761 started using the cpu
+At 12439 job 761 finished using the cpu
+At 12449 job 977 arrived
+At 12449 job 762 started using the cpu
+At 12451 job 762 finished using the cpu
+At 12464 job 73 finished using disk1
+At 12471 job 978 arrived
+At 12471 job 170 started using the cpu
+At 12473 job 170 finished using the cpu
+At 12476 job 14 started using disk1
+At 12485 job 979 arrived
+At 12485 job 763 started using the cpu
+At 12489 job 763 finished using the cpu
+At 12503 job 980 arrived
+At 12503 job 764 started using the cpu
+At 12507 job 764 finished using the cpu
+At 12521 job 981 arrived
+At 12521 job 765 started using the cpu
+At 12526 job 765 finished using the cpu
+At 12539 job 982 arrived
+At 12539 job 766 started using the cpu
+At 12544 job 766 finished using the cpu
+At 12550 job 983 arrived
+At 12550 job 767 started using the cpu
+At 12552 job 767 finished using the cpu
+At 12566 job 14 finished using disk1
+At 12574 job 984 arrived
+At 12574 job 768 started using the cpu
+At 12578 job 768 finished using the cpu
+At 12582 job 75 started using disk1
+At 12587 job 985 arrived
+At 12587 job 769 started using the cpu
+At 12589 job 769 finished using the cpu
+At 12591 job 986 arrived
+At 12591 job 770 started using the cpu
+At 12595 job 770 finished using the cpu
+At 12604 job 987 arrived
+At 12604 job 771 started using the cpu
+At 12607 job 771 finished using the cpu
+At 12613 job 988 arrived
+At 12613 job 772 started using the cpu
+At 12614 job 772 finished using the cpu
+At 12615 job 989 arrived
+At 12615 job 773 started using the cpu
+At 12619 job 773 finished using the cpu
+At 12636 job 990 arrived
+At 12636 job 41 started using the cpu
+At 12641 job 41 finished using the cpu
+At 12641 job 41 terminated
+At 12646 job 75 finished using disk1
+At 12649 job 991 arrived
+At 12649 job 774 started using the cpu
+At 12653 job 774 finished using the cpu
+At 12657 job 992 arrived
+At 12657 job 775 started using the cpu
+At 12658 job 775 finished using the cpu
+At 12664 job 76 started using disk1
+At 12675 job 993 arrived
+At 12675 job 776 started using the cpu
+At 12679 job 776 finished using the cpu
+At 12679 job 776 terminated
+At 12682 job 994 arrived
+At 12682 job 777 started using the cpu
+At 12686 job 777 finished using the cpu
+At 12692 job 995 arrived
+At 12692 job 778 started using the cpu
+At 12693 job 778 finished using the cpu
+At 12707 job 996 arrived
+At 12707 job 779 started using the cpu
+At 12708 job 779 finished using the cpu
+At 12709 job 997 arrived
+At 12709 job 780 started using the cpu
+At 12712 job 780 finished using the cpu
+At 12715 job 76 finished using disk1
+At 12721 job 998 arrived
+At 12721 job 781 started using the cpu
+At 12726 job 781 finished using the cpu
+At 12736 job 999 arrived
+At 12736 job 782 started using the cpu
+At 12737 job 782 finished using the cpu
+At 12747 job 1000 arrived
+At 12747 job 783 started using the cpu
+At 12752 job 783 finished using the cpu
+At 12770 job 1001 arrived
+At 12770 job 784 started using the cpu
+At 12775 job 1002 arrived
+At 12775 job 784 finished using the cpu
+At 12778 job 77 started using disk1
+At 12783 job 1003 arrived
+At 12783 job 785 started using the cpu
+At 12785 job 785 finished using the cpu
+At 12797 job 1004 arrived
+At 12797 job 786 started using the cpu
+At 12800 job 786 finished using the cpu
+At 12809 job 77 finished using disk1
+At 12819 job 1005 arrived
+At 12819 job 787 started using the cpu
+At 12824 job 78 started using disk1
+At 12824 job 787 finished using the cpu
+At 12824 job 787 terminated
+At 12842 job 1006 arrived
+At 12842 job 788 started using the cpu
+At 12845 job 788 finished using the cpu
+At 12848 job 1007 arrived
+At 12848 job 789 started using the cpu
+At 12853 job 789 finished using the cpu
+At 12871 job 1008 arrived
+At 12871 job 171 started using the cpu
+At 12875 job 171 finished using the cpu
+At 12875 job 171 terminated
+At 12891 job 1009 arrived
+At 12891 job 790 started using the cpu
+At 12895 job 790 finished using the cpu
+At 12897 job 78 finished using disk1
+At 12914 job 1010 arrived
+At 12914 job 791 started using the cpu
+At 12918 job 79 started using disk1
+At 12918 job 791 finished using the cpu
+At 12923 job 1011 arrived
+At 12923 job 792 started using the cpu
+At 12928 job 792 finished using the cpu
+At 12948 job 1012 arrived
+At 12948 job 793 started using the cpu
+At 12949 job 793 finished using the cpu
+At 12972 job 1013 arrived
+At 12972 job 794 started using the cpu
+At 12976 job 794 finished using the cpu
+At 12987 job 1014 arrived
+At 12987 job 172 started using the cpu
+At 12991 job 172 finished using the cpu
+At 12999 job 1015 arrived
+At 12999 job 795 started using the cpu
+At 13002 job 795 finished using the cpu
+At 13002 job 795 terminated
+At 13003 job 79 finished using disk1
+At 13018 job 1016 arrived
+At 13018 job 796 started using the cpu
+At 13019 job 1017 arrived
+At 13023 job 796 finished using the cpu
+At 13029 job 1018 arrived
+At 13029 job 797 started using the cpu
+At 13031 job 797 finished using the cpu
+At 13031 job 797 terminated
+At 13040 job 1019 arrived
+At 13040 job 798 started using the cpu
+At 13041 job 798 finished using the cpu
+At 13041 job 798 terminated
+At 13062 job 1020 arrived
+At 13062 job 799 started using the cpu
+At 13066 job 799 finished using the cpu
+At 13079 job 1021 arrived
+At 13079 job 800 started using the cpu
+At 13081 job 800 finished using the cpu
+At 13086 job 15 started using disk1
+At 13089 job 1022 arrived
+At 13089 job 174 started using the cpu
+At 13090 job 1023 arrived
+At 13094 job 174 finished using the cpu
+At 13098 job 1024 arrived
+At 13098 job 801 started using the cpu
+At 13102 job 801 finished using the cpu
+At 13102 job 801 terminated
+At 13118 job 1025 arrived
+At 13118 job 802 started using the cpu
+At 13120 job 802 finished using the cpu
+At 13120 job 802 terminated
+At 13139 job 1026 arrived
+At 13139 job 803 started using the cpu
+At 13144 job 803 finished using the cpu
+At 13158 job 1027 arrived
+At 13158 job 804 started using the cpu
+At 13161 job 804 finished using the cpu
+At 13175 job 15 finished using disk1
+At 13177 job 1028 arrived
+At 13177 job 805 started using the cpu
+At 13179 job 805 finished using the cpu
+At 13181 job 1029 arrived
+At 13181 job 806 started using the cpu
+At 13182 job 806 finished using the cpu
+At 13182 job 806 terminated
+At 13196 job 81 started using disk1
+At 13203 job 1030 arrived
+At 13203 job 807 started using the cpu
+At 13208 job 807 finished using the cpu
+At 13222 job 1031 arrived
+At 13222 job 175 started using the cpu
+At 13227 job 175 finished using the cpu
+At 13233 job 81 finished using disk1
+At 13245 job 1032 arrived
+At 13245 job 808 started using the cpu
+At 13249 job 1033 arrived
+At 13249 job 808 finished using the cpu
+At 13250 job 1034 arrived
+At 13250 job 809 started using the cpu
+At 13252 job 82 started using disk1
+At 13253 job 809 finished using the cpu
+At 13258 job 1035 arrived
+At 13258 job 810 started using the cpu
+At 13263 job 810 finished using the cpu
+At 13272 job 1036 arrived
+At 13272 job 811 started using the cpu
+At 13276 job 811 finished using the cpu
+At 13292 job 1037 arrived
+At 13292 job 812 started using the cpu
+At 13296 job 812 finished using the cpu
+At 13302 job 1038 arrived
+At 13302 job 176 started using the cpu
+At 13306 job 176 finished using the cpu
+At 13306 job 176 terminated
+At 13307 job 82 finished using disk1
+At 13308 job 83 started using disk1
+At 13317 job 1039 arrived
+At 13317 job 813 started using the cpu
+At 13319 job 813 finished using the cpu
+At 13323 job 1040 arrived
+At 13323 job 814 started using the cpu
+At 13328 job 814 finished using the cpu
+At 13332 job 1041 arrived
+At 13332 job 815 started using the cpu
+At 13334 job 815 finished using the cpu
+At 13353 job 1042 arrived
+At 13353 job 816 started using the cpu
+At 13354 job 816 finished using the cpu
+At 13354 job 816 terminated
+At 13374 job 1043 arrived
+At 13374 job 817 started using the cpu
+At 13379 job 817 finished using the cpu
+At 13390 job 83 finished using disk1
+At 13397 job 1044 arrived
+At 13397 job 818 started using the cpu
+At 13401 job 818 finished using the cpu
+At 13408 job 1045 arrived
+At 13408 job 819 started using the cpu
+At 13409 job 1046 arrived
+At 13409 job 819 finished using the cpu
+At 13434 job 1047 arrived
+At 13434 job 177 started using the cpu
+At 13436 job 177 finished using the cpu
+At 13436 job 177 terminated
+At 13438 job 1048 arrived
+At 13438 job 820 started using the cpu
+At 13439 job 820 finished using the cpu
+At 13447 job 1049 arrived
+At 13447 job 821 started using the cpu
+At 13451 job 821 finished using the cpu
+At 13462 job 16 started using disk1
+At 13465 job 1050 arrived
+At 13465 job 822 started using the cpu
+At 13467 job 822 finished using the cpu
+At 13467 job 822 terminated
+At 13482 job 1051 arrived
+At 13482 job 823 started using the cpu
+At 13484 job 1052 arrived
+At 13485 job 823 finished using the cpu
+At 13492 job 1053 arrived
+At 13492 job 824 started using the cpu
+At 13495 job 824 finished using the cpu
+At 13502 job 16 finished using disk1
+At 13504 job 86 started using disk1
+At 13509 job 1054 arrived
+At 13509 job 43 started using the cpu
+At 13512 job 1055 arrived
+At 13514 job 43 finished using the cpu
+At 13517 job 1056 arrived
+At 13517 job 825 started using the cpu
+At 13518 job 825 finished using the cpu
+At 13525 job 1057 arrived
+At 13525 job 826 started using the cpu
+At 13528 job 1058 arrived
+At 13530 job 826 finished using the cpu
+At 13530 job 826 terminated
+At 13542 job 1059 arrived
+At 13542 job 827 started using the cpu
+At 13545 job 827 finished using the cpu
+At 13545 job 827 terminated
+At 13555 job 1060 arrived
+At 13555 job 828 started using the cpu
+At 13560 job 828 finished using the cpu
+At 13562 job 86 finished using disk1
+At 13570 job 87 started using disk1
+At 13578 job 1061 arrived
+At 13578 job 829 started using the cpu
+At 13581 job 1062 arrived
+At 13583 job 829 finished using the cpu
+At 13583 job 829 terminated
+At 13596 job 1063 arrived
+At 13596 job 830 started using the cpu
+At 13597 job 830 finished using the cpu
+At 13603 job 87 finished using disk1
+At 13612 job 88 started using disk1
+At 13615 job 1064 arrived
+At 13615 job 178 started using the cpu
+At 13618 job 178 finished using the cpu
+At 13640 job 1065 arrived
+At 13640 job 831 started using the cpu
+At 13644 job 831 finished using the cpu
+At 13657 job 88 finished using disk1
+At 13660 job 1066 arrived
+At 13660 job 832 started using the cpu
+At 13665 job 832 finished using the cpu
+At 13684 job 1067 arrived
+At 13684 job 833 started using the cpu
+At 13686 job 89 started using disk1
+At 13689 job 833 finished using the cpu
+At 13692 job 1068 arrived
+At 13692 job 834 started using the cpu
+At 13696 job 1069 arrived
+At 13696 job 834 finished using the cpu
+At 13718 job 1070 arrived
+At 13718 job 835 started using the cpu
+At 13719 job 1071 arrived
+At 13723 job 835 finished using the cpu
+At 13734 job 1072 arrived
+At 13734 job 836 started using the cpu
+At 13736 job 1073 arrived
+At 13737 job 836 finished using the cpu
+At 13760 job 1074 arrived
+At 13760 job 837 started using the cpu
+At 13762 job 1075 arrived
+At 13763 job 837 finished using the cpu
+At 13771 job 1076 arrived
+At 13771 job 179 started using the cpu
+At 13772 job 179 finished using the cpu
+At 13772 job 179 terminated
+At 13779 job 89 finished using disk1
+At 13780 job 90 started using disk1
+At 13781 job 1077 arrived
+At 13781 job 838 started using the cpu
+At 13785 job 838 finished using the cpu
+At 13799 job 1078 arrived
+At 13799 job 839 started using the cpu
+At 13801 job 1079 arrived
+At 13803 job 839 finished using the cpu
+At 13825 job 1080 arrived
+At 13825 job 840 started using the cpu
+At 13828 job 840 finished using the cpu
+At 13847 job 1081 arrived
+At 13847 job 841 started using the cpu
+At 13851 job 841 finished using the cpu
+At 13858 job 1082 arrived
+At 13858 job 842 started using the cpu
+At 13859 job 842 finished using the cpu
+At 13867 job 1083 arrived
+At 13867 job 843 started using the cpu
+At 13868 job 1084 arrived
+At 13868 job 843 finished using the cpu
+At 13868 job 843 terminated
+At 13879 job 90 finished using disk1
+At 13882 job 1085 arrived
+At 13882 job 844 started using the cpu
+At 13887 job 844 finished using the cpu
+At 13902 job 1086 arrived
+At 13902 job 845 started using the cpu
+At 13904 job 845 finished using the cpu
+At 13910 job 91 started using disk1
+At 13925 job 1087 arrived
+At 13925 job 846 started using the cpu
+At 13928 job 1088 arrived
+At 13930 job 846 finished using the cpu
+At 13930 job 846 terminated
+At 13938 job 1089 arrived
+At 13938 job 180 started using the cpu
+At 13940 job 91 finished using disk1
+At 13941 job 1090 arrived
+At 13942 job 180 finished using the cpu
+At 13964 job 1091 arrived
+At 13964 job 847 started using the cpu
+At 13965 job 847 finished using the cpu
+At 13976 job 1092 arrived
+At 13976 job 848 started using the cpu
+At 13977 job 848 finished using the cpu
+At 13984 job 1093 arrived
+At 13984 job 849 started using the cpu
+At 13988 job 849 finished using the cpu
+At 14004 job 1094 arrived
+At 14004 job 850 started using the cpu
+At 14008 job 92 started using disk1
+At 14008 job 1095 arrived
+At 14008 job 850 finished using the cpu
+At 14008 job 850 terminated
+At 14014 job 1096 arrived
+At 14014 job 851 started using the cpu
+At 14016 job 851 finished using the cpu
+At 14037 job 1097 arrived
+At 14037 job 852 started using the cpu
+At 14040 job 852 finished using the cpu
+At 14040 job 852 terminated
+At 14049 job 1098 arrived
+At 14049 job 853 started using the cpu
+At 14052 job 1099 arrived
+At 14053 job 853 finished using the cpu
+At 14071 job 1100 arrived
+At 14071 job 854 started using the cpu
+At 14075 job 854 finished using the cpu
+At 14082 job 1101 arrived
+At 14082 job 181 started using the cpu
+At 14084 job 181 finished using the cpu
+At 14095 job 1102 arrived
+At 14095 job 855 started using the cpu
+At 14098 job 855 finished using the cpu
+At 14101 job 92 finished using disk1
+At 14113 job 1103 arrived
+At 14113 job 856 started using the cpu
+At 14116 job 856 finished using the cpu
+At 14138 job 1104 arrived
+At 14138 job 857 started using the cpu
+At 14142 job 857 finished using the cpu
+At 14142 job 857 terminated
+At 14150 job 7 started using disk1
+At 14157 job 1105 arrived
+At 14157 job 858 started using the cpu
+At 14159 job 858 finished using the cpu
+At 14179 job 1106 arrived
+At 14179 job 859 started using the cpu
+At 14181 job 1107 arrived
+At 14182 job 859 finished using the cpu
+At 14195 job 1108 arrived
+At 14195 job 182 started using the cpu
+At 14200 job 182 finished using the cpu
+At 14209 job 1109 arrived
+At 14209 job 860 started using the cpu
+At 14214 job 860 finished using the cpu
+At 14227 job 1110 arrived
+At 14227 job 861 started using the cpu
+At 14229 job 861 finished using the cpu
+At 14238 job 1111 arrived
+At 14238 job 862 started using the cpu
+At 14243 job 7 finished using disk1
+At 14243 job 862 finished using the cpu
+At 14254 job 1112 arrived
+At 14254 job 863 started using the cpu
+At 14256 job 863 finished using the cpu
+At 14271 job 1113 arrived
+At 14271 job 864 started using the cpu
+At 14276 job 864 finished using the cpu
+At 14278 job 1114 arrived
+At 14278 job 865 started using the cpu
+At 14282 job 1115 arrived
+At 14283 job 865 finished using the cpu
+At 14306 job 1116 arrived
+At 14306 job 866 started using the cpu
+At 14309 job 866 finished using the cpu
+At 14316 job 1117 arrived
+At 14316 job 867 started using the cpu
+At 14321 job 867 finished using the cpu
+At 14323 job 1118 arrived
+At 14323 job 868 started using the cpu
+At 14326 job 5 started using disk1
+At 14326 job 868 finished using the cpu
+At 14339 job 1119 arrived
+At 14339 job 869 started using the cpu
+At 14342 job 869 finished using the cpu
+At 14354 job 1120 arrived
+At 14354 job 870 started using the cpu
+At 14357 job 870 finished using the cpu
+At 14373 job 1121 arrived
+At 14373 job 871 started using the cpu
+At 14376 job 871 finished using the cpu
+At 14380 job 1122 arrived
+At 14380 job 183 started using the cpu
+At 14382 job 183 finished using the cpu
+At 14391 job 1123 arrived
+At 14391 job 872 started using the cpu
+At 14396 job 872 finished using the cpu
+At 14398 job 1124 arrived
+At 14398 job 873 started using the cpu
+At 14401 job 873 finished using the cpu
+At 14401 job 873 terminated
+At 14417 job 1125 arrived
+At 14417 job 874 started using the cpu
+At 14419 job 874 finished using the cpu
+At 14426 job 5 finished using disk1
+At 14427 job 1126 arrived
+At 14427 job 875 started using the cpu
+At 14428 job 875 finished using the cpu
+At 14442 job 95 started using disk1
+At 14447 job 1127 arrived
+At 14447 job 876 started using the cpu
+At 14450 job 876 finished using the cpu
+At 14472 job 1128 arrived
+At 14472 job 184 started using the cpu
+At 14475 job 184 finished using the cpu
+At 14485 job 1129 arrived
+At 14485 job 877 started using the cpu
+At 14487 job 877 finished using the cpu
+At 14489 job 1130 arrived
+At 14489 job 878 started using the cpu
+At 14493 job 878 finished using the cpu
+At 14493 job 878 terminated
+At 14513 job 1131 arrived
+At 14513 job 879 started using the cpu
+At 14514 job 879 finished using the cpu
+At 14518 job 1132 arrived
+At 14518 job 880 started using the cpu
+At 14522 job 880 finished using the cpu
+At 14526 job 95 finished using disk1
+At 14533 job 1133 arrived
+At 14533 job 881 started using the cpu
+At 14537 job 881 finished using the cpu
+At 14546 job 96 started using disk1
+At 14556 job 1134 arrived
+At 14556 job 882 started using the cpu
+At 14558 job 882 finished using the cpu
+At 14569 job 1135 arrived
+At 14569 job 883 started using the cpu
+At 14573 job 883 finished using the cpu
+At 14575 job 1136 arrived
+At 14575 job 884 started using the cpu
+At 14577 job 884 finished using the cpu
+At 14577 job 884 terminated
+At 14581 job 1137 arrived
+At 14581 job 885 started using the cpu
+At 14582 job 885 finished using the cpu
+At 14587 job 1138 arrived
+At 14587 job 886 started using the cpu
+At 14588 job 886 finished using the cpu
+At 14607 job 1139 arrived
+At 14607 job 887 started using the cpu
+At 14609 job 887 finished using the cpu
+At 14610 job 96 finished using disk1
+At 14632 job 97 started using disk1
+At 14632 job 1140 arrived
+At 14632 job 888 started using the cpu
+At 14636 job 888 finished using the cpu
+At 14643 job 1141 arrived
+At 14643 job 889 started using the cpu
+At 14644 job 889 finished using the cpu
+At 14646 job 1142 arrived
+At 14646 job 185 started using the cpu
+At 14650 job 185 finished using the cpu
+At 14653 job 1143 arrived
+At 14653 job 890 started using the cpu
+At 14655 job 1144 arrived
+At 14656 job 890 finished using the cpu
+At 14665 job 1145 arrived
+At 14665 job 891 started using the cpu
+At 14669 job 891 finished using the cpu
+At 14671 job 1146 arrived
+At 14671 job 892 started using the cpu
+At 14673 job 892 finished using the cpu
+At 14685 job 1147 arrived
+At 14685 job 187 started using the cpu
+At 14689 job 187 finished using the cpu
+At 14708 job 1148 arrived
+At 14708 job 893 started using the cpu
+At 14713 job 1149 arrived
+At 14713 job 893 finished using the cpu
+At 14716 job 1150 arrived
+At 14716 job 894 started using the cpu
+At 14718 job 894 finished using the cpu
+At 14718 job 894 terminated
+At 14723 job 1151 arrived
+At 14723 job 895 started using the cpu
+At 14725 job 1152 arrived
+At 14727 job 895 finished using the cpu
+At 14727 job 895 terminated
+At 14729 job 1153 arrived
+At 14729 job 896 started using the cpu
+At 14730 job 896 finished using the cpu
+At 14731 job 97 finished using disk1
+At 14731 job 1154 arrived
+At 14731 job 897 started using the cpu
+At 14733 job 897 finished using the cpu
+At 14733 job 897 terminated
+At 14750 job 1155 arrived
+At 14750 job 898 started using the cpu
+At 14752 job 99 started using disk1
+At 14755 job 898 finished using the cpu
+At 14759 job 1156 arrived
+At 14759 job 899 started using the cpu
+At 14762 job 899 finished using the cpu
+At 14763 job 1157 arrived
+At 14763 job 900 started using the cpu
+At 14767 job 900 finished using the cpu
+At 14788 job 1158 arrived
+At 14788 job 58 started using the cpu
+At 14789 job 1159 arrived
+At 14791 job 58 finished using the cpu
+At 14791 job 58 terminated
+At 14793 job 99 finished using disk1
+At 14798 job 1160 arrived
+At 14798 job 188 started using the cpu
+At 14803 job 188 finished using the cpu
+At 14810 job 1161 arrived
+At 14810 job 901 started using the cpu
+At 14811 job 901 finished using the cpu
+At 14817 job 1162 arrived
+At 14817 job 902 started using the cpu
+At 14819 job 902 finished using the cpu
+At 14842 job 1163 arrived
+At 14842 job 903 started using the cpu
+At 14845 job 1164 arrived
+At 14846 job 903 finished using the cpu
+At 14863 job 1165 arrived
+At 14863 job 904 started using the cpu
+At 14864 job 904 finished using the cpu
+At 14868 job 1166 arrived
+At 14868 job 905 started using the cpu
+At 14869 job 905 finished using the cpu
+At 14869 job 905 terminated
+At 14890 job 1167 arrived
+At 14890 job 906 started using the cpu
+At 14895 job 906 finished using the cpu
+At 14896 job 100 started using disk1
+At 14899 job 1168 arrived
+At 14899 job 907 started using the cpu
+At 14904 job 907 finished using the cpu
+At 14921 job 1169 arrived
+At 14921 job 908 started using the cpu
+At 14922 job 908 finished using the cpu
+At 14938 job 1170 arrived
+At 14938 job 59 started using the cpu
+At 14943 job 59 finished using the cpu
+At 14963 job 1171 arrived
+At 14963 job 909 started using the cpu
+At 14966 job 909 finished using the cpu
+At 14982 job 1172 arrived
+At 14982 job 910 started using the cpu
+At 14985 job 100 finished using disk1
+At 14986 job 101 started using disk1
+At 14987 job 910 finished using the cpu
+At 15000 the simulation terminated
+
+Average eventQueue size 209.654093
+Average cpuQueue size 150.708185
+Average disk1Queue size 46.843772
+Average disk2Queue size 78.353025
+
+Max eventQueue size 417
+Max cpuQueue size 302
+Max disk1Queue size 106
+Max disk2Queue size 148
+
+Utilization of cpu 0.209600
+Utilization of disk1 0.303733
+Utilization of disk2 0.423200
+
+Average response time for cpu 324.877863
+Average response time for disk1 101.280070
+Average response time for disk2 43.645243
+
+Maximum response time for cpu 3509
+Maximum response time for disk1 11668
+Maximum response time for disk2 5294
+
+Throughput for cpu 0.331107
+Throughput for disk1 0.015803
+Throughput for disk2 0.015753
+
